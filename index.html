@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
@@ -56,6 +56,10 @@ input{
     font-size:15px;
 }
 
+button{
+    cursor:pointer;
+}
+
 .row{
     display:flex;
     gap:6px;
@@ -99,6 +103,17 @@ input{
     color:#64748b;
     font-size:12px;
     margin-top:8px;
+}
+
+.analysis-button{
+    margin-top:12px;
+    background:#f8fafc;
+    font-weight:bold;
+    border:1px solid #e2e8f0;
+}
+
+.analysis-button:active{
+    transform:scale(.99);
 }
 
 .analysis{
@@ -209,9 +224,9 @@ let allMatches = [];
 let allOdds = {};
 
 
-/* -------------------------
+/* =========================
    TARİH
-------------------------- */
+========================= */
 
 function pad(n){
     return n < 10 ? "0" + n : String(n);
@@ -233,18 +248,18 @@ function changeDay(amount){
 }
 
 
-/* -------------------------
+/* =========================
    DURUM
-------------------------- */
+========================= */
 
 function setStatus(text){
     document.getElementById("status").innerHTML = text;
 }
 
 
-/* -------------------------
+/* =========================
    GÜVENLİ HTML
-------------------------- */
+========================= */
 
 function escapeHtml(text){
 
@@ -261,9 +276,9 @@ function escapeHtml(text){
 }
 
 
-/* -------------------------
+/* =========================
    TAKIM ADI
-------------------------- */
+========================= */
 
 function getTeamName(team){
 
@@ -281,11 +296,6 @@ function getTeamName(team){
            "";
 }
 
-
-/* -------------------------
-   TAKIMLAR
-------------------------- */
-
 function getHome(match){
 
     return getTeamName(
@@ -301,21 +311,22 @@ function getAway(match){
 }
 
 
-/* -------------------------
+/* =========================
    LİG
-------------------------- */
+========================= */
 
 function getLeague(match){
 
     return match.league ||
            match.competitionName ||
+           match.leagueName ||
            "Diğer";
 }
 
 
-/* -------------------------
+/* =========================
    SAAT
-------------------------- */
+========================= */
 
 function getTime(match){
 
@@ -337,23 +348,34 @@ function getTime(match){
 }
 
 
-/* -------------------------
-   ORAN
-------------------------- */
+/* =========================
+   ORANLAR
+========================= */
 
 function getOdds(match){
 
-    if(!match || !match.id){
+    if(!match){
         return null;
     }
 
-    return allOdds[match.id] || null;
+    const id =
+        match.id ||
+        match.matchId ||
+        match.eventId;
+
+    if(id === undefined || id === null){
+        return null;
+    }
+
+    return allOdds[id] ||
+           allOdds[String(id)] ||
+           null;
 }
 
 
-/* -------------------------
+/* =========================
    ORAN TEMİZLE
-------------------------- */
+========================= */
 
 function uniqueOptions(list){
 
@@ -370,17 +392,32 @@ function uniqueOptions(list){
             continue;
         }
 
-        const secenek = item.secenek;
+        let secenek =
+            item.secenek ||
+            item.option ||
+            item.name ||
+            item.label;
 
-        const oran = parseFloat(
-            String(item.oran).replace(",",".")
+        let oran =
+            item.oran ??
+            item.odds ??
+            item.odd ??
+            item.value;
+
+        if(secenek === undefined || oran === undefined){
+            continue;
+        }
+
+        oran = parseFloat(
+            String(oran).replace(",",".")
         );
 
         if(!secenek || isNaN(oran)){
             continue;
         }
 
-        const key = secenek + "|" + oran;
+        const key =
+            String(secenek) + "|" + oran;
 
         if(seen[key]){
             continue;
@@ -389,7 +426,7 @@ function uniqueOptions(list){
         seen[key] = true;
 
         result.push({
-            secenek:secenek,
+            secenek:String(secenek),
             oran:oran
         });
     }
@@ -398,9 +435,9 @@ function uniqueOptions(list){
 }
 
 
-/* -------------------------
+/* =========================
    OLASILIK
-------------------------- */
+========================= */
 
 function probability(list){
 
@@ -433,9 +470,9 @@ function probability(list){
 }
 
 
-/* -------------------------
+/* =========================
    MARKET
-------------------------- */
+========================= */
 
 function marketHtml(title,list){
 
@@ -462,7 +499,7 @@ function marketHtml(title,list){
         html +=
             "<div class='odd'>" +
             escapeHtml(item.secenek) +
-            " " +
+            " — " +
             item.oran.toFixed(2) +
             "<div class='prob'>" +
             item.p.toFixed(1) +
@@ -477,9 +514,50 @@ function marketHtml(title,list){
 }
 
 
-/* -------------------------
+/* =========================
+   MARKET ANAHTARI BUL
+========================= */
+
+function findMarket(odds, possibleNames){
+
+    if(!odds || typeof odds !== "object"){
+        return null;
+    }
+
+    for(const name of possibleNames){
+
+        if(odds[name]){
+            return odds[name];
+        }
+    }
+
+    /* Büyük/küçük harf farklarını da kontrol et */
+
+    const keys = Object.keys(odds);
+
+    for(const key of keys){
+
+        const lowerKey =
+            key.toLowerCase().replace(/\s/g,"");
+
+        for(const name of possibleNames){
+
+            const lowerName =
+                name.toLowerCase().replace(/\s/g,"");
+
+            if(lowerKey === lowerName){
+                return odds[key];
+            }
+        }
+    }
+
+    return null;
+}
+
+
+/* =========================
    ANALİZ
-------------------------- */
+========================= */
 
 function makeAnalysis(match){
 
@@ -501,22 +579,42 @@ function makeAnalysis(match){
 
     /* MAÇ SONUCU */
 
-    if(odds["Maç Sonucu"]){
+    const macSonucu =
+        findMarket(
+            odds,
+            [
+                "Maç Sonucu",
+                "Mac Sonucu",
+                "MS",
+                "1X2",
+                "Match Result"
+            ]
+        );
+
+    if(macSonucu){
 
         html += marketHtml(
             "🏆 Maç Sonucu",
-            odds["Maç Sonucu"]
+            macSonucu
         );
     }
 
 
-    /* ALT / ÜST */
+    /* 2.5 ALT ÜST */
 
     const altUst =
-        odds["2,5 Alt/Üst"] ||
-        odds["2.5 Alt/Üst"] ||
-        odds["2.5 Alt Üst"] ||
-        odds["Alt/Üst"];
+        findMarket(
+            odds,
+            [
+                "2,5 Alt/Üst",
+                "2.5 Alt/Üst",
+                "2.5 Alt Üst",
+                "2,5 Alt Üst",
+                "Alt/Üst",
+                "Alt Ust",
+                "Over/Under 2.5"
+            ]
+        );
 
     if(altUst){
 
@@ -530,9 +628,16 @@ function makeAnalysis(match){
     /* KG */
 
     const kg =
-        odds["Karşılıklı Gol"] ||
-        odds["KG Var/Yok"] ||
-        odds["Karşılıklı Gol Var/Yok"];
+        findMarket(
+            odds,
+            [
+                "Karşılıklı Gol",
+                "KG Var/Yok",
+                "Karşılıklı Gol Var/Yok",
+                "KG",
+                "Both Teams To Score"
+            ]
+        );
 
     if(kg){
 
@@ -543,13 +648,95 @@ function makeAnalysis(match){
     }
 
 
+    /*
+       Eğer yukarıdaki bilinen marketler
+       bulunamadıysa, JSON içindeki diğer
+       marketleri de göstermeye çalış.
+    */
+
+    let knownCount = 0;
+
+    if(macSonucu) knownCount++;
+    if(altUst) knownCount++;
+    if(kg) knownCount++;
+
+
+    if(knownCount === 0){
+
+        const keys = Object.keys(odds);
+
+        for(const key of keys){
+
+            const value = odds[key];
+
+            if(Array.isArray(value)){
+
+                html += marketHtml(
+                    key,
+                    value
+                );
+            }
+        }
+    }
+
+
+    if(knownCount === 0){
+
+        html +=
+            "<div class='warning'>" +
+            "⚠️ Oran verisi bulundu fakat tanınan bahis marketi bulunamadı." +
+            "</div>";
+    }
+
     return html;
 }
 
 
-/* -------------------------
+/* =========================
+   ANALİZİ AÇ / KAPAT
+========================= */
+
+function toggleAnalysis(index){
+
+    const box =
+        document.getElementById(
+            "analysis-" + index
+        );
+
+    const button =
+        document.getElementById(
+            "analysis-btn-" + index
+        );
+
+    if(!box || !button){
+        return;
+    }
+
+    if(box.style.display === "none"){
+
+        box.innerHTML =
+            makeAnalysis(
+                window.visibleMatches[index]
+            );
+
+        box.style.display = "block";
+
+        button.innerHTML =
+            "📊 Analizi Gizle";
+
+    }else{
+
+        box.style.display = "none";
+
+        button.innerHTML =
+            "📊 Otomatik Analiz";
+    }
+}
+
+
+/* =========================
    LİG FİLTRESİ
-------------------------- */
+========================= */
 
 function prepareLeagues(){
 
@@ -595,9 +782,9 @@ function prepareLeagues(){
 }
 
 
-/* -------------------------
+/* =========================
    EKRANA BAS
-------------------------- */
+========================= */
 
 function render(){
 
@@ -639,6 +826,9 @@ function render(){
         });
 
 
+    window.visibleMatches = matches;
+
+
     if(!matches.length){
 
         container.innerHTML =
@@ -652,7 +842,10 @@ function render(){
 
     let html = "";
 
-    for(const match of matches){
+    for(let i = 0; i < matches.length; i++){
+
+        const match =
+            matches[i];
 
         const home =
             getHome(match);
@@ -678,8 +871,17 @@ function render(){
             escapeHtml(getTime(match)) +
             "</div>" +
 
-            "<div class='analysis'>" +
-            makeAnalysis(match) +
+            "<button " +
+            "class='analysis-button' " +
+            "id='analysis-btn-" + i + "' " +
+            "onclick='toggleAnalysis(" + i + ")'>" +
+            "📊 Otomatik Analiz" +
+            "</button>" +
+
+            "<div " +
+            "class='analysis' " +
+            "id='analysis-" + i + "' " +
+            "style='display:none'>" +
             "</div>" +
 
             "</div>";
@@ -689,9 +891,9 @@ function render(){
 }
 
 
-/* -------------------------
+/* =========================
    VERİ YÜKLE
-------------------------- */
+========================= */
 
 async function loadData(){
 
@@ -715,6 +917,7 @@ async function loadData(){
             );
 
         if(!response.ok){
+
             throw new Error(
                 "Veri dosyası bulunamadı."
             );
@@ -724,10 +927,15 @@ async function loadData(){
             await response.json();
 
         allMatches =
-            data.matches || [];
+            Array.isArray(data.matches)
+                ? data.matches
+                : [];
 
         allOdds =
-            data.odds || {};
+            data.odds &&
+            typeof data.odds === "object"
+                ? data.odds
+                : {};
 
         prepareLeagues();
 
@@ -763,13 +971,15 @@ async function loadData(){
 }
 
 
-/* -------------------------
+/* =========================
    BAŞLAT
-------------------------- */
+========================= */
+
+window.visibleMatches = [];
 
 loadData();
 
 </script>
 
 </body>
-</html>
+</html>                            
