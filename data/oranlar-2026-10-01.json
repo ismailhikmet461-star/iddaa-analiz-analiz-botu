@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-01",
+  "matches": [
+    {
+      "id": "macko17882697375528445846",
+      "rbId": null,
+      "matchName": "Gor Mahia vs Murang'a SEAL",
+      "homeTeam": {
+        "id": "a5b4if5fvar17mo2ph307ipob",
+        "name": "Gor Mahia",
+        "slug": "gor-mahia"
+      },
+      "awayTeam": {
+        "id": "1d3i80tmwhan00mwoe29zihyi",
+        "name": "Murang'a SEAL",
+        "slug": "muranga-seal"
+      },
+      "matchSlug": "gor-mahia-vs-muranga-seal",
+      "seriesId": null,
+      "stageId": 96207,
+      "formatId": null,
+      "sortOrder": 66,
+      "mstUtc": 1790859600000,
+      "competitionId": "cize73kxls2n25jjwb5csecfe",
+      "periodId": null,
+      "periodStart": null,
+      "lastUpdated": 1790210754000,
+      "status": "state",
+      "state": "pre",
+      "substate": "postponed",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": "ERT",
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3188573,
+      "liveBetting": false
+    }
+  ],
+  "odds": {}
+}
