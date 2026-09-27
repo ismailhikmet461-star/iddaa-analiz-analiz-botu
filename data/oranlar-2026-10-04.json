@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-04",
+  "matches": [
+    {
+      "id": "5nbx6w0hnjinpexuwmux1rklw",
+      "rbId": null,
+      "matchName": "Iberia vs Dinamo Tiflis",
+      "homeTeam": {
+        "id": "8sdwl1q76c1wmj5pj0hz2w8cz",
+        "name": "Iberia",
+        "slug": "iberia"
+      },
+      "awayTeam": {
+        "id": "9h0xr6fy0ngrq5f8gjiredk5j",
+        "name": "Dinamo Tiflis",
+        "slug": "dinamo-tiflis"
+      },
+      "matchSlug": "iberia-vs-dinamo-tiflis",
+      "seriesId": null,
+      "stageId": 92225,
+      "formatId": null,
+      "sortOrder": 168,
+      "mstUtc": 1791126000000,
+      "competitionId": "477yyajzheg2z8u7uick0e13e",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1790468860000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3071268,
+      "liveBetting": false
+    }
+  ],
+  "odds": {
+    "5nbx6w0hnjinpexuwmux1rklw": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
+        }
+      ]
+    }
+  }
+}
