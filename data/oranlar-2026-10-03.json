@@ -22,12 +22,12 @@
       "sortOrder": 227,
       "mstUtc": 1790982000000,
       "competitionId": "2y8bntiif3a9y6gtmauv30gt",
-      "periodId": null,
+      "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790612729000,
-      "status": "state",
+      "lastUpdated": 1790617579000,
+      "status": "timestamp",
       "state": "pre",
-      "substate": "postponed",
+      "substate": "none",
       "score": {
         "home": "",
         "away": "",
@@ -35,7 +35,7 @@
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": "ERT",
+      "statusBoxContent": null,
       "winner": null,
       "advancingTeam": null,
       "redCards": {
