@@ -24,7 +24,7 @@
       "competitionId": "477yyajzheg2z8u7uick0e13e",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790633907000,
+      "lastUpdated": 1790635416000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -46,60 +46,5 @@
       "liveBetting": false
     }
   ],
-  "odds": {
-    "5nbx6w0hnjinpexuwmux1rklw": {
-      "Maç Sonucu MBS 3": [
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        }
-      ],
-      "Çifte Şans MBS 3": [
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
-        },
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
-        }
-      ]
-    }
-  }
+  "odds": {}
 }
