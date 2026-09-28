@@ -24,7 +24,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1790563355000,
+      "lastUpdated": 1790565469000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -44,50 +44,6 @@
       },
       "iddaaCode": 3091213,
       "liveBetting": true
-    },
-    {
-      "id": "b4hco6x8cvfy2u6jdejuvzmz8",
-      "rbId": null,
-      "matchName": "NY Red Bulls vs St. Louis",
-      "homeTeam": {
-        "id": "7k329us81r2yiw9pakgo5tp6e",
-        "name": "NY Red Bulls",
-        "slug": "ny-red-bulls"
-      },
-      "awayTeam": {
-        "id": "7rh4h3y77fl3s7rdqp61si49g",
-        "name": "St. Louis",
-        "slug": "st-louis"
-      },
-      "matchSlug": "ny-red-bulls-vs-st-louis",
-      "seriesId": null,
-      "stageId": 91907,
-      "formatId": null,
-      "sortOrder": 152,
-      "mstUtc": 1790811000000,
-      "competitionId": "287tckirbfj9nb8ar2k9r60vn",
-      "periodId": 16,
-      "periodStart": null,
-      "lastUpdated": 1790563605000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
-      "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
-        "agg": null,
-        "pen": null
-      },
-      "statusBoxContent": null,
-      "winner": null,
-      "advancingTeam": null,
-      "redCards": {
-        "home": 0,
-        "away": 0
-      },
-      "iddaaCode": 3158950,
-      "liveBetting": false
     }
   ],
   "odds": {
