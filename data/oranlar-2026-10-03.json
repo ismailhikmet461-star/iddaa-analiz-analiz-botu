@@ -2,6 +2,138 @@
   "date": "2026-10-03",
   "matches": [
     {
+      "id": "76l01unqj7nqp3uy33bj0h34k",
+      "rbId": null,
+      "matchName": "Hırvatistan vs İngiltere",
+      "homeTeam": {
+        "id": "4njsfszcgd9m765d6suktsz2a",
+        "name": "Hırvatistan",
+        "slug": "h%C4%B1rvatistan"
+      },
+      "awayTeam": {
+        "id": "ck8m1cn23sukwsurgx5qakttk",
+        "name": "İngiltere",
+        "slug": "ingiltere"
+      },
+      "matchSlug": "h%C4%B1rvatistan-vs-ingiltere",
+      "seriesId": 28813,
+      "stageId": 92776,
+      "formatId": null,
+      "sortOrder": 1,
+      "mstUtc": 1791043200000,
+      "competitionId": "595nsvo7ykvoe690b1e4u5n56",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1790751090000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3176349,
+      "liveBetting": false
+    },
+    {
+      "id": "77bswkzcz3npf869k58t9kro4",
+      "rbId": null,
+      "matchName": "İspanya vs Çekya",
+      "homeTeam": {
+        "id": "eh7yt2x2wck51oixw8012ux5j",
+        "name": "İspanya",
+        "slug": "ispanya"
+      },
+      "awayTeam": {
+        "id": "70tnqyqn871jwlk26gtjw7knm",
+        "name": "Çekya",
+        "slug": "%C3%A7ekya"
+      },
+      "matchSlug": "ispanya-vs-%C3%A7ekya",
+      "seriesId": 28813,
+      "stageId": 92776,
+      "formatId": null,
+      "sortOrder": 2,
+      "mstUtc": 1791053100000,
+      "competitionId": "595nsvo7ykvoe690b1e4u5n56",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1790751090000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3176232,
+      "liveBetting": false
+    },
+    {
+      "id": "1b0k365nuw7vwlp4odelq5edw",
+      "rbId": null,
+      "matchName": "Belarus vs San Marino",
+      "homeTeam": {
+        "id": "5olkx2k33zmddv7wlf7226qrq",
+        "name": "Belarus",
+        "slug": "belarus"
+      },
+      "awayTeam": {
+        "id": "1k3d99pxzs3s2p6ls5somgddd",
+        "name": "San Marino",
+        "slug": "san-marino"
+      },
+      "matchSlug": "belarus-vs-san-marino",
+      "seriesId": 28819,
+      "stageId": 92778,
+      "formatId": null,
+      "sortOrder": 6,
+      "mstUtc": 1791043200000,
+      "competitionId": "595nsvo7ykvoe690b1e4u5n56",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1790751090000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3176973,
+      "liveBetting": false
+    },
+    {
       "id": "aonw7yk1acofuou223m086hhw",
       "rbId": null,
       "matchName": "U. Concepcion vs Huachipato",
@@ -24,7 +156,7 @@
       "competitionId": "2y8bntiif3a9y6gtmauv30gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790749591000,
+      "lastUpdated": 1790751090000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
