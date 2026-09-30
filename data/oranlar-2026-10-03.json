@@ -24,7 +24,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790751090000,
+      "lastUpdated": 1790752899000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790751090000,
+      "lastUpdated": 1790752899000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790751090000,
+      "lastUpdated": 1790752899000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "2y8bntiif3a9y6gtmauv30gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790751090000,
+      "lastUpdated": 1790752899000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -500,6 +500,60 @@
         {
           "secenek": "Üst",
           "oran": "1.64"
+        }
+      ]
+    },
+    "1b0k365nuw7vwlp4odelq5edw": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "-"
+        },
+        {
+          "secenek": "X",
+          "oran": "9.49"
+        },
+        {
+          "secenek": "2",
+          "oran": "17.50"
+        },
+        {
+          "secenek": "1",
+          "oran": "-"
+        },
+        {
+          "secenek": "X",
+          "oran": "9.49"
+        },
+        {
+          "secenek": "2",
+          "oran": "17.50"
+        }
+      ],
+      "Çifte Şans MBS 1": [
+        {
+          "secenek": "1-X",
+          "oran": "-"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "-"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "5.87"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "-"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "-"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "5.87"
         }
       ]
     }
