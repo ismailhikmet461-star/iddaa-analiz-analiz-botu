@@ -24,7 +24,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790772756000,
+      "lastUpdated": 1790774555000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -43,7 +43,7 @@
         "away": 0
       },
       "iddaaCode": 3180154,
-      "liveBetting": false
+      "liveBetting": true
     },
     {
       "id": "77wuhps43r3ylcc092f418mqc",
@@ -68,7 +68,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790772756000,
+      "lastUpdated": 1790774555000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -87,7 +87,7 @@
         "away": 0
       },
       "iddaaCode": 3179900,
-      "liveBetting": false
+      "liveBetting": true
     },
     {
       "id": "79os1gg8jjseoavxriovn21as",
@@ -112,7 +112,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790772756000,
+      "lastUpdated": 1790774555000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -131,7 +131,7 @@
         "away": 0
       },
       "iddaaCode": 3179478,
-      "liveBetting": false
+      "liveBetting": true
     },
     {
       "id": "795y24v1fs9x19us4p8hyt5as",
@@ -156,7 +156,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790772756000,
+      "lastUpdated": 1790774555000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -175,7 +175,7 @@
         "away": 0
       },
       "iddaaCode": 3180547,
-      "liveBetting": false
+      "liveBetting": true
     },
     {
       "id": "5nbx6w0hnjinpexuwmux1rklw",
@@ -200,7 +200,7 @@
       "competitionId": "477yyajzheg2z8u7uick0e13e",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790772756000,
+      "lastUpdated": 1790774555000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1438,60 +1438,6 @@
         {
           "secenek": "Hayır",
           "oran": "-"
-        }
-      ]
-    },
-    "5nbx6w0hnjinpexuwmux1rklw": {
-      "Maç Sonucu MBS 3": [
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        }
-      ],
-      "Çifte Şans MBS 3": [
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
-        },
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
         }
       ]
     },
@@ -5142,6 +5088,60 @@
         {
           "secenek": "Evet",
           "oran": "13.65"
+        }
+      ]
+    },
+    "5nbx6w0hnjinpexuwmux1rklw": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
         }
       ]
     }
