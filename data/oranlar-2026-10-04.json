@@ -24,7 +24,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790818969000,
+      "lastUpdated": 1790821085000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790818969000,
+      "lastUpdated": 1790821085000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790818969000,
+      "lastUpdated": 1790821085000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790818969000,
+      "lastUpdated": 1790821085000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "477yyajzheg2z8u7uick0e13e",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790818969000,
+      "lastUpdated": 1790821085000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2655,60 +2655,6 @@
         }
       ]
     },
-    "5nbx6w0hnjinpexuwmux1rklw": {
-      "Maç Sonucu MBS 3": [
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.00"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.96"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.67"
-        }
-      ],
-      "Çifte Şans MBS 3": [
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
-        },
-        {
-          "secenek": "1-X",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.16"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.38"
-        }
-      ]
-    },
     "795y24v1fs9x19us4p8hyt5as": {
       "Maç Sonucu MBS 1": [
         {
@@ -3924,6 +3870,60 @@
         {
           "secenek": "Evet",
           "oran": "13.15"
+        }
+      ]
+    },
+    "5nbx6w0hnjinpexuwmux1rklw": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.67"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.38"
         }
       ]
     },
