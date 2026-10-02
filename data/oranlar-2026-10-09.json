@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1790974166000,
+      "lastUpdated": 1790975983000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -46,5 +46,34 @@
       "liveBetting": false
     }
   ],
-  "odds": {}
+  "odds": {
+    "cmgalzgjhe6ijnsh6but6ccus": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.85"
+        },
+        {
+          "secenek": "2",
+          "oran": "9.84"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.85"
+        },
+        {
+          "secenek": "2",
+          "oran": "9.84"
+        }
+      ]
+    }
+  }
 }
