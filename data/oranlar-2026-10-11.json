@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "1r097lpxe0xn03ihb7wi98kao",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "7wssxdqi4xihseeam8grqa2b8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791203328000,
+      "lastUpdated": 1791204861000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -267,31 +267,31 @@
     }
   ],
   "odds": {
-    "cmritj6je4qlkxtf25mn1qdxw": {
+    "4funfoy0bxp3y7thhhbxnbk7o": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "1.11"
+          "oran": "2.28"
         },
         {
           "secenek": "X",
-          "oran": "5.50"
+          "oran": "3.32"
         },
         {
           "secenek": "2",
-          "oran": "10.20"
+          "oran": "2.28"
         },
         {
           "secenek": "1",
-          "oran": "1.11"
+          "oran": "2.28"
         },
         {
           "secenek": "X",
-          "oran": "5.50"
+          "oran": "3.32"
         },
         {
           "secenek": "2",
-          "oran": "10.20"
+          "oran": "2.28"
         }
       ]
     },
@@ -323,31 +323,87 @@
         }
       ]
     },
-    "4funfoy0bxp3y7thhhbxnbk7o": {
+    "cm4vzm2f8wwko7saszh67xb84": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "2.28"
+          "oran": "2.36"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "3.10"
         },
         {
           "secenek": "2",
-          "oran": "2.28"
+          "oran": "2.32"
         },
         {
           "secenek": "1",
-          "oran": "2.28"
+          "oran": "2.36"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "3.10"
         },
         {
           "secenek": "2",
-          "oran": "2.28"
+          "oran": "2.32"
+        }
+      ]
+    },
+    "ckkmv6s0elwnk11lvz6cmjuac": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.04"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.35"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.04"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.35"
+        }
+      ]
+    },
+    "cmritj6je4qlkxtf25mn1qdxw": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.11"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.20"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.11"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.20"
         }
       ]
     },
@@ -518,62 +574,6 @@
         {
           "secenek": "Üst",
           "oran": "2.42"
-        }
-      ]
-    },
-    "ckkmv6s0elwnk11lvz6cmjuac": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.04"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.35"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.04"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.35"
-        }
-      ]
-    },
-    "cm4vzm2f8wwko7saszh67xb84": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.10"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.32"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.10"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.32"
         }
       ]
     }
