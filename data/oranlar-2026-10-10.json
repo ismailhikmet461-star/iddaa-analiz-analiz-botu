@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -288,7 +288,7 @@
       "competitionId": "6by3h89i2eykc341oz7lv1ddd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -332,7 +332,7 @@
       "competitionId": "6by3h89i2eykc341oz7lv1ddd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791186735000,
+      "lastUpdated": 1791235835000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -351,6 +351,138 @@
         "away": 0
       },
       "iddaaCode": 3196540,
+      "liveBetting": false
+    },
+    {
+      "id": "3pxdmvno90bnuwesbfn1b2uj8",
+      "rbId": null,
+      "matchName": "Mathare Utd vs APS Bomet",
+      "homeTeam": {
+        "id": "b0om8iti32x5hms2ur64vv4as",
+        "name": "Mathare Utd",
+        "slug": "mathare-utd"
+      },
+      "awayTeam": {
+        "id": "x336bylr96mkuqivi7erouay",
+        "name": "APS Bomet",
+        "slug": "aps-bomet"
+      },
+      "matchSlug": "mathare-utd-vs-aps-bomet",
+      "seriesId": null,
+      "stageId": 95670,
+      "formatId": null,
+      "sortOrder": 735,
+      "mstUtc": 1791630000000,
+      "competitionId": "7wssxdqi4xihseeam8grqa2b8",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1791235835000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3233823,
+      "liveBetting": false
+    },
+    {
+      "id": "3q548cqnfs2coahacv5yd2gpg",
+      "rbId": null,
+      "matchName": "Posta Rangers vs Shabana",
+      "homeTeam": {
+        "id": "15fkoay2ujf6slkun4n7epwc2",
+        "name": "Posta Rangers",
+        "slug": "posta-rangers"
+      },
+      "awayTeam": {
+        "id": "c848fs11rbi3vlzzfc2375sh6",
+        "name": "Shabana",
+        "slug": "shabana"
+      },
+      "matchSlug": "posta-rangers-vs-shabana",
+      "seriesId": null,
+      "stageId": 95670,
+      "formatId": null,
+      "sortOrder": 736,
+      "mstUtc": 1791633600000,
+      "competitionId": "7wssxdqi4xihseeam8grqa2b8",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1791235835000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3234057,
+      "liveBetting": false
+    },
+    {
+      "id": "3qkdcj05x3971q0yfrtuc3fo4",
+      "rbId": null,
+      "matchName": "Gor Mahia vs Murang'a SEAL",
+      "homeTeam": {
+        "id": "a5b4if5fvar17mo2ph307ipob",
+        "name": "Gor Mahia",
+        "slug": "gor-mahia"
+      },
+      "awayTeam": {
+        "id": "1d3i80tmwhan00mwoe29zihyi",
+        "name": "Murang'a SEAL",
+        "slug": "muranga-seal"
+      },
+      "matchSlug": "gor-mahia-vs-muranga-seal",
+      "seriesId": null,
+      "stageId": 95670,
+      "formatId": null,
+      "sortOrder": 737,
+      "mstUtc": 1791638100000,
+      "competitionId": "7wssxdqi4xihseeam8grqa2b8",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1791235835000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3233701,
       "liveBetting": false
     }
   ],
@@ -383,87 +515,59 @@
         }
       ]
     },
-    "7oh2rfcpl6bt8lk74vi7eaot0": {
+    "cn2vewi49kl1qhkx0311y2pzo": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "1.20"
+          "oran": "3.23"
         },
         {
           "secenek": "X",
-          "oran": "5.38"
+          "oran": "3.32"
         },
         {
           "secenek": "2",
-          "oran": "6.41"
+          "oran": "1.77"
         },
         {
           "secenek": "1",
-          "oran": "1.20"
+          "oran": "3.23"
         },
         {
           "secenek": "X",
-          "oran": "5.38"
+          "oran": "3.32"
         },
         {
           "secenek": "2",
-          "oran": "6.41"
+          "oran": "1.77"
         }
       ]
     },
-    "cliahdanvjs9nziidofg11ces": {
+    "cltokboun5k4k9nxr3ro0p89g": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "4.11"
+          "oran": "2.41"
         },
         {
           "secenek": "X",
-          "oran": "3.57"
+          "oran": "3.18"
         },
         {
           "secenek": "2",
-          "oran": "1.53"
+          "oran": "2.24"
         },
         {
           "secenek": "1",
-          "oran": "4.11"
+          "oran": "2.41"
         },
         {
           "secenek": "X",
-          "oran": "3.57"
+          "oran": "3.18"
         },
         {
           "secenek": "2",
-          "oran": "1.53"
-        }
-      ]
-    },
-    "5eqn6b8fagc6dagu43ra9r2fo": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "1.37"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.38"
-        },
-        {
-          "secenek": "2",
-          "oran": "4.52"
-        },
-        {
-          "secenek": "1",
-          "oran": "1.37"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.38"
-        },
-        {
-          "secenek": "2",
-          "oran": "4.52"
+          "oran": "2.24"
         }
       ]
     },
@@ -523,59 +627,597 @@
         }
       ]
     },
-    "cltokboun5k4k9nxr3ro0p89g": {
+    "7oh2rfcpl6bt8lk74vi7eaot0": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "2.41"
+          "oran": "1.20"
         },
         {
           "secenek": "X",
-          "oran": "3.18"
+          "oran": "5.38"
         },
         {
           "secenek": "2",
-          "oran": "2.24"
+          "oran": "6.41"
         },
         {
           "secenek": "1",
-          "oran": "2.41"
+          "oran": "1.20"
         },
         {
           "secenek": "X",
-          "oran": "3.18"
+          "oran": "5.38"
         },
         {
           "secenek": "2",
-          "oran": "2.24"
+          "oran": "6.41"
         }
       ]
     },
-    "cn2vewi49kl1qhkx0311y2pzo": {
+    "3pxdmvno90bnuwesbfn1b2uj8": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "2.28"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.76"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.43"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.28"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.76"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.43"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "1.25"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.19"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.29"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.25"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.19"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.29"
+        }
+      ],
+      "2,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.32"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.21"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.32"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.21"
+        }
+      ],
+      "Tek/Çift MBS 3": [
+        {
+          "secenek": "Tek",
+          "oran": "1.69"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.62"
+        },
+        {
+          "secenek": "Tek",
+          "oran": "1.69"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.62"
+        }
+      ],
+      "Karşılıklı Gol MBS 3": [
+        {
+          "secenek": "Var",
+          "oran": "1.86"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.48"
+        },
+        {
+          "secenek": "Var",
+          "oran": "1.86"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.48"
+        }
+      ],
+      "Hnd. MS (0:1) MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "5.05"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.48"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "1",
+          "oran": "5.05"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.48"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.28"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "2.41"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.41"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.26"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "2.32"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.29"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.32"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.29"
+        }
+      ]
+    },
+    "5eqn6b8fagc6dagu43ra9r2fo": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "3.23"
+          "oran": "1.37"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "4.38"
         },
         {
           "secenek": "2",
-          "oran": "1.77"
+          "oran": "4.52"
         },
         {
           "secenek": "1",
-          "oran": "3.23"
+          "oran": "1.37"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "4.38"
         },
         {
           "secenek": "2",
-          "oran": "1.77"
+          "oran": "4.52"
+        }
+      ]
+    },
+    "cliahdanvjs9nziidofg11ces": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "4.11"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.57"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.53"
+        },
+        {
+          "secenek": "1",
+          "oran": "4.11"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.57"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.53"
+        }
+      ]
+    },
+    "3q548cqnfs2coahacv5yd2gpg": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "3.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.33"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.18"
+        },
+        {
+          "secenek": "1",
+          "oran": "3.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.33"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.18"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "1.32"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.14"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.32"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.14"
+        }
+      ],
+      "1,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.84"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.50"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.84"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.50"
+        }
+      ],
+      "Tek/Çift MBS 3": [
+        {
+          "secenek": "Tek",
+          "oran": "1.79"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.54"
+        },
+        {
+          "secenek": "Tek",
+          "oran": "1.79"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.54"
+        }
+      ],
+      "Karşılıklı Gol MBS 3": [
+        {
+          "secenek": "Var",
+          "oran": "2.18"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.33"
+        },
+        {
+          "secenek": "Var",
+          "oran": "2.18"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.33"
+        }
+      ],
+      "Hnd. MS (1:0) MBS 3": [
+        {
+          "secenek": "+1h",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.30"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.92"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.30"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.92"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.85"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.50"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.85"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.50"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.30"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.30"
+        }
+      ]
+    },
+    "3qkdcj05x3971q0yfrtuc3fo4": {
+      "Maç Sonucu MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.27"
+        },
+        {
+          "secenek": "2",
+          "oran": "5.84"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.27"
+        },
+        {
+          "secenek": "2",
+          "oran": "5.84"
+        }
+      ],
+      "Çifte Şans MBS 3": [
+        {
+          "secenek": "1-X",
+          "oran": "-"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.10"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "2.00"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "-"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.10"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "2.00"
+        }
+      ],
+      "2,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        }
+      ],
+      "Tek/Çift MBS 3": [
+        {
+          "secenek": "Tek",
+          "oran": "1.71"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.60"
+        },
+        {
+          "secenek": "Tek",
+          "oran": "1.71"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.60"
+        }
+      ],
+      "Karşılıklı Gol MBS 3": [
+        {
+          "secenek": "Var",
+          "oran": "1.96"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.43"
+        },
+        {
+          "secenek": "Var",
+          "oran": "1.96"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.43"
+        }
+      ],
+      "Hnd. MS (0:1) MBS 3": [
+        {
+          "secenek": "1",
+          "oran": "2.21"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.02"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "2.07"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.21"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.02"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "2.07"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.70"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.60"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.70"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.60"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst MBS 3": [
+        {
+          "secenek": "Alt",
+          "oran": "1.65"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.66"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.65"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.66"
         }
       ]
     }
