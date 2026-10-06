@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "1r097lpxe0xn03ihb7wi98kao",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -222,6 +222,50 @@
       "liveBetting": false
     },
     {
+      "id": "eplhzquvn208sbyw9e47erpxw",
+      "rbId": null,
+      "matchName": "San Carlos vs Perez Zeledon",
+      "homeTeam": {
+        "id": "7esbrsdge6pknfynf4npsgg7o",
+        "name": "San Carlos",
+        "slug": "san-carlos"
+      },
+      "awayTeam": {
+        "id": "a80nhq3xqxty3ab3xmroiuxdb",
+        "name": "Perez Zeledon",
+        "slug": "perez-zeledon"
+      },
+      "matchSlug": "san-carlos-vs-perez-zeledon",
+      "seriesId": null,
+      "stageId": 94418,
+      "formatId": null,
+      "sortOrder": 501,
+      "mstUtc": 1791666000000,
+      "competitionId": "civf31q1inxohs4a03y8reetf",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1791310915000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3199722,
+      "liveBetting": false
+    },
+    {
       "id": "3qcpzkrhnexu5t8r16ss6un10",
       "rbId": null,
       "matchName": "Ulinzi vs Tusker",
@@ -239,12 +283,12 @@
       "seriesId": null,
       "stageId": 95670,
       "formatId": null,
-      "sortOrder": 661,
+      "sortOrder": 650,
       "mstUtc": 1791716400000,
       "competitionId": "7wssxdqi4xihseeam8grqa2b8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791289401000,
+      "lastUpdated": 1791310915000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -267,62 +311,6 @@
     }
   ],
   "odds": {
-    "7a1chktx7s4euzizotqxuyyok": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "2.31"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.18"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.33"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.31"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.18"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.33"
-        }
-      ]
-    },
-    "ckkmv6s0elwnk11lvz6cmjuac": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.04"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.35"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.04"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.35"
-        }
-      ]
-    },
     "3qcpzkrhnexu5t8r16ss6un10": {
       "Maç Sonucu MBS 3": [
         {
@@ -493,31 +481,59 @@
         }
       ]
     },
-    "cm4vzm2f8wwko7saszh67xb84": {
+    "cmritj6je4qlkxtf25mn1qdxw": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "2.36"
+          "oran": "1.11"
         },
         {
           "secenek": "X",
-          "oran": "3.10"
+          "oran": "5.50"
         },
         {
           "secenek": "2",
-          "oran": "2.32"
+          "oran": "10.20"
         },
         {
           "secenek": "1",
-          "oran": "2.36"
+          "oran": "1.11"
         },
         {
           "secenek": "X",
-          "oran": "3.10"
+          "oran": "5.50"
         },
         {
           "secenek": "2",
-          "oran": "2.32"
+          "oran": "10.20"
+        }
+      ]
+    },
+    "7a1chktx7s4euzizotqxuyyok": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.18"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.33"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.18"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.33"
         }
       ]
     },
@@ -549,31 +565,59 @@
         }
       ]
     },
-    "cmritj6je4qlkxtf25mn1qdxw": {
+    "ckkmv6s0elwnk11lvz6cmjuac": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "1.11"
+          "oran": "2.36"
         },
         {
           "secenek": "X",
-          "oran": "5.50"
+          "oran": "3.04"
         },
         {
           "secenek": "2",
-          "oran": "10.20"
+          "oran": "2.35"
         },
         {
           "secenek": "1",
-          "oran": "1.11"
+          "oran": "2.36"
         },
         {
           "secenek": "X",
-          "oran": "5.50"
+          "oran": "3.04"
         },
         {
           "secenek": "2",
-          "oran": "10.20"
+          "oran": "2.35"
+        }
+      ]
+    },
+    "cm4vzm2f8wwko7saszh67xb84": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.10"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.32"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.10"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.32"
         }
       ]
     }
