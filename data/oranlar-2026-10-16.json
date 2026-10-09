@@ -1,5 +1,50 @@
 {
   "date": "2026-10-16",
-  "matches": [],
+  "matches": [
+    {
+      "id": "coyvd6iu4yzncrr721pg3unmc",
+      "rbId": null,
+      "matchName": "Çorum FK vs Ç. Rizespor",
+      "homeTeam": {
+        "id": "eg0cqg1u8zz85ma9nzk0cijv",
+        "name": "Çorum FK",
+        "slug": "%C3%A7orum-fk"
+      },
+      "awayTeam": {
+        "id": "1lbrlj3uu8wi2h9j79snuoae4",
+        "name": "Ç. Rizespor",
+        "slug": "%C3%A7-rizespor"
+      },
+      "matchSlug": "%C3%A7orum-fk-vs-%C3%A7-rizespor",
+      "seriesId": null,
+      "stageId": 94686,
+      "formatId": null,
+      "sortOrder": 0,
+      "mstUtc": 1792170000000,
+      "competitionId": "482ofyysbdbeoxauk19yg7tdt",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1791536417000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3218413,
+      "liveBetting": false
+    }
+  ],
   "odds": {}
 }
