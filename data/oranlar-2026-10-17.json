@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -288,7 +288,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -327,12 +327,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 606,
+      "sortOrder": 602,
       "mstUtc": 1792234800000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -371,12 +371,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 607,
+      "sortOrder": 603,
       "mstUtc": 1792238400000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -415,12 +415,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 608,
+      "sortOrder": 604,
       "mstUtc": 1792245600000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791706928000,
+      "lastUpdated": 1791725052000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -468,6 +468,62 @@
         {
           "secenek": "2",
           "oran": "1.25"
+        }
+      ]
+    },
+    "cone4ul44nzu9h6v48ehif0gk": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "7.09"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.94"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.20"
+        },
+        {
+          "secenek": "1",
+          "oran": "7.09"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.94"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.20"
+        }
+      ]
+    },
+    "cpa8a44mlpbzxvjl8bzbwneok": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.14"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.38"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.25"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.14"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.38"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.25"
         }
       ]
     },
@@ -876,34 +932,6 @@
         {
           "secenek": "Üst",
           "oran": "1.64"
-        }
-      ]
-    },
-    "cpa8a44mlpbzxvjl8bzbwneok": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.38"
-        },
-        {
-          "secenek": "2",
-          "oran": "8.25"
-        },
-        {
-          "secenek": "1",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.38"
-        },
-        {
-          "secenek": "2",
-          "oran": "8.25"
         }
       ]
     },
@@ -1580,34 +1608,6 @@
         {
           "secenek": "Üst",
           "oran": "2.00"
-        }
-      ]
-    },
-    "cone4ul44nzu9h6v48ehif0gk": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "7.09"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.94"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.20"
-        },
-        {
-          "secenek": "1",
-          "oran": "7.09"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.94"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.20"
         }
       ]
     }
