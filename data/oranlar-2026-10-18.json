@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "1r097lpxe0xn03ihb7wi98kao",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "1r097lpxe0xn03ihb7wi98kao",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -283,12 +283,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 625,
+      "sortOrder": 622,
       "mstUtc": 1792317600000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -327,12 +327,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 626,
+      "sortOrder": 623,
       "mstUtc": 1792321200000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -371,12 +371,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 627,
+      "sortOrder": 624,
       "mstUtc": 1792328400000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -415,12 +415,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 628,
+      "sortOrder": 625,
       "mstUtc": 1792332000000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791925347000,
+      "lastUpdated": 1791927175000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -442,5 +442,34 @@
       "liveBetting": false
     }
   ],
-  "odds": {}
+  "odds": {
+    "7dew37b9l7q6xwitsh2jym978": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.48"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.47"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.66"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.48"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.47"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.66"
+        }
+      ]
+    }
+  }
 }
