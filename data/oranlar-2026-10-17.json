@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "2kwbbcootiqqgmrzs6o5inle5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -288,7 +288,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -327,12 +327,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 606,
+      "sortOrder": 611,
       "mstUtc": 1792234800000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -371,12 +371,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 607,
+      "sortOrder": 612,
       "mstUtc": 1792238400000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -415,12 +415,12 @@
       "seriesId": null,
       "stageId": 91553,
       "formatId": null,
-      "sortOrder": 608,
+      "sortOrder": 613,
       "mstUtc": 1792245600000,
       "competitionId": "9ikchyu9fb8bvx0s673jofj6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1791886906000,
+      "lastUpdated": 1791888739000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -468,6 +468,34 @@
         {
           "secenek": "2",
           "oran": "2.11"
+        }
+      ]
+    },
+    "coc42itxw56irq6mzvxku8tn8": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.66"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.46"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.15"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.66"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.46"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.15"
         }
       ]
     },
@@ -851,34 +879,6 @@
         }
       ]
     },
-    "4hxbc4v9rbvzofyoku22ebbpw": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "2.59"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.30"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.05"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.59"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.30"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.05"
-        }
-      ]
-    },
     "cone4ul44nzu9h6v48ehif0gk": {
       "Maç Sonucu MBS 1": [
         {
@@ -904,34 +904,6 @@
         {
           "secenek": "2",
           "oran": "1.20"
-        }
-      ]
-    },
-    "cpwrhwahzyljgxc6jc9gadl3o": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "1.77"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.28"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.80"
-        },
-        {
-          "secenek": "1",
-          "oran": "1.77"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.28"
-        },
-        {
-          "secenek": "2",
-          "oran": "2.80"
         }
       ]
     },
@@ -1259,6 +1231,34 @@
         }
       ]
     },
+    "cpwrhwahzyljgxc6jc9gadl3o": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.28"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.80"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.28"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.80"
+        }
+      ]
+    },
     "ya2ltsiuu4ezi86k1ip1t5hw": {
       "Maç Sonucu MBS 3": [
         {
@@ -1580,34 +1580,6 @@
         {
           "secenek": "Üst",
           "oran": "2.00"
-        }
-      ]
-    },
-    "coc42itxw56irq6mzvxku8tn8": {
-      "Maç Sonucu MBS 1": [
-        {
-          "secenek": "1",
-          "oran": "1.66"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.46"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.15"
-        },
-        {
-          "secenek": "1",
-          "oran": "1.66"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.46"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.15"
         }
       ]
     }
