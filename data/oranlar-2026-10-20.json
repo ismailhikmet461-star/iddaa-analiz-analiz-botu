@@ -1,5 +1,50 @@
 {
   "date": "2026-10-20",
-  "matches": [],
+  "matches": [
+    {
+      "id": "cl4enw0sfjoz7261h655m43ro",
+      "rbId": null,
+      "matchName": "Pineto vs Reggiana",
+      "homeTeam": {
+        "id": "cukfm3zh91hh9zpmzattj81yd",
+        "name": "Pineto",
+        "slug": "pineto"
+      },
+      "awayTeam": {
+        "id": "fdzmkrqxu2s0x9cioolazpy",
+        "name": "Reggiana",
+        "slug": "reggiana"
+      },
+      "matchSlug": "pineto-vs-reggiana",
+      "seriesId": null,
+      "stageId": 96067,
+      "formatId": null,
+      "sortOrder": 27,
+      "mstUtc": 1792503000000,
+      "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
+      "periodId": null,
+      "periodStart": null,
+      "lastUpdated": 1791916087000,
+      "status": "state",
+      "state": "live",
+      "substate": "suspended",
+      "score": {
+        "home": "2",
+        "away": "0",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": "DUR",
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3198834,
+      "liveBetting": true
+    }
+  ],
   "odds": {}
 }
