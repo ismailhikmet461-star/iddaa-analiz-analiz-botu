@@ -24,7 +24,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792009073000,
+      "lastUpdated": 1792011771000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "ppzvnquzq1gmez5snxzfxkbt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792009073000,
+      "lastUpdated": 1792011771000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -88,6 +88,138 @@
       },
       "iddaaCode": 3157611,
       "liveBetting": false
+    },
+    {
+      "id": "a7t297d7xwm5swon9my95r0us",
+      "rbId": null,
+      "matchName": "Cincinnati vs DC United",
+      "homeTeam": {
+        "id": "652hppivbqchvrp3wopx1isyt",
+        "name": "Cincinnati",
+        "slug": "cincinnati"
+      },
+      "awayTeam": {
+        "id": "5qw82lpi6fio4fbljihlyyulb",
+        "name": "DC United",
+        "slug": "dc-united"
+      },
+      "matchSlug": "cincinnati-vs-dc-united",
+      "seriesId": null,
+      "stageId": 91907,
+      "formatId": null,
+      "sortOrder": 166,
+      "mstUtc": 1792623600000,
+      "competitionId": "287tckirbfj9nb8ar2k9r60vn",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792011785000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3103910,
+      "liveBetting": true
+    },
+    {
+      "id": "b4jbomhchfqlfi6vkld9s7huc",
+      "rbId": null,
+      "matchName": "Brooklyn vs B. Legion",
+      "homeTeam": {
+        "id": "2s5f1z5hilfoywf3def0oy1w4",
+        "name": "Brooklyn",
+        "slug": "brooklyn"
+      },
+      "awayTeam": {
+        "id": "c9xffml4i7ihblp1qhus9w3fu",
+        "name": "B. Legion",
+        "slug": "b-legion"
+      },
+      "matchSlug": "brooklyn-vs-b-legion",
+      "seriesId": null,
+      "stageId": 92020,
+      "formatId": null,
+      "sortOrder": 185,
+      "mstUtc": 1792621800000,
+      "competitionId": "c1d9p6b2e9zr5tqlzx3ktjplg",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792011785000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3042609,
+      "liveBetting": true
+    },
+    {
+      "id": "elsr4z7ch13tbi3ludgqd56ok",
+      "rbId": null,
+      "matchName": "Cosmos vs Velocity",
+      "homeTeam": {
+        "id": "cci6r1n6tuhoxd5rghdy0usyc",
+        "name": "Cosmos",
+        "slug": "cosmos"
+      },
+      "awayTeam": {
+        "id": "2bsqcyameg25qra523lr3bz84",
+        "name": "Velocity",
+        "slug": "velocity"
+      },
+      "matchSlug": "cosmos-vs-velocity",
+      "seriesId": null,
+      "stageId": 91891,
+      "formatId": null,
+      "sortOrder": 190,
+      "mstUtc": 1792623600000,
+      "competitionId": "jznihqxle06xych9ygwiwnsa",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792011785000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3042602,
+      "liveBetting": true
     }
   ],
   "odds": {}
