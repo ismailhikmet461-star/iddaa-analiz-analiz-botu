@@ -24,7 +24,7 @@
       "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792031542000,
+      "lastUpdated": 1792033404000,
       "status": "state",
       "state": "live",
       "substate": "suspended",
@@ -68,7 +68,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792031542000,
+      "lastUpdated": 1792033404000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -88,50 +88,6 @@
       },
       "iddaaCode": 3204309,
       "liveBetting": false
-    },
-    {
-      "id": "6ppyavgzgrkuny00je8967cpg",
-      "rbId": null,
-      "matchName": "Millonarios vs Once Caldas",
-      "homeTeam": {
-        "id": "eqbww924pupg9vspauc0h7bt6",
-        "name": "Millonarios",
-        "slug": "millonarios"
-      },
-      "awayTeam": {
-        "id": "1m0l6lfeg2gpncu6xjz21pv9n",
-        "name": "Once Caldas",
-        "slug": "once-caldas"
-      },
-      "matchSlug": "millonarios-vs-once-caldas",
-      "seriesId": null,
-      "stageId": 92307,
-      "formatId": null,
-      "sortOrder": 194,
-      "mstUtc": 1792546200000,
-      "competitionId": "2ty8ihceabty8yddmu31iuuej",
-      "periodId": 16,
-      "periodStart": null,
-      "lastUpdated": 1792031432000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
-      "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
-        "agg": null,
-        "pen": null
-      },
-      "statusBoxContent": null,
-      "winner": null,
-      "advancingTeam": null,
-      "redCards": {
-        "home": 0,
-        "away": 0
-      },
-      "iddaaCode": 3206609,
-      "liveBetting": true
     }
   ],
   "odds": {}
