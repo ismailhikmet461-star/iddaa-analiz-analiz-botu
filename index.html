@@ -1,386 +1,439 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#103d2c">
 <title>İddaa Analiz Botu 26/27</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#101827;color:#172033;font-family:Arial,sans-serif}
-header{background:#103d2c;color:#fff;text-align:center;padding:18px 8px;font-size:21px;font-weight:bold}
-main{max-width:850px;margin:auto;padding:12px}
-.panel,.match{background:#fff;border-radius:16px;padding:14px;margin-bottom:14px}
+header{background:#103d2c;color:white;text-align:center;padding:20px 10px;font-size:22px;font-weight:bold}
+header small{display:block;font-size:12px;font-weight:normal;margin-top:7px}
+main{max-width:900px;margin:auto;padding:12px}
+.panel,.match{background:white;border-radius:15px;padding:14px;margin-bottom:13px}
 .controls{display:flex;gap:8px;align-items:center;margin-bottom:10px}
-button,select,input{font:inherit;border:1px solid #cbd5e1;border-radius:10px;padding:12px;background:#fff;color:#172033}
+button,input,select{font:inherit;border:1px solid #cbd5e1;border-radius:10px;padding:11px;background:white;color:#172033}
 button{cursor:pointer}
 .controls button{flex:1}
-#dateLabel{flex:2;text-align:center;font-weight:bold;font-size:17px}
+#dateLabel{flex:2;text-align:center;font-weight:bold}
 #search,#league{width:100%;margin-bottom:10px}
-.status{font-size:14px;color:#475569;line-height:1.5}
-.leagueName{color:#64748b;font-size:14px;margin-bottom:12px}
+.status{font-size:13px;color:#475569;line-height:1.6;overflow-wrap:anywhere}
+.leagueName{font-size:13px;color:#64748b;margin-bottom:10px}
 .teams{text-align:center;font-weight:bold;font-size:19px;line-height:1.6;overflow-wrap:anywhere}
-.time{text-align:center;color:#64748b;margin:7px 0 12px}
-.odds{background:#f1f5f9;border-radius:10px;padding:10px;font-size:14px;line-height:1.6;overflow-wrap:anywhere}
-.analyseBtn{width:100%;background:#176638;color:white;border:0;font-weight:bold;font-size:17px;margin-top:12px}
-.analysis{margin-top:12px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px;line-height:1.8;font-size:14px;overflow-wrap:anywhere}
+.time{text-align:center;color:#64748b;font-size:13px;margin:8px 0 12px}
+.odds{background:#f1f5f9;border-radius:10px;padding:10px;font-size:13px;line-height:1.8;overflow-wrap:anywhere}
+.analyseBtn{width:100%;background:#176638;color:white;border:0;font-weight:bold;font-size:16px;margin-top:11px}
+.analysis{margin-top:12px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:12px;font-size:14px;line-height:1.9;overflow-wrap:anywhere}
 .analysis h3{margin:0 0 8px;font-size:17px}
 .tag{display:inline-block;background:#dcfce7;color:#166534;padding:2px 7px;border-radius:6px;margin:2px}
-.small{font-size:12px;color:#64748b;margin-top:8px}
+.warn{background:#fff7ed;color:#9a3412;padding:9px;border-radius:8px;margin-top:8px;font-size:12px}
 .err{color:#b91c1c}
+.small{font-size:12px;color:#64748b;margin-top:9px;line-height:1.6}
+.hidden{display:none}
 </style>
 </head>
 <body>
-<header>⚽ İddaa Analiz Botu 26/27</header>
+<header>
+⚽ İddaa Analiz Botu 26/27
+<small>Maçkolik verileri • Oran analizi • İstatistiksel tahmin</small>
+</header>
+
 <main>
 <section class="panel">
- <div class="controls">
-  <button onclick="changeDay(-1)">‹ Önceki</button>
-  <div id="dateLabel"></div>
-  <button onclick="changeDay(1)">Sonraki ›</button>
- </div>
- <input id="search" placeholder="🔎 Takım ara..." oninput="renderMatches()">
- <select id="league" onchange="renderMatches()">
-  <option value="">🏆 Tüm Ligler</option>
- </select>
- <div class="controls">
-  <button onclick="loadData()">🔄 Yenile</button>
-  <button onclick="goToday()">📅 Bugün</button>
- </div>
- <div id="status" class="status">⏳ Veriler yükleniyor...</div>
+  <div class="controls">
+    <button onclick="changeDay(-1)">‹ Önceki</button>
+    <div id="dateLabel"></div>
+    <button onclick="changeDay(1)">Sonraki ›</button>
+  </div>
+  <input id="search" placeholder="🔎 Takım ara..." oninput="renderMatches()">
+  <select id="league" onchange="renderMatches()">
+    <option value="">🏆 Tüm Ligler</option>
+  </select>
+  <div class="controls">
+    <button onclick="loadData()">🔄 Yenile</button>
+    <button onclick="goToday()">📅 Bugün</button>
+  </div>
+  <div id="status" class="status">⏳ Veriler yükleniyor...</div>
 </section>
 <div id="matches"></div>
 </main>
+
 <script>
 "use strict";
 
-let selectedDate=new Date();
-let allMatches=[];
-let allOdds={};
+let selectedDate = new Date();
+let allMatches = [];
+let allOdds = {};
 
-const $=id=>document.getElementById(id);
-const pad=n=>String(n).padStart(2,"0");
-const dateKey=d=>d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
-const months=["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2,"0");
+const dateKey = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+const months = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
 
 function showDate(){
- $("dateLabel").textContent=selectedDate.getDate()+" "+months[selectedDate.getMonth()]+" "+selectedDate.getFullYear();
+  $("dateLabel").textContent =
+    selectedDate.getDate()+" "+months[selectedDate.getMonth()]+" "+selectedDate.getFullYear();
 }
 function changeDay(n){
- selectedDate.setDate(selectedDate.getDate()+n);
- showDate();
- loadData();
+  selectedDate.setDate(selectedDate.getDate()+n);
+  showDate();
+  loadData();
 }
 function goToday(){
- selectedDate=new Date();
- showDate();
- loadData();
+  selectedDate = new Date();
+  showDate();
+  loadData();
 }
 function esc(v){
- return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  return String(v ?? "").replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
 }
 function cleanName(v){
- return String(v??"").toLocaleLowerCase("tr")
- .replace(/ı/g,"i").replace(/ş/g,"s").replace(/ğ/g,"g")
- .replace(/ü/g,"u").replace(/ö/g,"o").replace(/ç/g,"c")
- .replace(/[^a-z0-9]/g,"");
-}
-function getText(v,depth=0){
- if(v===null||v===undefined)return "";
- if(typeof v==="string"||typeof v==="number")return String(v);
- if(Array.isArray(v)){
-  for(const x of v){const t=getText(x,depth+1);if(t)return t}
-  return "";
- }
- if(typeof v==="object"&&depth<4){
-  const keys=["name","teamName","team_name","displayName","shortName","title","label","competitionName","leagueName","countryName","value"];
-  for(const k of keys){
-   if(v[k]!==undefined&&v[k]!==null){
-    const t=getText(v[k],depth+1);
-    if(t)return t;
-   }
-  }
- }
- return "";
+  return String(v ?? "").toLocaleLowerCase("tr")
+    .replace(/ı/g,"i").replace(/ş/g,"s").replace(/ğ/g,"g")
+    .replace(/ü/g,"u").replace(/ö/g,"o").replace(/ç/g,"c")
+    .replace(/,/g,".").replace(/[^a-z0-9.]/g,"");
 }
 function first(obj,keys){
- for(const k of keys){
-  if(obj&&obj[k]!==undefined&&obj[k]!==null&&obj[k]!==""){
-   const t=getText(obj[k]);
-   if(t)return t;
+  for(const k of keys){
+    if(obj && obj[k] !== undefined && obj[k] !== null && obj[k] !== ""){
+      const v = obj[k];
+      if(typeof v === "string" || typeof v === "number") return String(v);
+      if(typeof v === "object"){
+        const t = first(v,["name","teamName","displayName","shortName","title","label","value"]);
+        if(t) return t;
+      }
+    }
   }
- }
- return "";
+  return "";
 }
 function teamName(m,home){
- const keys=home?
- ["homeTeam","home_team","home","homeName","team1","localteam","homeCompetitor","homeParticipant","evSahibi","ev_sahibi","ev"]:
- ["awayTeam","away_team","away","awayName","team2","visitorteam","awayCompetitor","awayParticipant","deplasman","deplasman_takim"];
- let name=first(m,keys);
- if(name)return name;
- const full=first(m,["matchName","match_name","name","title"]);
- if(full){
-  const parts=full.split(/\s+(?:vs?\.?|[-–])\s+/i);
-  if(parts.length>=2)return parts[home?0:1].trim();
- }
- return home?"Ev Sahibi":"Deplasman";
+  const keys = home
+    ? ["homeTeam","home_team","home","homeName","team1","localteam","homeCompetitor","evSahibi"]
+    : ["awayTeam","away_team","away","awayName","team2","visitorteam","awayCompetitor","deplasman"];
+  let n = first(m,keys);
+  if(n) return n;
+  const full = first(m,["matchName","match_name","name","title"]);
+  if(full){
+    const parts = full.split(/\s+(?:vs?\.?|[-–])\s+/i);
+    if(parts.length >= 2) return parts[home?0:1].trim();
+  }
+  return home ? "Ev Sahibi" : "Deplasman";
 }
 function leagueName(m){
- return first(m,["leagueName","league_name","competitionName","competition_name","league","competition","tournament","championship"])||"Diğer Ligler";
+  return first(m,["leagueName","league_name","competitionName","competition_name","league","competition","tournament","championship"]) || "Diğer Ligler";
 }
 function matchTime(m){
- let t=first(m,["time","matchTime","match_time","kickoff","dateTime","datetime","startTime","start_time","date"]);
- if(!t)return "Saat belirtilmedi";
- if(/^\d{4}-\d{2}-\d{2}T/.test(t)){
-  const d=new Date(t);
-  if(!isNaN(d))return pad(d.getHours())+":"+pad(d.getMinutes());
- }
- const hh=t.match(/\b\d{1,2}:\d{2}\b/);
- return hh?hh[0]:t;
+  const t = first(m,["time","matchTime","match_time","kickoff","dateTime","datetime","startTime","start_time","date"]);
+  if(!t) return "Saat belirtilmedi";
+  if(/^\d{4}-\d{2}-\d{2}T/.test(t)){
+    const d = new Date(t);
+    if(!isNaN(d)) return pad(d.getHours())+":"+pad(d.getMinutes());
+  }
+  const hh = t.match(/\b\d{1,2}:\d{2}\b/);
+  return hh ? hh[0] : t;
 }
 function matchId(m,i){
- return first(m,["id","matchId","match_id","eventId","fixtureId"])||teamName(m,true)+"-"+teamName(m,false)+"-"+i;
+  return String(first(m,["id","matchId","match_id","eventId","fixtureId"]) || (teamName(m,true)+"-"+teamName(m,false)+"-"+i));
 }
 async function fetchJson(url){
- const r=await fetch(url+"?t="+Date.now(),{cache:"no-store"});
- if(!r.ok)throw Error("Dosya bulunamadı: "+url);
- return r.json();
+  const r = await fetch(url+"?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok) throw Error("Veri dosyası bulunamadı: "+url);
+  return r.json();
 }
 async function loadData(){
- showDate();
- $("status").textContent="⏳ Veriler yükleniyor...";
- $("matches").innerHTML="";
- try{
-  const key=dateKey(selectedDate);
-  const data=await fetchJson("data/oranlar-"+key+".json");
-  allMatches=Array.isArray(data)?data:
-   Array.isArray(data.matches)?data.matches:
-   Array.isArray(data.fixtures)?data.fixtures:
-   Array.isArray(data.data)?data.data:[];
-  allOdds=data.odds||data.oranlar||data.markets||{};
-  if(Array.isArray(allOdds)){
-   const map={};
-   allOdds.forEach((o,i)=>{
-    const id=first(o,["matchId","match_id","eventId","fixtureId","id"]);
-    map[id||i]=o;
-   });
-   allOdds=map;
+  showDate();
+  $("status").textContent = "⏳ "+dateKey(selectedDate)+" tarihli maçlar yükleniyor...";
+  $("matches").innerHTML = "";
+  try{
+    const key = dateKey(selectedDate);
+    const data = await fetchJson("data/oranlar-"+key+".json");
+    allMatches = Array.isArray(data) ? data :
+      Array.isArray(data.matches) ? data.matches :
+      Array.isArray(data.fixtures) ? data.fixtures :
+      Array.isArray(data.data) ? data.data : [];
+    allOdds = data.odds || data.oranlar || data.markets || {};
+    if(Array.isArray(allOdds)){
+      const map = {};
+      allOdds.forEach((o,i)=>{
+        const id = first(o,["matchId","match_id","eventId","fixtureId","id"]);
+        map[String(id || i)] = o;
+      });
+      allOdds = map;
+    }
+    fillLeagues();
+    renderMatches();
+    $("status").textContent = "✅ "+allMatches.length+" maç bulundu • "+key;
+    if(!allMatches.length){
+      $("status").textContent = "⚠️ Dosya bulundu fakat maç listesi boş.";
+    }
+  }catch(e){
+    allMatches = [];
+    allOdds = {};
+    $("status").innerHTML = '<span class="err">❌ '+esc(e.message)+'</span>';
+    $("matches").innerHTML =
+      '<section class="panel">Bu tarihin JSON dosyası bulunamadı. GitHub deposundaki data/oranlar-'+
+      esc(dateKey(selectedDate))+'.json dosyasını ve Actions çalışmasını kontrol et.</section>';
   }
-  fillLeagues();
-  renderMatches();
-  $("status").textContent="✅ "+allMatches.length+" maç bulundu • "+key;
-  if(!allMatches.length)$("status").textContent="⚠️ Veri dosyası bulundu fakat maç listesi boş.";
- }catch(e){
-  allMatches=[];
-  allOdds={};
-  $("status").innerHTML='<span class="err">❌ '+esc(e.message)+'</span>';
-  $("matches").innerHTML='<section class="panel">Bu tarih için veri dosyası bulunamadı. GitHub deposunda data/oranlar-'+dateKey(selectedDate)+'.json dosyasını kontrol et.</section>';
- }
 }
 function fillLeagues(){
- const sel=$("league"),old=sel.value;
- const names=[...new Set(allMatches.map(leagueName))].sort((a,b)=>a.localeCompare(b,"tr"));
- sel.innerHTML='<option value="">🏆 Tüm Ligler</option>'+names.map(n=>'<option value="'+esc(n)+'">'+esc(n)+'</option>').join("");
- if(names.includes(old))sel.value=old;
+  const sel = $("league"), old = sel.value;
+  const names = [...new Set(allMatches.map(leagueName))].sort((a,b)=>a.localeCompare(b,"tr"));
+  sel.innerHTML = '<option value="">🏆 Tüm Ligler</option>' +
+    names.map(n=>'<option value="'+esc(n)+'">'+esc(n)+'</option>').join("");
+  if(names.includes(old)) sel.value = old;
 }
 function oddsFor(m,i){
- const id=matchId(m,i);
- return allOdds[id]||allOdds[String(m.id??"")]||allOdds[i]||m.odds||m.markets||{};
+  const id = matchId(m,i);
+  return allOdds[id] || allOdds[String(m.id ?? "")] || allOdds[String(i)] || m.odds || m.markets || {};
 }
 function renderMatches(){
- const q=$("search").value.trim().toLocaleLowerCase("tr");
- const lg=$("league").value;
- const list=allMatches.map((m,i)=>({m,i})).filter(({m})=>{
-  const teams=(teamName(m,true)+" "+teamName(m,false)).toLocaleLowerCase("tr");
-  return (!q||teams.includes(q))&&(!lg||leagueName(m)===lg);
- });
- if(!list.length){
-  $("matches").innerHTML='<section class="panel">Bu seçimde maç bulunamadı.</section>';
-  return;
- }
- $("matches").innerHTML=list.map(({m,i})=>card(m,i)).join("");
+  const q = $("search").value.trim().toLocaleLowerCase("tr");
+  const lg = $("league").value;
+  const list = allMatches.map((m,i)=>({m,i})).filter(({m})=>{
+    const teams = (teamName(m,true)+" "+teamName(m,false)).toLocaleLowerCase("tr");
+    return (!q || teams.includes(q)) && (!lg || leagueName(m)===lg);
+  });
+  if(!list.length){
+    $("matches").innerHTML = '<section class="panel">Bu seçimde maç bulunamadı.</section>';
+    return;
+  }
+  $("matches").innerHTML = list.map(({m,i})=>card(m,i)).join("");
 }
 function card(m,i){
- const o=oddsFor(m,i);
- return '<article class="match">'+
- '<div class="leagueName">🏆 '+esc(leagueName(m))+'</div>'+
- '<div class="teams">'+esc(teamName(m,true))+'<br><span style="color:#64748b">VS</span><br>'+esc(teamName(m,false))+'</div>'+
- '<div class="time">🕒 '+esc(matchTime(m))+'</div>'+
- '<div class="odds">'+oddsSummary(o)+'</div>'+
- '<button class="analyseBtn" onclick="analyseMatch('+i+')">📊 Analiz Et</button>'+
- '<div id="analysis-'+i+'"></div></article>';
+  const o = oddsFor(m,i);
+  return '<article class="match">'+
+    '<div class="leagueName">🏆 '+esc(leagueName(m))+'</div>'+
+    '<div class="teams">'+esc(teamName(m,true))+'<br><span style="color:#64748b">VS</span><br>'+esc(teamName(m,false))+'</div>'+
+    '<div class="time">🕒 '+esc(matchTime(m))+'</div>'+
+    '<div class="odds">'+oddsSummary(o)+'</div>'+
+    '<button class="analyseBtn" onclick="analyseMatch('+i+')">📊 Analiz Et</button>'+
+    '<div id="analysis-'+i+'"></div></article>';
 }
-function normalizeMarketName(s){
- return cleanName(s).replace(/macsonucu90dakika/g,"macsonucu");
+
+/* Maçkolik JSON'undaki market adlarını ve oran seçimlerini okur. */
+function marketEntries(o){
+  const out = [];
+  const seen = new Set();
+  function walk(node,path,depth){
+    if(!node || typeof node !== "object" || depth > 5) return;
+    if(Array.isArray(node)){
+      node.forEach(x=>walk(x,path,depth+1));
+      return;
+    }
+    const title = first(node,["marketName","market_name","name","label","title"]) || path;
+    const raw = node.oran ?? node.odd ?? node.odds ?? node.price ?? node.coefficient ?? node.decimal;
+    const selection = first(node,["secenek","selection","outcome","valueName","label","name"]);
+    const odd = Number(String(raw ?? "").replace(",","."));
+    if(selection && Number.isFinite(odd) && odd > 1 && odd < 1000){
+      const k = cleanName(title)+"|"+cleanName(selection)+"|"+odd;
+      if(!seen.has(k)){seen.add(k);out.push({market:title,name:selection,odd});}
+    }
+    for(const [k,v] of Object.entries(node)){
+      if(v && typeof v === "object") walk(v,k,depth+1);
+      else if(typeof v === "string" && /^\d+(?:[.,]\d+)?$/.test(v)){
+        const n = Number(v.replace(",","."));
+        if(n>1 && n<1000 && k !== "id"){
+          const kk = cleanName(path)+"|"+cleanName(k)+"|"+n;
+          if(!seen.has(kk)){seen.add(kk);out.push({market:path,name:k,odd:n});}
+        }
+      }
+    }
+  }
+  walk(o,"",0);
+  return out;
 }
 function marketList(o,aliases){
- const result=[];
- const alias=aliases.map(cleanName);
- function parseValue(v){
-  if(Array.isArray(v)){
-   for(const x of v)parseValue(x);
-   return;
-  }
-  if(!v||typeof v!=="object")return;
-  const nm=first(v,["secenek","name","label","outcome","selection","valueName","type","key","title"]);
-  const oddRaw=v.oran??v.odd??v.odds??v.price??v.coefficient??v.decimal;
-  const odd=Number(String(oddRaw??"").replace(",","."));
-  if(nm&&Number.isFinite(odd)&&odd>1){
-   result.push({name:nm,odd});
-   return;
-  }
-  for(const [k,val] of Object.entries(v)){
-   if(typeof val==="object"){parseValue(val)}
-   else{
-    const n=Number(String(val??"").replace(",","."));
-    if(Number.isFinite(n)&&n>1)result.push({name:k,odd:n});
-   }
-  }
- }
- function walk(obj,depth=0){
-  if(!obj||typeof obj!=="object"||depth>4)return;
-  if(Array.isArray(obj)){obj.forEach(x=>walk(x,depth+1));return}
-  for(const [k,v] of Object.entries(obj)){
-   const title=first(v,["marketName","market_name","name","label","title"])||k;
-   const key=normalizeMarketName(k+" "+title);
-   if(alias.some(a=>key.includes(a)))parseValue(v);
-   if(v&&typeof v==="object")walk(v,depth+1);
-  }
- }
- walk(o);
- const seen=new Set();
- return result.filter(x=>{
-  const k=cleanName(x.name)+":"+x.odd;
-  if(seen.has(k))return false;
-  seen.add(k);return true;
- });
+  const all = marketEntries(o);
+  const keys = aliases.map(cleanName);
+  return all.filter(x=>{
+    const m = cleanName(x.market);
+    return keys.some(k=>m.includes(k));
+  });
+}
+function groupSelections(list){
+  const result = [];
+  const seen = new Set();
+  list.forEach(x=>{
+    const k = cleanName(x.name)+"|"+x.odd;
+    if(!seen.has(k)){seen.add(k);result.push(x);}
+  });
+  return result;
 }
 function oddsSummary(o){
- const ms=marketList(o,["macsonucu","1x2","matchresult","fulltimeresult"]);
- const ou=marketList(o,["toplamgol25","overunder25","overunder25goals","25ustalt"]);
- const bt=marketList(o,["karsilikligol","kgvaryok","bothteamstoscore","btts"]);
- const a=[];
- if(ms.length)a.push("MS: "+ms.map(x=>x.name+" "+x.odd).join(" • "));
- if(ou.length)a.push("2.5 gol: "+ou.map(x=>x.name+" "+x.odd).join(" • "));
- if(bt.length)a.push("KG: "+bt.map(x=>x.name+" "+x.odd).join(" • "));
- return a.length?esc(a.join(" | ")):"Oran verisi bulunamadı; tahmin modelle hesaplanır.";
+  const ms = groupSelections(marketList(o,["macsonucu","1x2","matchresult","fulltimeresult"]));
+  const ou = groupSelections(marketList(o,["toplamgol25","overunder25","25ustalt","overunder25goals"]));
+  const bt = groupSelections(marketList(o,["karsilikligol","kgvaryok","bothteamstoscore","btts"]));
+  const a = [];
+  if(ms.length) a.push("MS: "+ms.map(x=>x.name+" "+x.odd).join(" • "));
+  if(ou.length) a.push("2.5 gol: "+ou.map(x=>x.name+" "+x.odd).join(" • "));
+  if(bt.length) a.push("KG: "+bt.map(x=>x.name+" "+x.odd).join(" • "));
+  return a.length ? esc(a.join(" | ")) : "Görüntülenebilir oran bulunamadı; model tahmini ayrıca hesaplanır.";
 }
 function implied(list){
- const total=list.reduce((s,x)=>s+1/x.odd,0);
- return total?list.map(x=>({name:x.name,p:(1/x.odd)/total})): [];
+  const valid = list.filter(x=>Number.isFinite(x.odd)&&x.odd>1);
+  const sum = valid.reduce((s,x)=>s+1/x.odd,0);
+  return sum ? valid.map(x=>({name:x.name,p:(1/x.odd)/sum,odd:x.odd,market:x.market})) : [];
 }
 function findP(list,names){
- const wanted=names.map(cleanName);
- const x=list.find(v=>wanted.includes(cleanName(v.name)));
- return x?x.p:null;
+  const wanted = names.map(cleanName);
+  const x = list.find(v=>wanted.includes(cleanName(v.name)));
+  return x ? x.p : null;
+}
+function findSelection(list,names){
+  const wanted = names.map(cleanName);
+  return list.find(v=>wanted.includes(cleanName(v.name))) || null;
 }
 function poisson(k,l){
- let p=Math.exp(-l);
- for(let i=1;i<=k;i++)p*=l/i;
- return p;
+  let p = Math.exp(-l);
+  for(let i=1;i<=k;i++) p *= l/i;
+  return p;
+}
+function resultProbabilities(ms){
+  const p = implied(ms);
+  let p1 = findP(p,["1","Ev Sahibi","Home"]);
+  let px = findP(p,["X","Beraberlik","Draw"]);
+  let p2 = findP(p,["2","Deplasman","Away"]);
+  if(p1===null || px===null || p2===null) return null;
+  const sum = p1+px+p2 || 1;
+  return {p1:p1/sum,px:px/sum,p2:p2/sum};
+}
+function overProbability(ou){
+  const p = implied(ou);
+  const over = findP(p,["Üst","Over","2.5 Üst","2,5 Üst","Over 2.5","Over 2,5"]);
+  return over;
 }
 function scoreModel(ms,ou){
- const p=implied(ms);
- let p1=findP(p,["1","Ev Sahibi","Home"]),px=findP(p,["X","Beraberlik","Draw"]),p2=findP(p,["2","Deplasman","Away"]);
- if(p1===null||px===null||p2===null){p1=.43;px=.28;p2=.29}
- const total=p1+px+p2||1;p1/=total;px/=total;p2/=total;
- const op=implied(ou);
- let over=findP(op,["Üst","Over","2.5 Üst","Over 2.5"]);
- if(over===null)over=.52;
- let best={err:Infinity,lh:1.4,la:1.1};
- for(let lh=.3;lh<=3.5;lh+=.1){
-  for(let la=.3;la<=3.5;la+=.1){
-   let h=0,d=0,a=0,ov=0;
-   for(let x=0;x<=7;x++)for(let y=0;y<=7;y++){
-    const z=poisson(x,lh)*poisson(y,la);
-    if(x>y)h+=z;else if(x===y)d+=z;else a+=z;
-    if(x+y>=3)ov+=z;
-   }
-   const err=(h-p1)**2+(d-px)**2+(a-p2)**2+(ov-over)**2;
-   if(err<best.err)best={err,lh,la};
+  const probs = resultProbabilities(ms) || {p1:.43,px:.28,p2:.29};
+  const over = overProbability(ou);
+  const targetOver = over===null ? .52 : over;
+  let best = {err:Infinity,lh:1.35,la:1.05};
+  for(let lh=.3;lh<=3.5;lh+=.1){
+    for(let la=.3;la<=3.5;la+=.1){
+      let h=0,d=0,a=0,ov=0;
+      for(let x=0;x<=8;x++) for(let y=0;y<=8;y++){
+        const z=poisson(x,lh)*poisson(y,la);
+        if(x>y)h+=z; else if(x===y)d+=z; else a+=z;
+        if(x+y>=3)ov+=z;
+      }
+      const err=(h-probs.p1)**2+(d-probs.px)**2+(a-probs.p2)**2+(ov-targetOver)**2;
+      if(err<best.err) best={err,lh,la};
+    }
   }
- }
- return best;
+  return best;
 }
-function scorePredictions(m){
- const out=[];
- for(let h=0;h<=5;h++)for(let a=0;a<=5;a++)out.push({h,a,p:poisson(h,m.lh)*poisson(a,m.la)});
- return out.sort((a,b)=>b.p-a.p);
+function scorePredictions(model){
+  const out=[];
+  for(let h=0;h<=6;h++) for(let a=0;a<=6;a++){
+    out.push({h,a,p:poisson(h,model.lh)*poisson(a,model.la)});
+  }
+  return out.sort((a,b)=>b.p-a.p);
 }
 function bestMarket(o,aliases){
- return implied(marketList(o,aliases)).sort((a,b)=>b.p-a.p)[0]||null;
+  const list = groupSelections(marketList(o,aliases));
+  const p = implied(list).sort((a,b)=>b.p-a.p);
+  return p[0] || null;
 }
 function canonicalIyMs(s){
- const z=cleanName(s).toUpperCase();
- const m=z.match(/([1X2])(?:\/|-)?([1X2])/);
- if(m)return m[1]+"/"+m[2];
- const map={"11":"1/1","XX":"X/X","22":"2/2","1X":"1/X","12":"1/2","X1":"X/1","X2":"X/2","2X":"2/X","21":"2/1"};
- return map[z]||"";
+  const z = String(s).toUpperCase().replace(/\s/g,"");
+  const m = z.match(/([1X2])(?:\/|-)?([1X2])/);
+  if(m) return m[1]+"/"+m[2];
+  const map={"11":"1/1","XX":"X/X","22":"2/2","1X":"1/X","12":"1/2","X1":"X/1","X2":"X/2","2X":"2/X","21":"2/1"};
+  return map[z] || "";
 }
 function calcIyMs(model){
- const out=[];
- for(let h=0;h<=4;h++)for(let a=0;a<=4;a++){
-  const p=poisson(h,model.lh*.45)*poisson(a,model.la*.45);
-  const ht=h>a?"1":h===a?"X":"2";
-  for(let fh=0;fh<=4;fh++)for(let fa=0;fa<=4;fa++){
-   const fp=poisson(fh,model.lh*.55)*poisson(fa,model.la*.55);
-   const ft=h+fh>a+fa?"1":h+fh===a+fa?"X":"2";
-   const name=ht+"/"+ft;
-   const old=out.find(x=>x.name===name);
-   if(old)old.p+=p*fp;else out.push({name,p:p*fp});
+  const out={};
+  for(let h=0;h<=4;h++) for(let a=0;a<=4;a++){
+    const ph=poisson(h,model.lh*.45), pa=poisson(a,model.la*.45);
+    const ht=h>a?"1":h===a?"X":"2";
+    for(let fh=0;fh<=4;fh++) for(let fa=0;fa<=4;fa++){
+      const pfh=poisson(fh,model.lh*.55), pfa=poisson(fa,model.la*.55);
+      const ft=h+fh>a+fa?"1":h+fh===a+fa?"X":"2";
+      const key=ht+"/"+ft;
+      out[key]=(out[key]||0)+ph*pa*pfh*pfa;
+    }
   }
- }
- const sum=out.reduce((s,x)=>s+x.p,0)||1;
- out.forEach(x=>x.p/=sum);
- return out.sort((a,b)=>b.p-a.p);
+  const sum=Object.values(out).reduce((a,b)=>a+b,0)||1;
+  return Object.entries(out).map(([name,p])=>({name,p:p/sum})).sort((a,b)=>b.p-a.p);
 }
 function pct(p){return (100*p).toFixed(1)+"%"}
+function marketOver(list,line){
+  const p=implied(list);
+  const above=p.find(x=>{
+    const n=cleanName(x.name);
+    return (n.includes("ust")||n.includes("over")) && (n.includes(String(line).replace(".","")) || n.includes(String(line).replace(".",",")));
+  });
+  if(above) return above.p;
+  return null;
+}
 function analyseMatch(i){
- const m=allMatches[i],o=oddsFor(m,i);
- const ms=marketList(o,["macsonucu","1x2","matchresult","fulltimeresult"]);
- const ou25=marketList(o,["toplamgol25","overunder25","25ustalt","overunder25goals"]);
- const ou35=marketList(o,["toplamgol35","overunder35","35ustalt","overunder35goals"]);
- const btts=marketList(o,["karsilikligol","kgvaryok","bothteamstoscore","btts"]);
- const ht=marketList(o,["ilkyarisonucu","firsthalfresult","halftimeresult"]);
- const iymsRaw=marketList(o,["iyms","ilk yarimacsonucu","halftimefulltime","halftimefulltimeresult"]);
- const model=scoreModel(ms,ou25);
- const scores=scorePredictions(model);
- const best=scores[0],alt=scores[1];
- const p25=1-[0,1,2].reduce((s,n)=>s+poisson(n,model.lh+model.la),0);
- const p35=1-[0,1,2,3].reduce((s,n)=>s+poisson(n,model.lh+model.la),0);
- const pB=(1-Math.exp(-model.lh))*(1-Math.exp(-model.la));
- let result=bestMarket(o,["macsonucu","1x2","matchresult","fulltimeresult"]);
- if(!result){
-  const h=1-Math.exp(-model.lh),a=1-Math.exp(-model.la);
-  result={name:model.lh>model.la+.35?"1":model.la>model.lh+.35?"2":"X",p:Math.max(h,a)*.55};
- }
- const half=bestMarket(o,["ilkyarisonucu","firsthalfresult","halftimeresult"]);
- let iyms=iymsRaw.map(x=>({name:canonicalIyMs(x.name),p:1/x.odd})).filter(x=>x.name);
- if(iyms.length){
-  const s=iyms.reduce((a,x)=>a+x.p,0)||1;
-  iyms.forEach(x=>x.p/=s);
-  iyms.sort((a,b)=>b.p-a.p);
- }else iyms=calcIyMs(model);
- const corner=bestMarket(o,["toplamkorner","totalscorners","totalcorners","corners"]);
- const cornerText=corner?corner.name+" ("+pct(corner.p)+")":"Oran yok; yaklaşık 8–11 toplam korner beklentisi (düşük güven)";
- $("analysis-"+i).innerHTML=
- '<div class="analysis"><h3>📊 Maç Analizi</h3>'+
- '<div><b>Skor tahmini:</b> '+best.h+" - "+best.a+' <span class="tag">'+pct(best.p)+'</span></div>'+
- '<div><b>Alternatif skor:</b> '+alt.h+" - "+alt.a+'</div>'+
- '<div><b>Maç sonucu:</b> '+esc(result.name)+' <span class="tag">'+pct(result.p)+'</span></div>'+
- '<div><b>İlk yarı sonucu:</b> '+(half?esc(half.name)+" ("+pct(half.p)+")":model.lh>model.la?"1 / X":"X / 2")+'</div>'+
- '<div><b>İlk yarı skor tahmini:</b> '+(model.lh>model.la+.3?"1-0 / 0-0":model.la>model.lh+.3?"0-1 / 0-0":"0-0 / 1-0")+'</div>'+
- '<div><b>İY/MS:</b> '+iyms.slice(0,3).map(x=>'<span class="tag">'+esc(x.name)+' '+pct(x.p)+'</span>').join(" ")+'</div>'+
- '<div><b>2.5 gol:</b> '+(p25>=.5?"ÜST":"ALT")+' • Üst '+pct(p25)+' / Alt '+pct(1-p25)+'</div>'+
- '<div><b>3.5 gol:</b> '+(p35>=.5?"ÜST":"ALT")+' • Üst '+pct(p35)+' / Alt '+pct(1-p35)+'</div>'+
- '<div><b>KG:</b> '+(pB>=.5?"VAR":"YOK")+' • Var '+pct(pB)+' / Yok '+pct(1-pB)+'</div>'+
- '<div><b>Tahmini toplam gol:</b> '+(model.lh+model.la).toFixed(2)+'</div>'+
- '<div><b>Korner analizi:</b> '+esc(cornerText)+'</div>'+
- '<div class="small">Tahminler matematiksel model tahminidir; garanti değildir. Oran bulunmayan pazarlarda olasılıklar modelden hesaplanır.</div></div>';
+  const m=allMatches[i], o=oddsFor(m,i);
+  const ms=groupSelections(marketList(o,["macsonucu","1x2","matchresult","fulltimeresult"]));
+  const ou25=groupSelections(marketList(o,["toplamgol25","overunder25","25ustalt","overunder25goals"]));
+  const ou35=groupSelections(marketList(o,["toplamgol35","overunder35","35ustalt","overunder35goals"]));
+  const btts=groupSelections(marketList(o,["karsilikligol","kgvaryok","bothteamstoscore","btts"]));
+  const ht=bestMarket(o,["ilkyarisonucu","firsthalfresult","halftimeresult"]);
+  const iymsRaw=marketEntries(o).filter(x=>{
+    const n=cleanName(x.market);
+    return n.includes("iyms")||n.includes("ilkyarimacsonucu")||n.includes("halftimefulltime")||n.includes("halftimefulltimeresult");
+  });
+  const model=scoreModel(ms,ou25);
+  const scores=scorePredictions(model);
+  const best=scores[0], alt=scores[1];
+  const total=model.lh+model.la;
+  const p25=1-(poisson(0,total)+poisson(1,total)+poisson(2,total));
+  const p35=1-(poisson(0,total)+poisson(1,total)+poisson(2,total)+poisson(3,total));
+  const pBT=(1-Math.exp(-model.lh))*(1-Math.exp(-model.la));
+  const resultProbs=resultProbabilities(ms);
+  let result = null;
+  if(resultProbs){
+    result=[{name:"1",p:resultProbs.p1},{name:"X",p:resultProbs.px},{name:"2",p:resultProbs.p2}].sort((a,b)=>b.p-a.p)[0];
+  }else{
+    result={name:model.lh>model.la+.35?"1":model.la>model.lh+.35?"2":"X",p:null};
+  }
+  let iyms=iymsRaw.map(x=>({name:canonicalIyMs(x.name),p:1/x.odd})).filter(x=>x.name);
+  if(iyms.length){
+    const sum=iyms.reduce((a,x)=>a+x.p,0)||1;
+    iyms.forEach(x=>x.p/=sum);
+    iyms.sort((a,b)=>b.p-a.p);
+  }else{
+    iyms=calcIyMs(model);
+  }
+  const corners=bestMarket(o,["toplamkorner","totalscorners","totalcorners","corners"]);
+  const cornerText=corners
+    ? esc(corners.name)+" ("+pct(corners.p)+")"
+    : "Yaklaşık 8–11 toplam korner; düşük güven, doğrudan korner verisi bulunamadı.";
+  const homeScore=best.h, awayScore=best.a;
+  const htText=ht ? esc(ht.name)+" ("+pct(ht.p)+")" : (model.lh>model.la+.3?"1 / X":model.la>model.lh+.3?"X / 2":"X");
+  const msText=result.p===null ? esc(result.name)+" (model tahmini)" : esc(result.name)+" ("+pct(result.p)+")";
+  const p35Market=marketOver(ou35,3.5);
+  const p25Market=overProbability(ou25);
+  const bttsVar=findSelection(implied(btts),["Var","Evet","Yes"]);
+  const bttsYok=findSelection(implied(btts),["Yok","Hayır","No"]);
+  const pBTMarket=bttsVar && bttsYok
+    ? bttsVar.p/(bttsVar.p+bttsYok.p)
+    : pBT;
+
+  $("analysis-"+i).innerHTML =
+    '<div class="analysis"><h3>📊 Maç Analizi</h3>'+
+    '<div><b>⚽ Skor tahmini:</b> '+homeScore+' - '+awayScore+' <span class="tag">'+pct(best.p)+'</span></div>'+
+    '<div><b>Alternatif skor:</b> '+alt.h+' - '+alt.a+' ('+pct(alt.p)+')</div>'+
+    '<div><b>Maç sonucu:</b> '+msText+'</div>'+
+    '<div><b>İlk yarı sonucu:</b> '+htText+'</div>'+
+    '<div><b>İlk yarı skor tahmini:</b> '+(model.lh>model.la+.3?"1-0 / 0-0":model.la>model.lh+.3?"0-1 / 0-0":"0-0 / 1-0")+'</div>'+
+    '<div><b>İY/MS tahmini:</b> '+iyms.slice(0,3).map(x=>'<span class="tag">'+esc(x.name)+' '+pct(x.p)+'</span>').join(" ")+'</div>'+
+    '<div><b>2.5 gol:</b> '+(p25>=.5?"ÜST":"ALT")+' • Üst '+pct(p25Market===null?p25:p25Market)+' / Alt '+pct(1-(p25Market===null?p25:p25Market))+'</div>'+
+    '<div><b>3.5 gol:</b> '+(p35>=.5?"ÜST":"ALT")+' • Üst '+pct(p35Market===null?p35:p35Market)+' / Alt '+pct(1-(p35Market===null?p35:p35Market))+'</div>'+
+    '<div><b>KG:</b> '+(pBTMarket>=.5?"VAR":"YOK")+' • Var '+pct(pBTMarket)+' / Yok '+pct(1-pBTMarket)+'</div>'+
+    '<div><b>Tahmini toplam gol:</b> '+total.toFixed(2)+'</div>'+
+    '<div><b>🏳️ Korner analizi:</b> '+cornerText+'</div>'+
+    '<div class="small">Model, mevcut oranlardan ve Poisson gol dağılımından tahmin üretir. Eksik piyasa verileri varsa model varsayımları kullanılır. Hiçbir tahmin kesin sonuç değildir.</div>'+
+    '</div>';
 }
 showDate();
 loadData();
 </script>
 </body>
 </html>
-
