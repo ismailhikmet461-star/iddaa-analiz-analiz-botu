@@ -24,7 +24,7 @@
       "competitionId": "287tckirbfj9nb8ar2k9r60vn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792094281000,
+      "lastUpdated": 1792101510000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -43,50 +43,6 @@
         "away": 0
       },
       "iddaaCode": 3103910,
-      "liveBetting": true
-    },
-    {
-      "id": "64m0t9l6yzkuqkf66i0qioaok",
-      "rbId": null,
-      "matchName": "Santa Fe vs J. De Cordoba",
-      "homeTeam": {
-        "id": "5vtngmqlfpmuntxl9fw683ttc",
-        "name": "Santa Fe",
-        "slug": "santa-fe"
-      },
-      "awayTeam": {
-        "id": "eop1idmqahf7r802e6zqng7rh",
-        "name": "J. De Cordoba",
-        "slug": "j-de-cordoba"
-      },
-      "matchSlug": "santa-fe-vs-j-de-cordoba",
-      "seriesId": null,
-      "stageId": 92307,
-      "formatId": null,
-      "sortOrder": 69,
-      "mstUtc": 1792632000000,
-      "competitionId": "2ty8ihceabty8yddmu31iuuej",
-      "periodId": 16,
-      "periodStart": null,
-      "lastUpdated": 1792094281000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
-      "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
-        "agg": null,
-        "pen": null
-      },
-      "statusBoxContent": null,
-      "winner": null,
-      "advancingTeam": null,
-      "redCards": {
-        "home": 0,
-        "away": 0
-      },
-      "iddaaCode": 3215773,
       "liveBetting": true
     },
     {
@@ -112,7 +68,7 @@
       "competitionId": "c1d9p6b2e9zr5tqlzx3ktjplg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792094281000,
+      "lastUpdated": 1792101510000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +112,7 @@
       "competitionId": "jznihqxle06xych9ygwiwnsa",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792094281000,
+      "lastUpdated": 1792101510000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -175,6 +131,50 @@
         "away": 0
       },
       "iddaaCode": 3042602,
+      "liveBetting": true
+    },
+    {
+      "id": "64m0t9l6yzkuqkf66i0qioaok",
+      "rbId": null,
+      "matchName": "Santa Fe vs J. De Cordoba",
+      "homeTeam": {
+        "id": "5vtngmqlfpmuntxl9fw683ttc",
+        "name": "Santa Fe",
+        "slug": "santa-fe"
+      },
+      "awayTeam": {
+        "id": "eop1idmqahf7r802e6zqng7rh",
+        "name": "J. De Cordoba",
+        "slug": "j-de-cordoba"
+      },
+      "matchSlug": "santa-fe-vs-j-de-cordoba",
+      "seriesId": null,
+      "stageId": 92307,
+      "formatId": null,
+      "sortOrder": 69,
+      "mstUtc": 1792632000000,
+      "competitionId": "2ty8ihceabty8yddmu31iuuej",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792101510000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3215773,
       "liveBetting": true
     },
     {
@@ -200,7 +200,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792094281000,
+      "lastUpdated": 1792101510000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
