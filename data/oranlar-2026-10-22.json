@@ -24,7 +24,7 @@
       "competitionId": "287tckirbfj9nb8ar2k9r60vn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792053137000,
+      "lastUpdated": 1792065809000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792053137000,
+      "lastUpdated": 1792065809000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "c1d9p6b2e9zr5tqlzx3ktjplg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792053137000,
+      "lastUpdated": 1792065809000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -151,12 +151,12 @@
       "seriesId": null,
       "stageId": 91891,
       "formatId": null,
-      "sortOrder": 102,
+      "sortOrder": 103,
       "mstUtc": 1792623600000,
       "competitionId": "jznihqxle06xych9ygwiwnsa",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792053137000,
+      "lastUpdated": 1792065809000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -176,6 +176,50 @@
       },
       "iddaaCode": 3042602,
       "liveBetting": true
+    },
+    {
+      "id": "5wbtgjt3ibpelzemxjn9n3b4k",
+      "rbId": null,
+      "matchName": "Mixco vs Municipal",
+      "homeTeam": {
+        "id": "7zvpa5mvf6mgae5fpqtq573g7",
+        "name": "Mixco",
+        "slug": "mixco"
+      },
+      "awayTeam": {
+        "id": "1dqnqxuom6omgjpr2a17gvhk4",
+        "name": "Municipal",
+        "slug": "municipal"
+      },
+      "matchSlug": "mixco-vs-municipal",
+      "seriesId": null,
+      "stageId": 95408,
+      "formatId": null,
+      "sortOrder": 102,
+      "mstUtc": 1792616400000,
+      "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792065809000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3179536,
+      "liveBetting": false
     }
   ],
   "odds": {}
