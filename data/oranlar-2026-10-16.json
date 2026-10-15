@@ -24,7 +24,7 @@
       "competitionId": "482ofyysbdbeoxauk19yg7tdt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "1r097lpxe0xn03ihb7wi98kao",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "dm5ka0os1e3dxcp3vh05kmp33",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -200,7 +200,7 @@
       "competitionId": "6by3h89i2eykc341oz7lv1ddd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +244,7 @@
       "competitionId": "akmkihra9ruad09ljapsm84b3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -263,6 +263,50 @@
         "away": 0
       },
       "iddaaCode": 3210976,
+      "liveBetting": true
+    },
+    {
+      "id": "89ll4a16aeuh3gyi2gwl8twk4",
+      "rbId": null,
+      "matchName": "Al-Qadsiah vs Abha",
+      "homeTeam": {
+        "id": "90k2kbbkk2cj55yhkivdqn0ym",
+        "name": "Al-Qadsiah",
+        "slug": "al-qadsiah"
+      },
+      "awayTeam": {
+        "id": "d47tf49ishm9qnfd8zyc8wv0j",
+        "name": "Abha",
+        "slug": "abha"
+      },
+      "matchSlug": "al-qadsiah-vs-abha",
+      "seriesId": null,
+      "stageId": 95033,
+      "formatId": null,
+      "sortOrder": 6,
+      "mstUtc": 1792156500000,
+      "competitionId": "ea0h6cf3bhl698hkxhpulh2zz",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3116945,
       "liveBetting": true
     },
     {
@@ -288,7 +332,7 @@
       "competitionId": "59tpnfrwnvhnhzmnvfyug68hj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -332,7 +376,7 @@
       "competitionId": "7ntvbsyq31jnzoqoa8850b9b8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -376,7 +420,7 @@
       "competitionId": "4w7x0s5gfs5abasphlha5de8k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -420,7 +464,7 @@
       "competitionId": "4w7x0s5gfs5abasphlha5de8k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -464,7 +508,7 @@
       "competitionId": "4w7x0s5gfs5abasphlha5de8k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -508,7 +552,7 @@
       "competitionId": "4w7x0s5gfs5abasphlha5de8k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -552,7 +596,7 @@
       "competitionId": "4w7x0s5gfs5abasphlha5de8k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -596,7 +640,7 @@
       "competitionId": "8ey0ww2zsosdmwr8ehsorh6t7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -640,7 +684,7 @@
       "competitionId": "3is4bkgf3loxv9qfg3hm8zfqb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -684,7 +728,7 @@
       "competitionId": "722fdbecxzcq9788l6jqclzlw",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -728,7 +772,7 @@
       "competitionId": "722fdbecxzcq9788l6jqclzlw",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -772,7 +816,7 @@
       "competitionId": "1gwajyt0pk2jm5fx5mu36v114",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -816,7 +860,7 @@
       "competitionId": "1gwajyt0pk2jm5fx5mu36v114",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -860,7 +904,7 @@
       "competitionId": "1gwajyt0pk2jm5fx5mu36v114",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -904,7 +948,7 @@
       "competitionId": "1gwajyt0pk2jm5fx5mu36v114",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -948,7 +992,7 @@
       "competitionId": "5c96g1zm7vo5ons9c42uy2w3r",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -992,7 +1036,7 @@
       "competitionId": "29actv1ohj8r10kd9hu0jnb0n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1012,6 +1056,182 @@
       },
       "iddaaCode": 3211200,
       "liveBetting": true
+    },
+    {
+      "id": "m4cfd79amod5xayk5z9sp89g",
+      "rbId": null,
+      "matchName": "Bohemians vs Waterford",
+      "homeTeam": {
+        "id": "7qeeszxk0dy7hdvml7julotl",
+        "name": "Bohemians",
+        "slug": "bohemians"
+      },
+      "awayTeam": {
+        "id": "1du12fqlr6kjdnrkrao4diwt1",
+        "name": "Waterford",
+        "slug": "waterford"
+      },
+      "matchSlug": "bohemians-vs-waterford",
+      "seriesId": null,
+      "stageId": 91671,
+      "formatId": null,
+      "sortOrder": 24,
+      "mstUtc": 1792176300000,
+      "competitionId": "4mbfidy8zum5u0aqjqo0vuqs2",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210735,
+      "liveBetting": true
+    },
+    {
+      "id": "n5ydjifjmjnafqzzjri8134k",
+      "rbId": null,
+      "matchName": "Drogheda vs Derry City",
+      "homeTeam": {
+        "id": "fd8o1pvys32969sd8d46sycp",
+        "name": "Drogheda",
+        "slug": "drogheda"
+      },
+      "awayTeam": {
+        "id": "90mig1t9vpe2a8ckksz0oo29g",
+        "name": "Derry City",
+        "slug": "derry-city"
+      },
+      "matchSlug": "drogheda-vs-derry-city",
+      "seriesId": null,
+      "stageId": 91671,
+      "formatId": null,
+      "sortOrder": 25,
+      "mstUtc": 1792176300000,
+      "competitionId": "4mbfidy8zum5u0aqjqo0vuqs2",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210937,
+      "liveBetting": true
+    },
+    {
+      "id": "nx1cxljq04933e81eqsaafbo",
+      "rbId": null,
+      "matchName": "Galway Utd vs Shamrock R.",
+      "homeTeam": {
+        "id": "alcqlgraa5a5t57uee3wgy2kd",
+        "name": "Galway Utd",
+        "slug": "galway-utd"
+      },
+      "awayTeam": {
+        "id": "51xekmm31jztuvdliya7idg5d",
+        "name": "Shamrock R.",
+        "slug": "shamrock-r"
+      },
+      "matchSlug": "galway-utd-vs-shamrock-r",
+      "seriesId": null,
+      "stageId": 91671,
+      "formatId": null,
+      "sortOrder": 26,
+      "mstUtc": 1792176300000,
+      "competitionId": "4mbfidy8zum5u0aqjqo0vuqs2",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211056,
+      "liveBetting": true
+    },
+    {
+      "id": "ot4f440u3gd6vb8tez5mtkb8",
+      "rbId": null,
+      "matchName": "St. Patrick's vs Shelbourne",
+      "homeTeam": {
+        "id": "1bb2bbjq1gdsq3qqlh3c6rxs7",
+        "name": "St. Patrick's",
+        "slug": "st-patricks"
+      },
+      "awayTeam": {
+        "id": "7e5odtzvbyx4ubpzwyphao0sv",
+        "name": "Shelbourne",
+        "slug": "shelbourne"
+      },
+      "matchSlug": "st-patricks-vs-shelbourne",
+      "seriesId": null,
+      "stageId": 91671,
+      "formatId": null,
+      "sortOrder": 27,
+      "mstUtc": 1792177200000,
+      "competitionId": "4mbfidy8zum5u0aqjqo0vuqs2",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211009,
+      "liveBetting": false
     },
     {
       "id": "4e0451akfpt8wphhcwc1y47pw",
@@ -1036,7 +1256,7 @@
       "competitionId": "xwnjb1az11zffwty3m6vn8y6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1080,7 +1300,7 @@
       "competitionId": "b60nisd3qn427jm0hrg9kvmab",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1124,7 +1344,7 @@
       "competitionId": "7hl0svs2hg225i2zud0g3xzp2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1168,7 +1388,7 @@
       "competitionId": "7hl0svs2hg225i2zud0g3xzp2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1187,6 +1407,138 @@
         "away": 0
       },
       "iddaaCode": 3216616,
+      "liveBetting": true
+    },
+    {
+      "id": "ew8jpv0uunjrp2guu3nml37kk",
+      "rbId": null,
+      "matchName": "Rad Surdulic vs Radnicki Nis",
+      "homeTeam": {
+        "id": "c3uvbv6uzqxzqqqm7hw86885g",
+        "name": "Rad Surdulic",
+        "slug": "rad-surdulic"
+      },
+      "awayTeam": {
+        "id": "7p4uh0u9hdw8yf80y786lh1sa",
+        "name": "Radnicki Nis",
+        "slug": "radnicki-nis"
+      },
+      "matchSlug": "rad-surdulic-vs-radnicki-nis",
+      "seriesId": null,
+      "stageId": 95306,
+      "formatId": null,
+      "sortOrder": 32,
+      "mstUtc": 1792162800000,
+      "competitionId": "3ww12jab49q8q8mk9avdwjqgk",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3220225,
+      "liveBetting": false
+    },
+    {
+      "id": "8m5yl3l3nyueh4o8yqno04v10",
+      "rbId": null,
+      "matchName": "Henan Songshan vs Tianjin Jinmen",
+      "homeTeam": {
+        "id": "1eaept8dld85s894brcrkrq5p",
+        "name": "Henan Songshan",
+        "slug": "henan-songshan"
+      },
+      "awayTeam": {
+        "id": "di8wvsww8w86i7gr80pbbhsyi",
+        "name": "Tianjin Jinmen",
+        "slug": "tianjin-jinmen"
+      },
+      "matchSlug": "henan-songshan-vs-tianjin-jinmen",
+      "seriesId": null,
+      "stageId": 91920,
+      "formatId": null,
+      "sortOrder": 33,
+      "mstUtc": 1792150500000,
+      "competitionId": "82jkgccg7phfjpd0mltdl3pat",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211053,
+      "liveBetting": true
+    },
+    {
+      "id": "15ru95wfegxiwq0lts71zhtec",
+      "rbId": null,
+      "matchName": "Obolon Kiev vs Veres Rivne",
+      "homeTeam": {
+        "id": "2m7dohr9pm9rruwas5p8w5v6u",
+        "name": "Obolon Kiev",
+        "slug": "obolon-kiev"
+      },
+      "awayTeam": {
+        "id": "93vmx55l1tyvrb8v60qmhsbje",
+        "name": "Veres Rivne",
+        "slug": "veres-rivne"
+      },
+      "matchSlug": "obolon-kiev-vs-veres-rivne",
+      "seriesId": null,
+      "stageId": 95140,
+      "formatId": null,
+      "sortOrder": 34,
+      "mstUtc": 1792144800000,
+      "competitionId": "6wubmo7di3kdpflluf6s8c7vs",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3219358,
       "liveBetting": true
     },
     {
@@ -1212,7 +1564,7 @@
       "competitionId": "89ovpy1rarewwzqvi30bfdr8b",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1256,7 +1608,7 @@
       "competitionId": "89ovpy1rarewwzqvi30bfdr8b",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1300,7 +1652,7 @@
       "competitionId": "6ifaeunfdelecgticvxanikzu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1344,7 +1696,7 @@
       "competitionId": "6ifaeunfdelecgticvxanikzu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1388,7 +1740,7 @@
       "competitionId": "6ifaeunfdelecgticvxanikzu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1432,7 +1784,7 @@
       "competitionId": "581t4mywybx21wcpmpykhyzr3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1476,7 +1828,7 @@
       "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1520,7 +1872,7 @@
       "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1539,6 +1891,226 @@
         "away": 0
       },
       "iddaaCode": 3218101,
+      "liveBetting": true
+    },
+    {
+      "id": "9xkpyhja8dfel45n29wf6xwr8",
+      "rbId": null,
+      "matchName": "Shamakhi vs Safa",
+      "homeTeam": {
+        "id": "5e5ymvn2klzhawjcs18yf8du1",
+        "name": "Shamakhi",
+        "slug": "shamakhi"
+      },
+      "awayTeam": {
+        "id": "a38pi633lyv9cut12rj80p17q",
+        "name": "Safa",
+        "slug": "safa"
+      },
+      "matchSlug": "shamakhi-vs-safa",
+      "seriesId": null,
+      "stageId": 95144,
+      "formatId": null,
+      "sortOrder": 47,
+      "mstUtc": 1792148400000,
+      "competitionId": "3428tckxcirwwh3o3jgc1m8ji",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211177,
+      "liveBetting": false
+    },
+    {
+      "id": "9y8fmd88ytt4psg26ihruqr6c",
+      "rbId": null,
+      "matchName": "Sumgayit vs Araz Nahçıvan",
+      "homeTeam": {
+        "id": "4toevlhgg3kvh24y5b2qob6jy",
+        "name": "Sumgayit",
+        "slug": "sumgayit"
+      },
+      "awayTeam": {
+        "id": "7a2tbo29mvdo54wusbqp6i0wg",
+        "name": "Araz Nahçıvan",
+        "slug": "araz-nah%C3%A7%C4%B1van"
+      },
+      "matchSlug": "sumgayit-vs-araz-nah%C3%A7%C4%B1van",
+      "seriesId": null,
+      "stageId": 95144,
+      "formatId": null,
+      "sortOrder": 48,
+      "mstUtc": 1792162800000,
+      "competitionId": "3428tckxcirwwh3o3jgc1m8ji",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210970,
+      "liveBetting": false
+    },
+    {
+      "id": "33psp08te39dv1b3515ei6wwk",
+      "rbId": null,
+      "matchName": "Al Ahli Doha vs Al Wakrah",
+      "homeTeam": {
+        "id": "1yzrbcem7jruaxh304gxqpzvy",
+        "name": "Al Ahli Doha",
+        "slug": "al-ahli-doha"
+      },
+      "awayTeam": {
+        "id": "c392huxdsfk82c1mvvt2mze6q",
+        "name": "Al Wakrah",
+        "slug": "al-wakrah"
+      },
+      "matchSlug": "al-ahli-doha-vs-al-wakrah",
+      "seriesId": null,
+      "stageId": 93628,
+      "formatId": null,
+      "sortOrder": 50,
+      "mstUtc": 1792161000000,
+      "competitionId": "xaouuwuk8qyhv1libkeexwjh",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210770,
+      "liveBetting": false
+    },
+    {
+      "id": "34115yspp7f2il8yf26vw8b2s",
+      "rbId": null,
+      "matchName": "Al-Shahaniya vs Arabi Doha",
+      "homeTeam": {
+        "id": "cwpjyxfnrkd8q4anxjbhqff5g",
+        "name": "Al-Shahaniya",
+        "slug": "al-shahaniya"
+      },
+      "awayTeam": {
+        "id": "c9hjusvlmejkki3vgutrja2rh",
+        "name": "Arabi Doha",
+        "slug": "arabi-doha"
+      },
+      "matchSlug": "al-shahaniya-vs-arabi-doha",
+      "seriesId": null,
+      "stageId": 93628,
+      "formatId": null,
+      "sortOrder": 51,
+      "mstUtc": 1792169100000,
+      "competitionId": "xaouuwuk8qyhv1libkeexwjh",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211406,
+      "liveBetting": false
+    },
+    {
+      "id": "cs2e94tidh8skgixyiiak1mvo",
+      "rbId": null,
+      "matchName": "Larne vs Coleraine",
+      "homeTeam": {
+        "id": "1hg5ttq2rjlbm4t1qgh4o3jnw",
+        "name": "Larne",
+        "slug": "larne"
+      },
+      "awayTeam": {
+        "id": "bo2mfvxkf0m8xmh03xh1hv3db",
+        "name": "Coleraine",
+        "slug": "coleraine"
+      },
+      "matchSlug": "larne-vs-coleraine",
+      "seriesId": null,
+      "stageId": 94137,
+      "formatId": null,
+      "sortOrder": 52,
+      "mstUtc": 1792176300000,
+      "competitionId": "75i269i1ak43magshljadydrh",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3217924,
       "liveBetting": true
     },
     {
@@ -1564,7 +2136,7 @@
       "competitionId": "dkarmrybx9vx10rg7cywumth0",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1584,6 +2156,226 @@
       },
       "iddaaCode": 3210749,
       "liveBetting": true
+    },
+    {
+      "id": "9li9z9j43gpwykz1rsq73t6ok",
+      "rbId": null,
+      "matchName": "Olympique Akbou vs ES Ben Aknoun",
+      "homeTeam": {
+        "id": "83r92ut8bmai79ejpgl3uu5pm",
+        "name": "Olympique Akbou",
+        "slug": "olympique-akbou"
+      },
+      "awayTeam": {
+        "id": "3zlmduyj7rvsew1s6x2myjwzv",
+        "name": "ES Ben Aknoun",
+        "slug": "es-ben-aknoun"
+      },
+      "matchSlug": "olympique-akbou-vs-es-ben-aknoun",
+      "seriesId": null,
+      "stageId": 96131,
+      "formatId": null,
+      "sortOrder": 54,
+      "mstUtc": 1792161000000,
+      "competitionId": "57nu0wygurzkp6fuy5hhrtaa2",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3266384,
+      "liveBetting": true
+    },
+    {
+      "id": "1lu4oerqdz5maz39qhenfzsic",
+      "rbId": null,
+      "matchName": "Al Dhafra vs Dubai",
+      "homeTeam": {
+        "id": "9wkvmovbahy9zam7zzp70pv7s",
+        "name": "Al Dhafra",
+        "slug": "al-dhafra"
+      },
+      "awayTeam": {
+        "id": "bpcx1mb1xyi7zitu1w7guh5w4",
+        "name": "Dubai",
+        "slug": "dubai"
+      },
+      "matchSlug": "al-dhafra-vs-dubai",
+      "seriesId": null,
+      "stageId": 94413,
+      "formatId": null,
+      "sortOrder": 55,
+      "mstUtc": 1792155900000,
+      "competitionId": "f39uq10c8xhg5e6rwwcf6lhgc",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3229827,
+      "liveBetting": false
+    },
+    {
+      "id": "1m4fyvpppoj9t7i6lshx590yc",
+      "rbId": null,
+      "matchName": "Baniyas vs Al Wasl",
+      "homeTeam": {
+        "id": "853tk9c9zgvx9duqwwov2wf2m",
+        "name": "Baniyas",
+        "slug": "baniyas"
+      },
+      "awayTeam": {
+        "id": "empa4tz5zgtsetckdys3k916m",
+        "name": "Al Wasl",
+        "slug": "al-wasl"
+      },
+      "matchSlug": "baniyas-vs-al-wasl",
+      "seriesId": null,
+      "stageId": 94413,
+      "formatId": null,
+      "sortOrder": 56,
+      "mstUtc": 1792165500000,
+      "competitionId": "f39uq10c8xhg5e6rwwcf6lhgc",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3229835,
+      "liveBetting": true
+    },
+    {
+      "id": "49xoo7loy4q8y385qih8s0o44",
+      "rbId": null,
+      "matchName": "APR vs El Zamalek",
+      "homeTeam": {
+        "id": "9cg3bcpcoxz5ipcx7atcnxcgc",
+        "name": "APR",
+        "slug": "apr"
+      },
+      "awayTeam": {
+        "id": "2c1lvho9eqtqfqf4t3cv0f237",
+        "name": "El Zamalek",
+        "slug": "el-zamalek"
+      },
+      "matchSlug": "apr-vs-el-zamalek",
+      "seriesId": null,
+      "stageId": 95122,
+      "formatId": null,
+      "sortOrder": 58,
+      "mstUtc": 1792166400000,
+      "competitionId": "cse5oqqt2pzfcy8uz6yz3tkbj",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3229838,
+      "liveBetting": false
+    },
+    {
+      "id": "dbnhay9nq2289powe1eyig7x0",
+      "rbId": null,
+      "matchName": "ZED vs Azam",
+      "homeTeam": {
+        "id": "7x64g9rxb1npef8weblrwr312",
+        "name": "ZED",
+        "slug": "zed"
+      },
+      "awayTeam": {
+        "id": "8tckb0ww3fnddmvsdo5f1l5y7",
+        "name": "Azam",
+        "slug": "azam"
+      },
+      "matchSlug": "zed-vs-azam",
+      "seriesId": null,
+      "stageId": 94433,
+      "formatId": null,
+      "sortOrder": 61,
+      "mstUtc": 1792170000000,
+      "competitionId": "bx57cmq1edfq53ckfk791supi",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3268899,
+      "liveBetting": false
     },
     {
       "id": "d23bfa3xs57kfdrujl26lr6dw",
@@ -1608,7 +2400,7 @@
       "competitionId": "47s2kt0e8m444ftqvsrqa3bvq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1652,7 +2444,7 @@
       "competitionId": "1b70m6qtxrp75b4vtk8hxh8c3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1696,7 +2488,7 @@
       "competitionId": "8t2o4huu2e48ij23dxnl9w5qx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1715,6 +2507,94 @@
         "away": 0
       },
       "iddaaCode": 3217726,
+      "liveBetting": false
+    },
+    {
+      "id": "8it8vrl4mqki07gvb4zzinnro",
+      "rbId": null,
+      "matchName": "Freiburg (K) vs RB Leipzig (K)",
+      "homeTeam": {
+        "id": "6yhza3xbfafj5c9897mbkbudn",
+        "name": "Freiburg (K)",
+        "slug": "freiburg-k"
+      },
+      "awayTeam": {
+        "id": "3jv3r7dd46nx6cnmpqq9d4x9m",
+        "name": "RB Leipzig (K)",
+        "slug": "rb-leipzig-k"
+      },
+      "matchSlug": "freiburg-k-vs-rb-leipzig-k",
+      "seriesId": null,
+      "stageId": 94536,
+      "formatId": null,
+      "sortOrder": 66,
+      "mstUtc": 1792168200000,
+      "competitionId": "2z7257m7hj58zuxcjrsg4erzc",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3216063,
+      "liveBetting": false
+    },
+    {
+      "id": "289ysat6x79i5cq6yrj4nnlzo",
+      "rbId": null,
+      "matchName": "Aluminij vs O. Ljubljana",
+      "homeTeam": {
+        "id": "etiok6l4bubrxpx7k1q0k40z9",
+        "name": "Aluminij",
+        "slug": "aluminij"
+      },
+      "awayTeam": {
+        "id": "75ajd08kvi4wwfua0u1a1qa1q",
+        "name": "O. Ljubljana",
+        "slug": "o-ljubljana"
+      },
+      "matchSlug": "aluminij-vs-o-ljubljana",
+      "seriesId": null,
+      "stageId": 95060,
+      "formatId": null,
+      "sortOrder": 67,
+      "mstUtc": 1792164600000,
+      "competitionId": "7nmz249q89qg5ezcvzlheljji",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3216144,
       "liveBetting": false
     },
     {
@@ -1740,7 +2620,7 @@
       "competitionId": "bpo885893xeevnzypvifeaqru",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1784,7 +2664,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1828,7 +2708,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1872,7 +2752,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1916,7 +2796,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1960,7 +2840,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2004,7 +2884,7 @@
       "competitionId": "ddyrh5latwfhesgfh4w401n92",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2024,6 +2904,226 @@
       },
       "iddaaCode": 3210751,
       "liveBetting": false
+    },
+    {
+      "id": "3n1swfp1lsdicdiydkb2wnfh0",
+      "rbId": null,
+      "matchName": "Finn Harps vs Bray Wand.",
+      "homeTeam": {
+        "id": "14ktl175pk60elrteaj2xroe4",
+        "name": "Finn Harps",
+        "slug": "finn-harps"
+      },
+      "awayTeam": {
+        "id": "5y31fsjcm3hgzqetatzjc1u59",
+        "name": "Bray Wand.",
+        "slug": "bray-wand"
+      },
+      "matchSlug": "finn-harps-vs-bray-wand",
+      "seriesId": null,
+      "stageId": 91689,
+      "formatId": null,
+      "sortOrder": 75,
+      "mstUtc": 1792176300000,
+      "competitionId": "7cwemnr3vi40znjq451zxkus6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211343,
+      "liveBetting": true
+    },
+    {
+      "id": "3nq6d1xiszonieqn7917fsutw",
+      "rbId": null,
+      "matchName": "Kerry vs Cork City",
+      "homeTeam": {
+        "id": "wgbjm7ca1px00l1vwsoa1wr8",
+        "name": "Kerry",
+        "slug": "kerry"
+      },
+      "awayTeam": {
+        "id": "vgupememz87beb89669u7si0",
+        "name": "Cork City",
+        "slug": "cork-city"
+      },
+      "matchSlug": "kerry-vs-cork-city",
+      "seriesId": null,
+      "stageId": 91689,
+      "formatId": null,
+      "sortOrder": 76,
+      "mstUtc": 1792176300000,
+      "competitionId": "7cwemnr3vi40znjq451zxkus6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211138,
+      "liveBetting": false
+    },
+    {
+      "id": "3oeweo787amch9osii3aneck4",
+      "rbId": null,
+      "matchName": "Longford vs Athlone",
+      "homeTeam": {
+        "id": "c8s9yfekymbmfdgjecxqdp19c",
+        "name": "Longford",
+        "slug": "longford"
+      },
+      "awayTeam": {
+        "id": "16cg5i09k0hcr6240nljv2ap2",
+        "name": "Athlone",
+        "slug": "athlone"
+      },
+      "matchSlug": "longford-vs-athlone",
+      "seriesId": null,
+      "stageId": 91689,
+      "formatId": null,
+      "sortOrder": 77,
+      "mstUtc": 1792176300000,
+      "competitionId": "7cwemnr3vi40znjq451zxkus6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211245,
+      "liveBetting": true
+    },
+    {
+      "id": "3p2r2tqj1gjfly6docnaauec4",
+      "rbId": null,
+      "matchName": "Treaty Utd vs Cobh Ramblers",
+      "homeTeam": {
+        "id": "1c1j9qk8e75fvowxil01el6hg",
+        "name": "Treaty Utd",
+        "slug": "treaty-utd"
+      },
+      "awayTeam": {
+        "id": "dfh3iy982najxg75apyg6ku8o",
+        "name": "Cobh Ramblers",
+        "slug": "cobh-ramblers"
+      },
+      "matchSlug": "treaty-utd-vs-cobh-ramblers",
+      "seriesId": null,
+      "stageId": 91689,
+      "formatId": null,
+      "sortOrder": 78,
+      "mstUtc": 1792176300000,
+      "competitionId": "7cwemnr3vi40znjq451zxkus6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210786,
+      "liveBetting": false
+    },
+    {
+      "id": "3ppnlw0i0r8f21625xlrqyi38",
+      "rbId": null,
+      "matchName": "Wexford vs Col. Dublin",
+      "homeTeam": {
+        "id": "2bw88ie8twd3nqsw0w48hn2y",
+        "name": "Wexford",
+        "slug": "wexford"
+      },
+      "awayTeam": {
+        "id": "3qw5h34mpdb9ipwl38v2h387n",
+        "name": "Col. Dublin",
+        "slug": "col-dublin"
+      },
+      "matchSlug": "wexford-vs-col-dublin",
+      "seriesId": null,
+      "stageId": 91689,
+      "formatId": null,
+      "sortOrder": 79,
+      "mstUtc": 1792176300000,
+      "competitionId": "7cwemnr3vi40znjq451zxkus6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210847,
+      "liveBetting": true
     },
     {
       "id": "e15fd529ujfrg3wbzk0l2qrys",
@@ -2048,7 +3148,7 @@
       "competitionId": "8dn0w8zh7nbn2i904603eigwf",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2092,7 +3192,7 @@
       "competitionId": "8dn0w8zh7nbn2i904603eigwf",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2136,7 +3236,7 @@
       "competitionId": "a7247po5qs29o3zsfmt222ydu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2180,7 +3280,7 @@
       "competitionId": "a7247po5qs29o3zsfmt222ydu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2224,7 +3324,7 @@
       "competitionId": "a7247po5qs29o3zsfmt222ydu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2268,7 +3368,7 @@
       "competitionId": "a7247po5qs29o3zsfmt222ydu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2288,6 +3388,182 @@
       },
       "iddaaCode": 3211244,
       "liveBetting": true
+    },
+    {
+      "id": "5xuq12riil87pnahgz0fwa8lw",
+      "rbId": null,
+      "matchName": "L. Mikulas vs Banik Lehota",
+      "homeTeam": {
+        "id": "2u5zd27nzwemgeymdjv6kjdbt",
+        "name": "L. Mikulas",
+        "slug": "l-mikulas"
+      },
+      "awayTeam": {
+        "id": "7yax9dzk21w6sd6cw4mklxylm",
+        "name": "Banik Lehota",
+        "slug": "banik-lehota"
+      },
+      "matchSlug": "l-mikulas-vs-banik-lehota",
+      "seriesId": null,
+      "stageId": 94372,
+      "formatId": null,
+      "sortOrder": 87,
+      "mstUtc": 1792162800000,
+      "competitionId": "4qehj8hfxmy6o2ohp4fxinnzo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210952,
+      "liveBetting": false
+    },
+    {
+      "id": "5xiwzr6dhshq0k7f2gpik9z4k",
+      "rbId": null,
+      "matchName": "Pohronie vs Malzenice",
+      "homeTeam": {
+        "id": "9usw4l49z24dd4rodwfgxirsw",
+        "name": "Pohronie",
+        "slug": "pohronie"
+      },
+      "awayTeam": {
+        "id": "dhvlpvaxrgwu168fel1edttrd",
+        "name": "Malzenice",
+        "slug": "malzenice"
+      },
+      "matchSlug": "pohronie-vs-malzenice",
+      "seriesId": null,
+      "stageId": 94372,
+      "formatId": null,
+      "sortOrder": 88,
+      "mstUtc": 1792162800000,
+      "competitionId": "4qehj8hfxmy6o2ohp4fxinnzo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210999,
+      "liveBetting": false
+    },
+    {
+      "id": "9nro1braqqqdhh6f9wea25y50",
+      "rbId": null,
+      "matchName": "NK Ilirija vs Tabor Sezana",
+      "homeTeam": {
+        "id": "2o2aidytyjty706ku9cquis45",
+        "name": "NK Ilirija",
+        "slug": "nk-ilirija"
+      },
+      "awayTeam": {
+        "id": "b90pz5u38dc6s9r95kndiwjfg",
+        "name": "Tabor Sezana",
+        "slug": "tabor-sezana"
+      },
+      "matchSlug": "nk-ilirija-vs-tabor-sezana",
+      "seriesId": null,
+      "stageId": 95027,
+      "formatId": null,
+      "sortOrder": 89,
+      "mstUtc": 1792157400000,
+      "competitionId": "5aw6uyw4pz2bpj24t5z8aacim",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3219420,
+      "liveBetting": false
+    },
+    {
+      "id": "9os8szspq8z3cmljqi248u9zo",
+      "rbId": null,
+      "matchName": "Triglav vs Jadran Dekani",
+      "homeTeam": {
+        "id": "di4tn9c5vzkdxofvjzb8hsmrq",
+        "name": "Triglav",
+        "slug": "triglav"
+      },
+      "awayTeam": {
+        "id": "2tqej7va4vah8l89g0izl0ylw",
+        "name": "Jadran Dekani",
+        "slug": "jadran-dekani"
+      },
+      "matchSlug": "triglav-vs-jadran-dekani",
+      "seriesId": null,
+      "stageId": 95027,
+      "formatId": null,
+      "sortOrder": 91,
+      "mstUtc": 1792166400000,
+      "competitionId": "5aw6uyw4pz2bpj24t5z8aacim",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3219374,
+      "liveBetting": false
     },
     {
       "id": "e4z436t1fqqznafr68h6ovzmc",
@@ -2312,7 +3588,7 @@
       "competitionId": "byhmntnl1b4lxw0zz21im3zkd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2331,6 +3607,138 @@
         "away": 0
       },
       "iddaaCode": 3300876,
+      "liveBetting": true
+    },
+    {
+      "id": "a8so6ya0oe1jmvati9f1socno",
+      "rbId": null,
+      "matchName": "Sport Huancayo vs Cusco",
+      "homeTeam": {
+        "id": "2nxv26lte0qnw9jcnmec716gc",
+        "name": "Sport Huancayo",
+        "slug": "sport-huancayo"
+      },
+      "awayTeam": {
+        "id": "5c5d19bkze3zaw4900a9hoy6q",
+        "name": "Cusco",
+        "slug": "cusco"
+      },
+      "matchSlug": "sport-huancayo-vs-cusco",
+      "seriesId": null,
+      "stageId": 92494,
+      "formatId": null,
+      "sortOrder": 95,
+      "mstUtc": 1792173600000,
+      "competitionId": "a9vrdkelbgif0gtu3wxsr75xo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211414,
+      "liveBetting": true
+    },
+    {
+      "id": "a94lax9hu1da5zr6fmrlos5ck",
+      "rbId": null,
+      "matchName": "Cultural San vs ADT",
+      "homeTeam": {
+        "id": "9zqcq0fvjzk6p7babc4gkhm9y",
+        "name": "Cultural San",
+        "slug": "cultural-san"
+      },
+      "awayTeam": {
+        "id": "epxzffx8xjaqx36qdjqm2n5zh",
+        "name": "ADT",
+        "slug": "adt"
+      },
+      "matchSlug": "cultural-san-vs-adt",
+      "seriesId": null,
+      "stageId": 92494,
+      "formatId": null,
+      "sortOrder": 96,
+      "mstUtc": 1792182600000,
+      "competitionId": "a9vrdkelbgif0gtu3wxsr75xo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211195,
+      "liveBetting": true
+    },
+    {
+      "id": "3vgbj0ahevpogfo5hdup4l8gk",
+      "rbId": null,
+      "matchName": "CD Cuenca vs Universitario",
+      "homeTeam": {
+        "id": "6gcr0sc8ei7umo38l346y7n7",
+        "name": "CD Cuenca",
+        "slug": "cd-cuenca"
+      },
+      "awayTeam": {
+        "id": "ejshnwzjsikkdhm6ynf40xik5",
+        "name": "Universitario",
+        "slug": "universitario"
+      },
+      "matchSlug": "cd-cuenca-vs-universitario",
+      "seriesId": null,
+      "stageId": 92555,
+      "formatId": null,
+      "sortOrder": 97,
+      "mstUtc": 1792182600000,
+      "competitionId": "6lwpjhktjhl9g7x2w7njmzva6",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3234689,
       "liveBetting": true
     },
     {
@@ -2356,7 +3764,7 @@
       "competitionId": "9r3u0jtuznun4k2ydy39m1sve",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2376,6 +3784,358 @@
       },
       "iddaaCode": 3295565,
       "liveBetting": true
+    },
+    {
+      "id": "v7jxthsjpf3tsnjmzbavpw5w",
+      "rbId": null,
+      "matchName": "ABB vs Real Potosi",
+      "homeTeam": {
+        "id": "e9d9hqcad8iq0ujm2g86sscug",
+        "name": "ABB",
+        "slug": "abb"
+      },
+      "awayTeam": {
+        "id": "cb4x5832dxmhckrl8ssztjl66",
+        "name": "Real Potosi",
+        "slug": "real-potosi"
+      },
+      "matchSlug": "abb-vs-real-potosi",
+      "seriesId": null,
+      "stageId": 92511,
+      "formatId": null,
+      "sortOrder": 99,
+      "mstUtc": 1792177200000,
+      "competitionId": "alpfd99yd3lfv7bhjo0biuq7b",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3290690,
+      "liveBetting": false
+    },
+    {
+      "id": "8rfv21klreunsui6ld1tvisyc",
+      "rbId": null,
+      "matchName": "Dinamo Tirana vs Teuta",
+      "homeTeam": {
+        "id": "80w98a04tq1cwg3ucxsrxb6sm",
+        "name": "Dinamo Tirana",
+        "slug": "dinamo-tirana"
+      },
+      "awayTeam": {
+        "id": "aw5gzu43v8rc0j0puidwc93x7",
+        "name": "Teuta",
+        "slug": "teuta"
+      },
+      "matchSlug": "dinamo-tirana-vs-teuta",
+      "seriesId": null,
+      "stageId": 95814,
+      "formatId": null,
+      "sortOrder": 100,
+      "mstUtc": 1792168200000,
+      "competitionId": "1zcp6rnjil25rnsv1ttcz3dhx",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3219885,
+      "liveBetting": false
+    },
+    {
+      "id": "9albdj4rdbu3smhcsul5y1xjo",
+      "rbId": null,
+      "matchName": "A'Ali vs Sitra",
+      "homeTeam": {
+        "id": "34ls1l4jpl7acwgb4tyd5dxxw",
+        "name": "A'Ali",
+        "slug": "aali"
+      },
+      "awayTeam": {
+        "id": "8rcb9dybsrku80w83cf4elmrf",
+        "name": "Sitra",
+        "slug": "sitra"
+      },
+      "matchSlug": "aali-vs-sitra",
+      "seriesId": null,
+      "stageId": 94424,
+      "formatId": null,
+      "sortOrder": 102,
+      "mstUtc": 1792166400000,
+      "competitionId": "82wo38rqeizxlfjjhfjy4rx7u",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3273951,
+      "liveBetting": true
+    },
+    {
+      "id": "9add8gtp7psbimlrft6etqluc",
+      "rbId": null,
+      "matchName": "Al Ittifaq vs Manama",
+      "homeTeam": {
+        "id": "5wmqgi88s40wne5ntznmauo3b",
+        "name": "Al Ittifaq",
+        "slug": "al-ittifaq"
+      },
+      "awayTeam": {
+        "id": "1cv9gtdo9jbut2z6og3jyyj7p",
+        "name": "Manama",
+        "slug": "manama"
+      },
+      "matchSlug": "al-ittifaq-vs-manama",
+      "seriesId": null,
+      "stageId": 94424,
+      "formatId": null,
+      "sortOrder": 103,
+      "mstUtc": 1792166400000,
+      "competitionId": "82wo38rqeizxlfjjhfjy4rx7u",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3273980,
+      "liveBetting": true
+    },
+    {
+      "id": "apxyinlos8b2shm4ej0vpeo0k",
+      "rbId": null,
+      "matchName": "Ayutthaya Utd vs Lamphun",
+      "homeTeam": {
+        "id": "7axwt60886xgsqh8gsco5lwk9",
+        "name": "Ayutthaya Utd",
+        "slug": "ayutthaya-utd"
+      },
+      "awayTeam": {
+        "id": "5h1qevpp1fftczcgcotyrtfut",
+        "name": "Lamphun",
+        "slug": "lamphun"
+      },
+      "matchSlug": "ayutthaya-utd-vs-lamphun",
+      "seriesId": null,
+      "stageId": 94065,
+      "formatId": null,
+      "sortOrder": 112,
+      "mstUtc": 1792152000000,
+      "competitionId": "iu1vi94p4p28oozl1h9bvplr",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210833,
+      "liveBetting": false
+    },
+    {
+      "id": "91p7alaphjyyt3yooa9rej47o",
+      "rbId": null,
+      "matchName": "SC Delhi vs Mohun Bagan",
+      "homeTeam": {
+        "id": "ik3gtwishjv7mowbn9u42fbo",
+        "name": "SC Delhi",
+        "slug": "sc-delhi"
+      },
+      "awayTeam": {
+        "id": "9xb6v8osxty9w0mel2x7dd4ru",
+        "name": "Mohun Bagan",
+        "slug": "mohun-bagan"
+      },
+      "matchSlug": "sc-delhi-vs-mohun-bagan",
+      "seriesId": null,
+      "stageId": 95110,
+      "formatId": null,
+      "sortOrder": 113,
+      "mstUtc": 1792159200000,
+      "competitionId": "3oa9e03e7w9nr8kqwqc3tlqz9",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3273981,
+      "liveBetting": false
+    },
+    {
+      "id": "otwwihc8n9xhsrjw1zh7mj9w",
+      "rbId": null,
+      "matchName": "Doqarah vs Al Jazeera",
+      "homeTeam": {
+        "id": "atxqdh4bp5pms3yzanrzj2rdg",
+        "name": "Doqarah",
+        "slug": "doqarah"
+      },
+      "awayTeam": {
+        "id": "3x5y02bd9lg3yntitu58953y0",
+        "name": "Al Jazeera",
+        "slug": "al-jazeera"
+      },
+      "matchSlug": "doqarah-vs-al-jazeera",
+      "seriesId": null,
+      "stageId": 93976,
+      "formatId": null,
+      "sortOrder": 115,
+      "mstUtc": 1792159200000,
+      "competitionId": "145hkd59i6foieuwr4mwi6wlq",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3282280,
+      "liveBetting": false
+    },
+    {
+      "id": "p1jn7y3syg3lvzuzcyf636l0",
+      "rbId": null,
+      "matchName": "Al-Baqaa vs AL Salt",
+      "homeTeam": {
+        "id": "b2ulc9myzi352coskhw85vwyr",
+        "name": "Al-Baqaa",
+        "slug": "al-baqaa"
+      },
+      "awayTeam": {
+        "id": "8u2wvlnw6mm3qol9qkw4km9vj",
+        "name": "AL Salt",
+        "slug": "al-salt"
+      },
+      "matchSlug": "al-baqaa-vs-al-salt",
+      "seriesId": null,
+      "stageId": 93976,
+      "formatId": null,
+      "sortOrder": 116,
+      "mstUtc": 1792168200000,
+      "competitionId": "145hkd59i6foieuwr4mwi6wlq",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3282276,
+      "liveBetting": false
     },
     {
       "id": "170ka3t30h5ud6ubnpaliwhec",
@@ -2400,7 +4160,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2444,7 +4204,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2488,7 +4248,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2532,7 +4292,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2551,6 +4311,50 @@
         "away": 0
       },
       "iddaaCode": 3210971,
+      "liveBetting": false
+    },
+    {
+      "id": "byzyctwimoty9qhyvvoszhnv8",
+      "rbId": null,
+      "matchName": "Sloga Doboj vs Siroki Brije",
+      "homeTeam": {
+        "id": "daa6q5v7gmscctw0niodzjrl9",
+        "name": "Sloga Doboj",
+        "slug": "sloga-doboj"
+      },
+      "awayTeam": {
+        "id": "evg8s568ahyh2t9qub0yad8ye",
+        "name": "Siroki Brije",
+        "slug": "siroki-brije"
+      },
+      "matchSlug": "sloga-doboj-vs-siroki-brije",
+      "seriesId": null,
+      "stageId": 95392,
+      "formatId": null,
+      "sortOrder": 143,
+      "mstUtc": 1792166400000,
+      "competitionId": "4yngyfinzd6bb1k7anqtqs0wt",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3315436,
       "liveBetting": false
     },
     {
@@ -2576,7 +4380,7 @@
       "competitionId": "8vbck9a4mxjms783lf72779uu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2595,6 +4399,534 @@
         "away": 0
       },
       "iddaaCode": 3211275,
+      "liveBetting": false
+    },
+    {
+      "id": "61ume543r3qhm6bg6dus9jqj8",
+      "rbId": null,
+      "matchName": "Be1 NFA vs Neptuna",
+      "homeTeam": {
+        "id": "71bh3uwi5kd146cejwsit35zo",
+        "name": "Be1 NFA",
+        "slug": "be1-nfa"
+      },
+      "awayTeam": {
+        "id": "1a9eyviytp8k2lb1px1h55xm2",
+        "name": "Neptuna",
+        "slug": "neptuna"
+      },
+      "matchSlug": "be1-nfa-vs-neptuna",
+      "seriesId": null,
+      "stageId": 91728,
+      "formatId": null,
+      "sortOrder": 148,
+      "mstUtc": 1792161000000,
+      "competitionId": "7qf0jaayyxy3ruamsexv5p1kl",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210860,
+      "liveBetting": false
+    },
+    {
+      "id": "62iseonibgbv4w39sp9ccqaz8",
+      "rbId": null,
+      "matchName": "Ekranas vs Dfk Dainava",
+      "homeTeam": {
+        "id": "cdvmy1xds7o3kekcwzz5j09ec",
+        "name": "Ekranas",
+        "slug": "ekranas"
+      },
+      "awayTeam": {
+        "id": "1j806wfq29p6rmwwtgziq3qzl",
+        "name": "Dfk Dainava",
+        "slug": "dfk-dainava"
+      },
+      "matchSlug": "ekranas-vs-dfk-dainava",
+      "seriesId": null,
+      "stageId": 91728,
+      "formatId": null,
+      "sortOrder": 149,
+      "mstUtc": 1792166400000,
+      "competitionId": "7qf0jaayyxy3ruamsexv5p1kl",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210920,
+      "liveBetting": false
+    },
+    {
+      "id": "636uc3apk4vve86zloaazc9hw",
+      "rbId": null,
+      "matchName": "FK Jonava vs BFA",
+      "homeTeam": {
+        "id": "69px0b1bv7slkwum4o2x3uwso",
+        "name": "FK Jonava",
+        "slug": "fk-jonava"
+      },
+      "awayTeam": {
+        "id": "2i5cdgp119vg7ka9w69hnxxey",
+        "name": "BFA",
+        "slug": "bfa"
+      },
+      "matchSlug": "fk-jonava-vs-bfa",
+      "seriesId": null,
+      "stageId": 91728,
+      "formatId": null,
+      "sortOrder": 150,
+      "mstUtc": 1792166400000,
+      "competitionId": "7qf0jaayyxy3ruamsexv5p1kl",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210802,
+      "liveBetting": false
+    },
+    {
+      "id": "626o4kd4qycml7415tiju1wr8",
+      "rbId": null,
+      "matchName": "FK Kauno II vs TransINVEST",
+      "homeTeam": {
+        "id": "84dy79g1q7alerh595p25zl2i",
+        "name": "FK Kauno II",
+        "slug": "fk-kauno-ii"
+      },
+      "awayTeam": {
+        "id": "425h0n768qg9firwsksbs0il0",
+        "name": "TransINVEST",
+        "slug": "transinvest"
+      },
+      "matchSlug": "fk-kauno-ii-vs-transinvest",
+      "seriesId": null,
+      "stageId": 91728,
+      "formatId": null,
+      "sortOrder": 151,
+      "mstUtc": 1792166400000,
+      "competitionId": "7qf0jaayyxy3ruamsexv5p1kl",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211281,
+      "liveBetting": false
+    },
+    {
+      "id": "62uvu8t4814g0bjqplpgu2l90",
+      "rbId": null,
+      "matchName": "Hegelmann vs Tauras",
+      "homeTeam": {
+        "id": "6wqb1ejpas0vfhcdwrwwsyzv8",
+        "name": "Hegelmann",
+        "slug": "hegelmann"
+      },
+      "awayTeam": {
+        "id": "ble7jpbigastz2srm37oyrdcj",
+        "name": "Tauras",
+        "slug": "tauras"
+      },
+      "matchSlug": "hegelmann-vs-tauras",
+      "seriesId": null,
+      "stageId": 91728,
+      "formatId": null,
+      "sortOrder": 152,
+      "mstUtc": 1792166400000,
+      "competitionId": "7qf0jaayyxy3ruamsexv5p1kl",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210733,
+      "liveBetting": false
+    },
+    {
+      "id": "4pdj4g9ev3zhkjvezwcul0u8k",
+      "rbId": null,
+      "matchName": "Baladiyyat vs Masar",
+      "homeTeam": {
+        "id": "bjkppvn46ysjs3tbwao8k2waa",
+        "name": "Baladiyyat",
+        "slug": "baladiyyat"
+      },
+      "awayTeam": {
+        "id": "12ditpnjkwfws8vzgnswxuxhw",
+        "name": "Masar",
+        "slug": "masar"
+      },
+      "matchSlug": "baladiyyat-vs-masar",
+      "seriesId": null,
+      "stageId": 94201,
+      "formatId": null,
+      "sortOrder": 158,
+      "mstUtc": 1792153800000,
+      "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210739,
+      "liveBetting": false
+    },
+    {
+      "id": "4ppd4m17ttaehyje5cwplrgno",
+      "rbId": null,
+      "matchName": "Pharco vs Kafr El Zayat",
+      "homeTeam": {
+        "id": "ac28s7fw8w1z6ewv4z67z4b8p",
+        "name": "Pharco",
+        "slug": "pharco"
+      },
+      "awayTeam": {
+        "id": "shmvr25wf90xx2ifv0l8yiff",
+        "name": "Kafr El Zayat",
+        "slug": "kafr-el-zayat"
+      },
+      "matchSlug": "pharco-vs-kafr-el-zayat",
+      "seriesId": null,
+      "stageId": 94201,
+      "formatId": null,
+      "sortOrder": 159,
+      "mstUtc": 1792153800000,
+      "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210780,
+      "liveBetting": false
+    },
+    {
+      "id": "4p1lbor2is7rsdk424zieo8b8",
+      "rbId": null,
+      "matchName": "Proxy vs El Entag",
+      "homeTeam": {
+        "id": "5oyahfyv9now49i13ahzh5r84",
+        "name": "Proxy",
+        "slug": "proxy"
+      },
+      "awayTeam": {
+        "id": "b0zx9mqaj3fv74v6m9ji4f2jy",
+        "name": "El Entag",
+        "slug": "el-entag"
+      },
+      "matchSlug": "proxy-vs-el-entag",
+      "seriesId": null,
+      "stageId": 94201,
+      "formatId": null,
+      "sortOrder": 160,
+      "mstUtc": 1792153800000,
+      "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211135,
+      "liveBetting": false
+    },
+    {
+      "id": "4opjfqur626q4fsk66s6td9g4",
+      "rbId": null,
+      "matchName": "Seka El Hadid vs Ismaily Sc",
+      "homeTeam": {
+        "id": "4qw489yi55ymmliy1c8oweupr",
+        "name": "Seka El Hadid",
+        "slug": "seka-el-hadid"
+      },
+      "awayTeam": {
+        "id": "b79t25o1zj01kz3rqudr7q5v4",
+        "name": "Ismaily Sc",
+        "slug": "ismaily-sc"
+      },
+      "matchSlug": "seka-el-hadid-vs-ismaily-sc",
+      "seriesId": null,
+      "stageId": 94201,
+      "formatId": null,
+      "sortOrder": 161,
+      "mstUtc": 1792153800000,
+      "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210691,
+      "liveBetting": false
+    },
+    {
+      "id": "4q13c7zm5jjw88f2z185zds0k",
+      "rbId": null,
+      "matchName": "Tersana vs Delta United",
+      "homeTeam": {
+        "id": "568mqjqjxm03vk8ds8ih6ndzl",
+        "name": "Tersana",
+        "slug": "tersana"
+      },
+      "awayTeam": {
+        "id": "2op0484zmdgqg7occb2n5uxhw",
+        "name": "Delta United",
+        "slug": "delta-united"
+      },
+      "matchSlug": "tersana-vs-delta-united",
+      "seriesId": null,
+      "stageId": 94201,
+      "formatId": null,
+      "sortOrder": 162,
+      "mstUtc": 1792153800000,
+      "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210823,
+      "liveBetting": false
+    },
+    {
+      "id": "72ms60qn8c9kzdwpxt3jw2z8",
+      "rbId": null,
+      "matchName": "Karbala vs Gharraf",
+      "homeTeam": {
+        "id": "96ko8g5mdy9axwd0oy0am6qdf",
+        "name": "Karbala",
+        "slug": "karbala"
+      },
+      "awayTeam": {
+        "id": "evjzrr4rnsofm1mv83d4hnthw",
+        "name": "Gharraf",
+        "slug": "gharraf"
+      },
+      "matchSlug": "karbala-vs-gharraf",
+      "seriesId": null,
+      "stageId": 95899,
+      "formatId": null,
+      "sortOrder": 163,
+      "mstUtc": 1792162800000,
+      "competitionId": "duuc1qczfnawwncru1ly6o66",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211032,
+      "liveBetting": false
+    },
+    {
+      "id": "6gq8o5izkdgw1bivjtsv3wgk",
+      "rbId": null,
+      "matchName": "Al-Kahrabaa vs Talaba",
+      "homeTeam": {
+        "id": "5xkgkz18q1ceaasahxde5j9p1",
+        "name": "Al-Kahrabaa",
+        "slug": "al-kahrabaa"
+      },
+      "awayTeam": {
+        "id": "2oiljz2156dxal4i76tq2xv8v",
+        "name": "Talaba",
+        "slug": "talaba"
+      },
+      "matchSlug": "al-kahrabaa-vs-talaba",
+      "seriesId": null,
+      "stageId": 95899,
+      "formatId": null,
+      "sortOrder": 165,
+      "mstUtc": 1792171800000,
+      "competitionId": "duuc1qczfnawwncru1ly6o66",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211072,
       "liveBetting": false
     },
     {
@@ -2620,7 +4952,7 @@
       "competitionId": "degxm4y6gmvp011ccyrev6z5p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2664,7 +4996,7 @@
       "competitionId": "degxm4y6gmvp011ccyrev6z5p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2708,7 +5040,7 @@
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2752,7 +5084,7 @@
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2796,7 +5128,7 @@
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2840,7 +5172,7 @@
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2884,7 +5216,7 @@
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2928,7 +5260,7 @@
       "competitionId": "civf31q1inxohs4a03y8reetf",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2972,7 +5304,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3016,7 +5348,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3060,7 +5392,7 @@
       "competitionId": "1wwro3z1eb3fl601dju6inlc6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3104,7 +5436,7 @@
       "competitionId": "1wwro3z1eb3fl601dju6inlc6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3148,7 +5480,7 @@
       "competitionId": "8usjlmziv3p2re0r2wwzezki9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3192,7 +5524,7 @@
       "competitionId": "8usjlmziv3p2re0r2wwzezki9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3236,7 +5568,7 @@
       "competitionId": "esrunz7rjb0td98mx9e5cedoy",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3280,7 +5612,7 @@
       "competitionId": "esrunz7rjb0td98mx9e5cedoy",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3299,6 +5631,270 @@
         "away": 0
       },
       "iddaaCode": 3217174,
+      "liveBetting": false
+    },
+    {
+      "id": "3shbruftuy9s9yulaeveiwdg4",
+      "rbId": null,
+      "matchName": "Mebrat Hayl vs Negele Arsi",
+      "homeTeam": {
+        "id": "6n3dudxq123ym6l73onbxx7ba",
+        "name": "Mebrat Hayl",
+        "slug": "mebrat-hayl"
+      },
+      "awayTeam": {
+        "id": "d1nk1w9tc4dehthf03ghcopas",
+        "name": "Negele Arsi",
+        "slug": "negele-arsi"
+      },
+      "matchSlug": "mebrat-hayl-vs-negele-arsi",
+      "seriesId": null,
+      "stageId": 96748,
+      "formatId": null,
+      "sortOrder": 212,
+      "mstUtc": 1792152000000,
+      "competitionId": "6ybvtzejh91761lqe7y1csrqo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3317485,
+      "liveBetting": false
+    },
+    {
+      "id": "3th6wigtvjsinrd7wpd2c6uxg",
+      "rbId": null,
+      "matchName": "Halaba vs Bahardar",
+      "homeTeam": {
+        "id": "95nzdy6l2v533muw7squu5pg4",
+        "name": "Halaba",
+        "slug": "halaba"
+      },
+      "awayTeam": {
+        "id": "guaioqhm1pjkvwnoj6qsh3ze",
+        "name": "Bahardar",
+        "slug": "bahardar"
+      },
+      "matchSlug": "halaba-vs-bahardar",
+      "seriesId": null,
+      "stageId": 96748,
+      "formatId": null,
+      "sortOrder": 213,
+      "mstUtc": 1792155600000,
+      "competitionId": "6ybvtzejh91761lqe7y1csrqo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3317517,
+      "liveBetting": false
+    },
+    {
+      "id": "3str0405hvv0x4w8vx74c6zo4",
+      "rbId": null,
+      "matchName": "Adama City vs Sheger",
+      "homeTeam": {
+        "id": "6vhcloase4t2pwtkmufvvjt1x",
+        "name": "Adama City",
+        "slug": "adama-city"
+      },
+      "awayTeam": {
+        "id": "pj05e8k7ythndhlke3rokn4k",
+        "name": "Sheger",
+        "slug": "sheger"
+      },
+      "matchSlug": "adama-city-vs-sheger",
+      "seriesId": null,
+      "stageId": 96748,
+      "formatId": null,
+      "sortOrder": 214,
+      "mstUtc": 1792162800000,
+      "competitionId": "6ybvtzejh91761lqe7y1csrqo",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3317426,
+      "liveBetting": false
+    },
+    {
+      "id": "3vfe0tp1x6gc3vk1jxolwwxlg",
+      "rbId": null,
+      "matchName": "Al Ahli J. vs Hay Al-Amir",
+      "homeTeam": {
+        "id": "95nfgrmm47wrf6casnmllrhlm",
+        "name": "Al Ahli J.",
+        "slug": "al-ahli-j"
+      },
+      "awayTeam": {
+        "id": "e41fefu4ms0mwndd53ablbfv8",
+        "name": "Hay Al-Amir",
+        "slug": "hay-al-amir"
+      },
+      "matchSlug": "al-ahli-j-vs-hay-al-amir",
+      "seriesId": null,
+      "stageId": 92536,
+      "formatId": null,
+      "sortOrder": 216,
+      "mstUtc": 1792162800000,
+      "competitionId": "capnw9242hzut00ei9rgfco8n",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211134,
+      "liveBetting": false
+    },
+    {
+      "id": "3urd1plu5yzjh9bxl2x7a0m50",
+      "rbId": null,
+      "matchName": "Al Sarhan vs Yarmouk",
+      "homeTeam": {
+        "id": "1av0bfqhm0p02tc7wrr8n6qq6",
+        "name": "Al Sarhan",
+        "slug": "al-sarhan"
+      },
+      "awayTeam": {
+        "id": "3uqnp65nw0dugxb9m3x9yo66p",
+        "name": "Yarmouk",
+        "slug": "yarmouk"
+      },
+      "matchSlug": "al-sarhan-vs-yarmouk",
+      "seriesId": null,
+      "stageId": 92536,
+      "formatId": null,
+      "sortOrder": 217,
+      "mstUtc": 1792162800000,
+      "competitionId": "capnw9242hzut00ei9rgfco8n",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3210822,
+      "liveBetting": false
+    },
+    {
+      "id": "3v34p76mp1iaxy095qg8b8r2s",
+      "rbId": null,
+      "matchName": "Amman vs Sareeh",
+      "homeTeam": {
+        "id": "cw541aoizy5frixqmoziiowt0",
+        "name": "Amman",
+        "slug": "amman"
+      },
+      "awayTeam": {
+        "id": "2332huygk064vawrztpsfilsk",
+        "name": "Sareeh",
+        "slug": "sareeh"
+      },
+      "matchSlug": "amman-vs-sareeh",
+      "seriesId": null,
+      "stageId": 92536,
+      "formatId": null,
+      "sortOrder": 218,
+      "mstUtc": 1792162800000,
+      "competitionId": "capnw9242hzut00ei9rgfco8n",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3211234,
       "liveBetting": false
     },
     {
@@ -3324,7 +5920,7 @@
       "competitionId": "1qt9bfl6dhydf4tpano6n1p7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3368,7 +5964,7 @@
       "competitionId": "1qt9bfl6dhydf4tpano6n1p7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3412,7 +6008,7 @@
       "competitionId": "1qt9bfl6dhydf4tpano6n1p7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3456,7 +6052,7 @@
       "competitionId": "1qt9bfl6dhydf4tpano6n1p7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3500,7 +6096,7 @@
       "competitionId": "5eg2n7dfbhbc669h475d1chdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3544,7 +6140,7 @@
       "competitionId": "5eg2n7dfbhbc669h475d1chdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3588,7 +6184,7 @@
       "competitionId": "5eg2n7dfbhbc669h475d1chdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3632,7 +6228,7 @@
       "competitionId": "5eg2n7dfbhbc669h475d1chdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3676,7 +6272,7 @@
       "competitionId": "41hbf8hlc2hfpw0n9hnn1ow7o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3720,7 +6316,7 @@
       "competitionId": "41hbf8hlc2hfpw0n9hnn1ow7o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792052252000,
+      "lastUpdated": 1792053334000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3740,60 +6336,104 @@
       },
       "iddaaCode": 3245897,
       "liveBetting": true
+    },
+    {
+      "id": "9tuhlgwr05lch9fdkfypt3pqs",
+      "rbId": null,
+      "matchName": "Gunners vs Tafic FC",
+      "homeTeam": {
+        "id": "2zjtxvroz2k7lrrn6a9riuyel",
+        "name": "Gunners",
+        "slug": "gunners"
+      },
+      "awayTeam": {
+        "id": "p4feqctyezb528lq8a95jcg2",
+        "name": "Tafic FC",
+        "slug": "tafic-fc"
+      },
+      "matchSlug": "gunners-vs-tafic-fc",
+      "seriesId": null,
+      "stageId": 95061,
+      "formatId": null,
+      "sortOrder": 246,
+      "mstUtc": 1792170000000,
+      "competitionId": "3faz4auaxirmsh26ztmidb001",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792053334000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3220093,
+      "liveBetting": false
     }
   ],
   "odds": {
-    "der9x03eb86tatq843cjeioes": {
+    "7pr80h6su15w4k6rn5b1ndo2c": {
       "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "3.22"
+          "oran": "1.92"
         },
         {
           "secenek": "X",
-          "oran": "2.81"
+          "oran": "3.08"
         },
         {
           "secenek": "2",
-          "oran": "1.96"
+          "oran": "3.04"
         },
         {
           "secenek": "1",
-          "oran": "3.22"
+          "oran": "1.92"
         },
         {
           "secenek": "X",
-          "oran": "2.81"
+          "oran": "3.08"
         },
         {
           "secenek": "2",
-          "oran": "1.96"
+          "oran": "3.04"
         }
       ],
       "Çifte Şans MBS 1": [
         {
           "secenek": "1-X",
-          "oran": "1.49"
+          "oran": "1.18"
         },
         {
           "secenek": "1-2",
-          "oran": "1.23"
+          "oran": "1.18"
         },
         {
           "secenek": "X-2",
-          "oran": "1.16"
+          "oran": "1.51"
         },
         {
           "secenek": "1-X",
-          "oran": "1.49"
+          "oran": "1.18"
         },
         {
           "secenek": "1-2",
-          "oran": "1.23"
+          "oran": "1.18"
         },
         {
           "secenek": "X-2",
-          "oran": "1.16"
+          "oran": "1.51"
         }
       ],
       "4,5 Alt/Üst MBS 1": [
@@ -3803,7 +6443,7 @@
         },
         {
           "secenek": "Üst",
-          "oran": "10.30"
+          "oran": "6.06"
         },
         {
           "secenek": "Alt",
@@ -3811,31 +6451,13 @@
         },
         {
           "secenek": "Üst",
-          "oran": "10.30"
-        }
-      ],
-      "2,5 Alt/Üst MBS 1": [
-        {
-          "secenek": "Alt",
-          "oran": "1.35"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.31"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "1.35"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.31"
+          "oran": "6.06"
         }
       ],
       "0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "6.35"
+          "oran": "9.28"
         },
         {
           "secenek": "Üst",
@@ -3843,7 +6465,7 @@
         },
         {
           "secenek": "Alt",
-          "oran": "6.35"
+          "oran": "9.28"
         },
         {
           "secenek": "Üst",
@@ -3853,37 +6475,73 @@
       "1,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "2.31"
+          "oran": "3.19"
         },
         {
           "secenek": "Üst",
-          "oran": "1.35"
+          "oran": "1.16"
         },
         {
           "secenek": "Alt",
-          "oran": "2.31"
+          "oran": "3.19"
         },
         {
           "secenek": "Üst",
-          "oran": "1.35"
+          "oran": "1.16"
+        }
+      ],
+      "2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.66"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.73"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.66"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.73"
         }
       ],
       "3,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "-"
+          "oran": "1.18"
         },
         {
           "secenek": "Üst",
-          "oran": "4.62"
+          "oran": "3.01"
         },
         {
           "secenek": "Alt",
-          "oran": "-"
+          "oran": "1.18"
         },
         {
           "secenek": "Üst",
-          "oran": "4.62"
+          "oran": "3.01"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.56"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.56"
         }
       ],
       "1. Yarı 2,5 Alt/Üst MBS 1": [
@@ -3893,7 +6551,7 @@
         },
         {
           "secenek": "Üst",
-          "oran": "9.76"
+          "oran": "6.65"
         },
         {
           "secenek": "Alt",
@@ -3901,121 +6559,103 @@
         },
         {
           "secenek": "Üst",
-          "oran": "9.76"
+          "oran": "6.65"
         }
       ],
       "1. Yarı 0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "2.14"
+          "oran": "2.63"
         },
         {
           "secenek": "Üst",
-          "oran": "1.41"
+          "oran": "1.25"
         },
         {
           "secenek": "Alt",
-          "oran": "2.14"
+          "oran": "2.63"
         },
         {
           "secenek": "Üst",
-          "oran": "1.41"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst MBS 1": [
-        {
-          "secenek": "Alt",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.34"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.34"
+          "oran": "1.25"
         }
       ],
       "1. Yarı Çifte Şans MBS 1": [
         {
           "secenek": "1-X",
-          "oran": "1.23"
+          "oran": "1.11"
         },
         {
           "secenek": "1-2",
-          "oran": "1.62"
+          "oran": "1.47"
         },
         {
           "secenek": "X-2",
-          "oran": "1.08"
+          "oran": "1.29"
         },
         {
           "secenek": "1-X",
-          "oran": "1.23"
+          "oran": "1.11"
         },
         {
           "secenek": "1-2",
-          "oran": "1.62"
+          "oran": "1.47"
         },
         {
           "secenek": "X-2",
-          "oran": "1.08"
+          "oran": "1.29"
         }
       ],
       "1. Yarı Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "4.11"
+          "oran": "2.50"
         },
         {
           "secenek": "X",
-          "oran": "1.77"
+          "oran": "1.99"
         },
         {
           "secenek": "2",
-          "oran": "2.72"
+          "oran": "3.65"
         },
         {
           "secenek": "1",
-          "oran": "4.11"
+          "oran": "2.50"
         },
         {
           "secenek": "X",
-          "oran": "1.77"
+          "oran": "1.99"
         },
         {
           "secenek": "2",
-          "oran": "2.72"
+          "oran": "3.65"
         }
       ],
       "2. Yarı Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "3.52"
+          "oran": "2.28"
         },
         {
           "secenek": "X",
-          "oran": "2.10"
+          "oran": "2.35"
         },
         {
           "secenek": "2",
-          "oran": "2.40"
+          "oran": "3.22"
         },
         {
           "secenek": "1",
-          "oran": "3.52"
+          "oran": "2.28"
         },
         {
           "secenek": "X",
-          "oran": "2.10"
+          "oran": "2.35"
         },
         {
           "secenek": "2",
-          "oran": "2.40"
+          "oran": "3.22"
         }
       ],
       "Tek/Çift MBS 1": [
@@ -4039,227 +6679,227 @@
       "Toplam Gol Aralığı MBS 1": [
         {
           "secenek": "0-1",
-          "oran": "2.24"
+          "oran": "3.14"
         },
         {
           "secenek": "2-3",
-          "oran": "1.79"
+          "oran": "1.78"
         },
         {
           "secenek": "4-5",
-          "oran": "5.30"
+          "oran": "3.63"
         },
         {
           "secenek": "6+",
-          "oran": "33.50"
+          "oran": "14.90"
         },
         {
           "secenek": "0-1",
-          "oran": "2.24"
+          "oran": "3.14"
         },
         {
           "secenek": "2-3",
-          "oran": "1.79"
+          "oran": "1.78"
         },
         {
           "secenek": "4-5",
-          "oran": "5.30"
+          "oran": "3.63"
         },
         {
           "secenek": "6+",
-          "oran": "33.50"
+          "oran": "14.90"
         }
       ],
       "Karşılıklı Gol MBS 1": [
         {
           "secenek": "Var",
-          "oran": "1.97"
+          "oran": "1.59"
         },
         {
           "secenek": "Yok",
-          "oran": "1.50"
+          "oran": "1.83"
         },
         {
           "secenek": "Var",
-          "oran": "1.97"
+          "oran": "1.59"
         },
         {
           "secenek": "Yok",
-          "oran": "1.50"
+          "oran": "1.83"
         }
       ],
       "İlk Yarı/Maç Sonucu MBS 1": [
         {
           "secenek": "1/1",
-          "oran": "5.72"
+          "oran": "2.99"
         },
         {
           "secenek": "X/1",
-          "oran": "6.76"
+          "oran": "4.94"
         },
         {
           "secenek": "2/1",
-          "oran": "35.00"
+          "oran": "26.00"
         },
         {
           "secenek": "1/X",
-          "oran": "15.60"
+          "oran": "13.20"
         },
         {
           "secenek": "X/X",
-          "oran": "3.79"
+          "oran": "4.64"
         },
         {
           "secenek": "2/X",
-          "oran": "14.75"
+          "oran": "13.90"
         },
         {
           "secenek": "1/2",
-          "oran": "33.00"
+          "oran": "35.00"
         },
         {
           "secenek": "X/2",
-          "oran": "4.60"
+          "oran": "7.02"
         },
         {
           "secenek": "2/2",
-          "oran": "3.19"
+          "oran": "5.16"
         },
         {
           "secenek": "1/1",
-          "oran": "5.72"
+          "oran": "2.99"
         },
         {
           "secenek": "1/X",
-          "oran": "15.60"
+          "oran": "13.20"
         },
         {
           "secenek": "1/2",
-          "oran": "33.00"
-        },
-        {
-          "secenek": "X/1",
-          "oran": "6.76"
-        },
-        {
-          "secenek": "X/X",
-          "oran": "3.79"
-        },
-        {
-          "secenek": "X/2",
-          "oran": "4.60"
-        },
-        {
-          "secenek": "2/1",
           "oran": "35.00"
         },
         {
+          "secenek": "X/1",
+          "oran": "4.94"
+        },
+        {
+          "secenek": "X/X",
+          "oran": "4.64"
+        },
+        {
+          "secenek": "X/2",
+          "oran": "7.02"
+        },
+        {
+          "secenek": "2/1",
+          "oran": "26.00"
+        },
+        {
           "secenek": "2/X",
-          "oran": "14.75"
+          "oran": "13.90"
         },
         {
           "secenek": "2/2",
-          "oran": "3.19"
+          "oran": "5.16"
         }
       ],
       "Hnd. MS (0:1) MBS 1": [
         {
           "secenek": "1",
-          "oran": "8.20"
+          "oran": "3.54"
         },
         {
           "secenek": "X",
-          "oran": "4.36"
+          "oran": "3.56"
         },
         {
           "secenek": "+1h",
-          "oran": "1.13"
+          "oran": "1.49"
         },
         {
           "secenek": "1",
-          "oran": "8.20"
+          "oran": "3.54"
         },
         {
           "secenek": "X",
-          "oran": "4.36"
+          "oran": "3.56"
         },
         {
           "secenek": "+1h",
-          "oran": "1.13"
-        }
-      ],
-      "Hnd. MS (2:0) MBS 1": [
-        {
-          "secenek": "+2h",
-          "oran": "-"
-        },
-        {
-          "secenek": "X",
-          "oran": "5.59"
-        },
-        {
-          "secenek": "2",
-          "oran": "10.30"
-        },
-        {
-          "secenek": "+2h",
-          "oran": "-"
-        },
-        {
-          "secenek": "X",
-          "oran": "5.59"
-        },
-        {
-          "secenek": "2",
-          "oran": "10.30"
+          "oran": "1.49"
         }
       ],
       "Hnd. MS (1:0) MBS 1": [
         {
           "secenek": "+1h",
-          "oran": "1.46"
+          "oran": "1.16"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "4.51"
         },
         {
           "secenek": "2",
-          "oran": "4.02"
+          "oran": "6.76"
         },
         {
           "secenek": "+1h",
-          "oran": "1.46"
+          "oran": "1.16"
         },
         {
           "secenek": "X",
-          "oran": "3.32"
+          "oran": "4.51"
         },
         {
           "secenek": "2",
-          "oran": "4.02"
+          "oran": "6.76"
+        }
+      ],
+      "Hnd. MS (0:2) MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "8.15"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.44"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.08"
+        },
+        {
+          "secenek": "1",
+          "oran": "8.15"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.44"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.08"
         }
       ],
       "Maç Skoru MBS 1": [
         {
           "secenek": "0-0",
-          "oran": "5.66"
+          "oran": "8.79"
         },
         {
           "secenek": "0-1",
-          "oran": "4.94"
+          "oran": "8.84"
         },
         {
           "secenek": "0-2",
-          "oran": "7.72"
+          "oran": "15.25"
         },
         {
           "secenek": "0-3",
-          "oran": "18.10"
+          "oran": "40.00"
         },
         {
           "secenek": "0-4",
-          "oran": "57.00"
+          "oran": "130.00"
         },
         {
           "secenek": "0-5",
@@ -4267,23 +6907,23 @@
         },
         {
           "secenek": "1-0",
-          "oran": "6.76"
+          "oran": "6.71"
         },
         {
           "secenek": "1-1",
-          "oran": "5.07"
+          "oran": "5.34"
         },
         {
           "secenek": "1-2",
-          "oran": "8.45"
+          "oran": "10.15"
         },
         {
           "secenek": "1-3",
-          "oran": "19.85"
+          "oran": "26.00"
         },
         {
           "secenek": "1-4",
-          "oran": "63.00"
+          "oran": "92.00"
         },
         {
           "secenek": "1-5",
@@ -4291,23 +6931,23 @@
         },
         {
           "secenek": "2-0",
-          "oran": "14.55"
+          "oran": "8.79"
         },
         {
           "secenek": "2-1",
-          "oran": "11.65"
+          "oran": "7.70"
         },
         {
           "secenek": "2-2",
-          "oran": "17.15"
+          "oran": "12.05"
         },
         {
           "secenek": "2-3",
-          "oran": "43.50"
+          "oran": "34.50"
         },
         {
           "secenek": "2-4",
-          "oran": "130.00"
+          "oran": "125.00"
         },
         {
           "secenek": "0-6",
@@ -4315,31 +6955,31 @@
         },
         {
           "secenek": "3-0",
-          "oran": "47.00"
+          "oran": "17.15"
         },
         {
           "secenek": "3-1",
-          "oran": "37.50"
+          "oran": "15.05"
         },
         {
           "secenek": "3-2",
-          "oran": "60.00"
+          "oran": "26.00"
         },
         {
           "secenek": "3-3",
-          "oran": "130.00"
+          "oran": "61.00"
         },
         {
           "secenek": "4-0",
-          "oran": "130.00"
+          "oran": "44.50"
         },
         {
           "secenek": "4-1",
-          "oran": "130.00"
+          "oran": "39.50"
         },
         {
           "secenek": "4-2",
-          "oran": "130.00"
+          "oran": "68.00"
         },
         {
           "secenek": "5-0",
@@ -4355,43 +6995,43 @@
         },
         {
           "secenek": "Diğer",
-          "oran": "96.00"
+          "oran": "36.00"
         },
         {
           "secenek": "1-0",
-          "oran": "6.76"
+          "oran": "6.71"
         },
         {
           "secenek": "2-0",
-          "oran": "14.55"
+          "oran": "8.79"
         },
         {
           "secenek": "2-1",
-          "oran": "11.65"
+          "oran": "7.70"
         },
         {
           "secenek": "3-0",
-          "oran": "47.00"
+          "oran": "17.15"
         },
         {
           "secenek": "3-1",
-          "oran": "37.50"
+          "oran": "15.05"
         },
         {
           "secenek": "3-2",
-          "oran": "60.00"
+          "oran": "26.00"
         },
         {
           "secenek": "4-0",
-          "oran": "130.00"
+          "oran": "44.50"
         },
         {
           "secenek": "4-1",
-          "oran": "130.00"
+          "oran": "39.50"
         },
         {
           "secenek": "4-2",
-          "oran": "130.00"
+          "oran": "68.00"
         },
         {
           "secenek": "5-0",
@@ -4407,55 +7047,55 @@
         },
         {
           "secenek": "0-0",
-          "oran": "5.66"
+          "oran": "8.79"
         },
         {
           "secenek": "1-1",
-          "oran": "5.07"
+          "oran": "5.34"
         },
         {
           "secenek": "2-2",
-          "oran": "17.15"
+          "oran": "12.05"
         },
         {
           "secenek": "3-3",
-          "oran": "130.00"
+          "oran": "61.00"
         },
         {
           "secenek": "0-1",
-          "oran": "4.94"
+          "oran": "8.84"
         },
         {
           "secenek": "0-2",
-          "oran": "7.72"
+          "oran": "15.25"
         },
         {
           "secenek": "1-2",
-          "oran": "8.45"
+          "oran": "10.15"
         },
         {
           "secenek": "0-3",
-          "oran": "18.10"
+          "oran": "40.00"
         },
         {
           "secenek": "1-3",
-          "oran": "19.85"
+          "oran": "26.00"
         },
         {
           "secenek": "2-3",
-          "oran": "43.50"
+          "oran": "34.50"
         },
         {
           "secenek": "0-4",
-          "oran": "57.00"
+          "oran": "130.00"
         },
         {
           "secenek": "1-4",
-          "oran": "63.00"
+          "oran": "92.00"
         },
         {
           "secenek": "2-4",
-          "oran": "130.00"
+          "oran": "125.00"
         },
         {
           "secenek": "0-5",
@@ -4471,239 +7111,309 @@
         },
         {
           "secenek": "Diğer",
-          "oran": "96.00"
+          "oran": "36.00"
         }
       ],
       "İlk Gol MBS 1": [
         {
           "secenek": "1",
-          "oran": "2.29"
+          "oran": "1.63"
         },
         {
           "secenek": "Olmaz",
-          "oran": "6.86"
+          "oran": "10.70"
         },
         {
           "secenek": "2",
-          "oran": "1.68"
+          "oran": "2.14"
         },
         {
           "secenek": "1",
-          "oran": "2.29"
+          "oran": "1.63"
         },
         {
           "secenek": "Olmaz",
-          "oran": "6.86"
+          "oran": "10.70"
         },
         {
           "secenek": "2",
-          "oran": "1.68"
+          "oran": "2.14"
         }
       ],
       "MS ve 2,5 Alt/Üst MBS 1": [
         {
           "secenek": "1 ve Alt",
-          "oran": "5.50"
+          "oran": "4.52"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "3.18"
+          "oran": "3.94"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "3.58"
+          "oran": "6.67"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "7.10"
+          "oran": "3.12"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "18.05"
+          "oran": "11.75"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "3.99"
+          "oran": "5.22"
         },
         {
           "secenek": "1 ve Alt",
-          "oran": "5.50"
+          "oran": "4.52"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "3.18"
+          "oran": "3.94"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "3.58"
+          "oran": "6.67"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "7.10"
+          "oran": "3.12"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "18.05"
+          "oran": "11.75"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "3.99"
-        }
-      ],
-      "MS ve 4,5 Alt/Üst MBS 1": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "3.37"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "2.74"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "2.10"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "35.00"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "35.00"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "19.15"
-        },
-        {
-          "secenek": "1 ve Alt",
-          "oran": "3.37"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "2.74"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "2.10"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "35.00"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "35.00"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "19.15"
+          "oran": "5.22"
         }
       ],
       "MS ve 1,5 Alt/Üst MBS 1": [
         {
           "secenek": "1 ve Alt",
-          "oran": "7.98"
+          "oran": "7.87"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "6.67"
+          "oran": "10.35"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "5.79"
+          "oran": "10.40"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "5.08"
+          "oran": "2.42"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "4.50"
+          "oran": "4.10"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "2.81"
+          "oran": "4.07"
         },
         {
           "secenek": "1 ve Alt",
-          "oran": "7.98"
+          "oran": "7.87"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "6.67"
+          "oran": "10.35"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "5.79"
+          "oran": "10.40"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "5.08"
+          "oran": "2.42"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "4.50"
+          "oran": "4.10"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "2.81"
+          "oran": "4.07"
+        }
+      ],
+      "MS ve 4,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.23"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.44"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "19.40"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.23"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.44"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "19.40"
         }
       ],
       "MS ve 3,5 Alt/Üst MBS 1": [
         {
           "secenek": "1 ve Alt",
-          "oran": "3.70"
+          "oran": "2.66"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "3.16"
+          "oran": "3.93"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "2.38"
+          "oran": "3.96"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "19.10"
+          "oran": "6.00"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "18.00"
+          "oran": "11.75"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "9.23"
+          "oran": "11.25"
         },
         {
           "secenek": "1 ve Alt",
-          "oran": "3.70"
+          "oran": "2.66"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "3.16"
+          "oran": "3.93"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "2.38"
+          "oran": "3.96"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "19.10"
+          "oran": "6.00"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "18.00"
+          "oran": "11.75"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "9.23"
+          "oran": "11.25"
+        }
+      ],
+      "1. Yarı En Çok Korner MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.63"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.79"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.58"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.63"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.79"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.58"
+        }
+      ],
+      "1. Yarı Korner Aralığı MBS 1": [
+        {
+          "secenek": "0-4",
+          "oran": "1.58"
+        },
+        {
+          "secenek": "5-6",
+          "oran": "2.84"
+        },
+        {
+          "secenek": "7+",
+          "oran": "3.85"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "1.58"
+        },
+        {
+          "secenek": "5-6",
+          "oran": "2.84"
+        },
+        {
+          "secenek": "7+",
+          "oran": "3.85"
         }
       ],
       "Ev Sahibi Gol Yemeden Kazanır MBS 1": [
         {
           "secenek": "Evet",
-          "oran": "3.63"
+          "oran": "2.80"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "1.07"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "2.80"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "1.07"
+        }
+      ],
+      "Deplasman Gol Yemeden Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "3.95"
         },
         {
           "secenek": "Hayır",
@@ -4711,35 +7421,17 @@
         },
         {
           "secenek": "Evet",
-          "oran": "3.63"
-        }
-      ],
-      "Deplasman Gol Yemeden Kazanır MBS 1": [
-        {
-          "secenek": "Evet",
-          "oran": "2.49"
-        },
-        {
-          "secenek": "Hayır",
-          "oran": "1.12"
-        },
-        {
-          "secenek": "Evet",
-          "oran": "2.49"
-        },
-        {
-          "secenek": "Hayır",
-          "oran": "1.12"
+          "oran": "3.95"
         }
       ],
       "1. Yarı Deplasman 0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "1.48"
+          "oran": "1.40"
         },
         {
           "secenek": "Üst",
-          "oran": "2.00"
+          "oran": "2.15"
         },
         {
           "secenek": "12+",
@@ -4747,109 +7439,233 @@
         },
         {
           "secenek": "Alt",
-          "oran": "1.48"
+          "oran": "1.40"
         },
         {
           "secenek": "Üst",
-          "oran": "2.00"
+          "oran": "2.15"
         }
       ],
-      "Ev Sahibi 1,5 Alt/Üst MBS 1": [
+      "Toplam Korner Aralığı MBS 1": [
         {
-          "secenek": "Alt",
-          "oran": "1.11"
+          "secenek": "0-8",
+          "oran": "2.11"
         },
         {
-          "secenek": "Üst",
-          "oran": "3.58"
+          "secenek": "9-11",
+          "oran": "2.44"
         },
         {
-          "secenek": "Alt",
-          "oran": "1.11"
+          "secenek": "12+",
+          "oran": "2.76"
         },
         {
-          "secenek": "Üst",
-          "oran": "3.58"
+          "secenek": "0-8",
+          "oran": "2.11"
+        },
+        {
+          "secenek": "9-11",
+          "oran": "2.44"
+        },
+        {
+          "secenek": "12+",
+          "oran": "2.76"
         }
       ],
-      "Ev Sahibi 2,5 Alt/Üst MBS 1": [
+      "En Çok Korner MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "7.00"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "7.00"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.59"
+        }
+      ],
+      "1.Yarı 4,5 Korner Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "-"
+          "oran": "1.59"
         },
         {
           "secenek": "Üst",
-          "oran": "10.90"
+          "oran": "1.72"
         },
         {
           "secenek": "Alt",
-          "oran": "-"
+          "oran": "1.59"
         },
         {
           "secenek": "Üst",
-          "oran": "10.90"
+          "oran": "1.72"
+        }
+      ],
+      "1.Yarı 3,5 Korner Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "2.33"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.33"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.28"
+        }
+      ],
+      "1.Yarı 5,5 Korner Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.24"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.47"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.24"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.47"
         }
       ],
       "Ev Sahibi 0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "2.09"
+          "oran": "3.68"
         },
         {
           "secenek": "Üst",
-          "oran": "1.44"
+          "oran": "1.10"
         },
         {
           "secenek": "Alt",
-          "oran": "2.09"
+          "oran": "3.68"
         },
         {
           "secenek": "Üst",
-          "oran": "1.44"
+          "oran": "1.10"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.92"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.92"
+        }
+      ],
+      "Ev Sahibi 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.06"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.24"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.06"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.24"
         }
       ],
       "En Çok Gol Olacak Yarı MBS 1": [
         {
           "secenek": "1. Yarı",
-          "oran": "3.04"
+          "oran": "2.91"
         },
         {
           "secenek": "Eşit",
-          "oran": "2.84"
+          "oran": "3.17"
         },
         {
           "secenek": "2. Yarı",
-          "oran": "2.02"
+          "oran": "1.93"
         },
         {
           "secenek": "1. Yarı",
-          "oran": "3.04"
+          "oran": "2.91"
         },
         {
           "secenek": "Eşit",
-          "oran": "2.84"
+          "oran": "3.17"
         },
         {
           "secenek": "2. Yarı",
-          "oran": "2.02"
+          "oran": "1.93"
+        }
+      ],
+      "Deplasman 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.25"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.65"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.25"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.65"
         }
       ],
       "Deplasman 0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "2.89"
+          "oran": "2.62"
         },
         {
           "secenek": "Üst",
-          "oran": "1.21"
+          "oran": "1.26"
         },
         {
           "secenek": "Alt",
-          "oran": "2.89"
+          "oran": "2.62"
         },
         {
           "secenek": "Üst",
-          "oran": "1.21"
+          "oran": "1.26"
         }
       ],
       "Deplasman 2,5 Alt/Üst MBS 1": [
@@ -4859,7 +7675,7 @@
         },
         {
           "secenek": "Üst",
-          "oran": "5.97"
+          "oran": "7.13"
         },
         {
           "secenek": "Alt",
@@ -4867,337 +7683,1123 @@
         },
         {
           "secenek": "Üst",
-          "oran": "5.97"
-        }
-      ],
-      "Deplasman 1,5 Alt/Üst MBS 1": [
-        {
-          "secenek": "Alt",
-          "oran": "1.32"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.37"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "1.32"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.37"
-        }
-      ],
-      "Ev Sahibi İki Yarıyı da Kazanır MBS 1": [
-        {
-          "secenek": "Evet",
-          "oran": "13.85"
-        },
-        {
-          "secenek": "Hayır",
-          "oran": "-"
-        },
-        {
-          "secenek": "Evet",
-          "oran": "13.85"
-        },
-        {
-          "secenek": "Hayır",
-          "oran": "-"
+          "oran": "7.13"
         }
       ],
       "1. Yarı Karşılıklı Gol MBS 1": [
         {
           "secenek": "Var",
-          "oran": "5.62"
+          "oran": "4.20"
         },
         {
           "secenek": "Yok",
-          "oran": "-"
+          "oran": "1.07"
         },
         {
           "secenek": "Var",
-          "oran": "5.62"
+          "oran": "4.20"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.07"
+        }
+      ],
+      "Ev Sahibi İki Yarıyı da Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "6.35"
         },
         {
           "secenek": "Yok",
           "oran": "-"
-        }
-      ],
-      "1. Yarı Ev Sahibi 0,5 Alt/Üst MBS 1": [
-        {
-          "secenek": "Alt",
-          "oran": "1.27"
         },
         {
-          "secenek": "Üst",
-          "oran": "2.57"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "1.27"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.57"
+          "secenek": "Evet",
+          "oran": "6.35"
         }
       ],
       "Deplasman İki Yarıyı da Kazanır MBS 1": [
         {
           "secenek": "Evet",
-          "oran": "7.16"
+          "oran": "12.05"
         },
         {
-          "secenek": "Hayır",
+          "secenek": "Yok",
           "oran": "-"
         },
         {
           "secenek": "Evet",
-          "oran": "7.16"
+          "oran": "12.05"
+        }
+      ],
+      "1. Yarı Ev Sahibi 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.65"
         },
         {
-          "secenek": "Hayır",
-          "oran": "-"
+          "secenek": "Üst",
+          "oran": "1.75"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.65"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.75"
         }
       ]
     },
-    "5zu5gt74aift5avhmo9hwo5jo": {
-      "Maç Sonucu MBS 3": [
+    "9tnkmwtrqc12i4hglhe4cdedw": {
+      "Maç Sonucu MBS 1": [
         {
           "secenek": "1",
-          "oran": "1.71"
+          "oran": "2.64"
         },
         {
           "secenek": "X",
-          "oran": "2.99"
+          "oran": "3.18"
         },
         {
           "secenek": "2",
-          "oran": "3.31"
-        },
-        {
-          "secenek": "1",
-          "oran": "1.71"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.99"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.31"
-        }
-      ],
-      "Çifte Şans MBS 3": [
-        {
-          "secenek": "1-X",
-          "oran": "1.10"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.53"
-        },
-        {
-          "secenek": "1-X",
-          "oran": "1.10"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.14"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.53"
-        }
-      ],
-      "2,5 Alt/Üst MBS 3": [
-        {
-          "secenek": "Alt",
-          "oran": "1.54"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.74"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "1.54"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.74"
-        }
-      ],
-      "1. Yarı 0,5 Alt/Üst MBS 3": [
-        {
-          "secenek": "Alt",
-          "oran": "2.41"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.24"
-        },
-        {
-          "secenek": "Alt",
-          "oran": "2.41"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.24"
-        }
-      ],
-      "1. Yarı Çifte Şans MBS 3": [
-        {
-          "secenek": "1-X",
-          "oran": "1.06"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.42"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.28"
-        },
-        {
-          "secenek": "1-X",
-          "oran": "1.06"
-        },
-        {
-          "secenek": "1-2",
-          "oran": "1.42"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.28"
-        }
-      ],
-      "1. Yarı Sonucu MBS 3": [
-        {
-          "secenek": "1",
-          "oran": "2.27"
-        },
-        {
-          "secenek": "X",
-          "oran": "1.90"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.91"
-        },
-        {
-          "secenek": "1",
-          "oran": "2.27"
-        },
-        {
-          "secenek": "X",
-          "oran": "1.90"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.91"
-        }
-      ],
-      "2. Yarı Sonucu MBS 3": [
-        {
-          "secenek": "1",
           "oran": "2.07"
         },
         {
+          "secenek": "1",
+          "oran": "2.64"
+        },
+        {
           "secenek": "X",
-          "oran": "2.23"
+          "oran": "3.18"
         },
         {
           "secenek": "2",
-          "oran": "3.42"
-        },
-        {
-          "secenek": "1",
           "oran": "2.07"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.23"
-        },
-        {
-          "secenek": "2",
-          "oran": "3.42"
         }
       ],
-      "Tek/Çift MBS 3": [
+      "Çifte Şans MBS 1": [
         {
-          "secenek": "Tek",
-          "oran": "1.68"
+          "secenek": "1-X",
+          "oran": "1.44"
         },
         {
-          "secenek": "Çift",
-          "oran": "1.59"
+          "secenek": "1-2",
+          "oran": "1.16"
         },
         {
-          "secenek": "Tek",
-          "oran": "1.68"
+          "secenek": "X-2",
+          "oran": "1.25"
         },
         {
-          "secenek": "Çift",
-          "oran": "1.59"
+          "secenek": "1-X",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.25"
         }
       ],
-      "Karşılıklı Gol MBS 3": [
+      "2,5 Alt/Üst MBS 1": [
         {
-          "secenek": "Var",
-          "oran": "1.62"
+          "secenek": "Alt",
+          "oran": "1.93"
         },
         {
-          "secenek": "Yok",
-          "oran": "1.65"
+          "secenek": "Üst",
+          "oran": "1.52"
         },
         {
-          "secenek": "Var",
-          "oran": "1.62"
+          "secenek": "Alt",
+          "oran": "1.93"
         },
         {
-          "secenek": "Yok",
-          "oran": "1.65"
+          "secenek": "Üst",
+          "oran": "1.52"
         }
       ],
-      "Hnd. MS (0:1) MBS 3": [
+      "1,5 Alt/Üst MBS 1": [
         {
-          "secenek": "1",
-          "oran": "3.05"
+          "secenek": "Alt",
+          "oran": "3.94"
         },
         {
-          "secenek": "X",
-          "oran": "3.23"
+          "secenek": "Üst",
+          "oran": "1.09"
         },
         {
-          "secenek": "+1h",
-          "oran": "1.56"
+          "secenek": "Alt",
+          "oran": "3.94"
         },
         {
-          "secenek": "1",
-          "oran": "3.05"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.23"
-        },
-        {
-          "secenek": "+1h",
-          "oran": "1.56"
+          "secenek": "Üst",
+          "oran": "1.09"
         }
       ],
-      "1. Yarı Deplasman 0,5 Alt/Üst MBS 3": [
+      "3,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
           "oran": "1.30"
         },
         {
           "secenek": "Üst",
-          "oran": "2.22"
+          "oran": "2.44"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.30"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.44"
+        }
+      ],
+      "4,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.59"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.59"
+        }
+      ],
+      "0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "11.60"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "-"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "11.60"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "-"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.24"
+        }
+      ],
+      "1. Yarı 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "5.41"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "5.41"
+        }
+      ],
+      "1. Yarı 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.19"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.19"
+        }
+      ],
+      "1. Yarı Çifte Şans MBS 1": [
+        {
+          "secenek": "1-X",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.16"
+        }
+      ],
+      "1. Yarı Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "3.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.11"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "1",
+          "oran": "3.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.11"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.59"
+        }
+      ],
+      "2. Yarı Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.85"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.47"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.37"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.85"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.47"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.37"
+        }
+      ],
+      "Tek/Çift MBS 1": [
+        {
+          "secenek": "Tek",
+          "oran": "1.76"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.65"
+        },
+        {
+          "secenek": "Tek",
+          "oran": "1.76"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.65"
+        }
+      ],
+      "Toplam Gol Aralığı MBS 1": [
+        {
+          "secenek": "0-1",
+          "oran": "3.91"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.85"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "3.08"
+        },
+        {
+          "secenek": "6+",
+          "oran": "9.98"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "3.91"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.85"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "3.08"
+        },
+        {
+          "secenek": "6+",
+          "oran": "9.98"
+        }
+      ],
+      "Karşılıklı Gol MBS 1": [
+        {
+          "secenek": "Var",
+          "oran": "1.43"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "2.11"
+        },
+        {
+          "secenek": "Var",
+          "oran": "1.43"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "2.11"
+        }
+      ],
+      "İlk Yarı/Maç Sonucu MBS 1": [
+        {
+          "secenek": "1/1",
+          "oran": "4.31"
+        },
+        {
+          "secenek": "X/1",
+          "oran": "6.62"
+        },
+        {
+          "secenek": "2/1",
+          "oran": "29.00"
+        },
+        {
+          "secenek": "1/X",
+          "oran": "12.90"
+        },
+        {
+          "secenek": "X/X",
+          "oran": "5.13"
+        },
+        {
+          "secenek": "2/X",
+          "oran": "12.55"
+        },
+        {
+          "secenek": "1/2",
+          "oran": "24.50"
+        },
+        {
+          "secenek": "X/2",
+          "oran": "5.49"
+        },
+        {
+          "secenek": "2/2",
+          "oran": "3.23"
+        },
+        {
+          "secenek": "1/1",
+          "oran": "4.31"
+        },
+        {
+          "secenek": "1/X",
+          "oran": "12.90"
+        },
+        {
+          "secenek": "1/2",
+          "oran": "24.50"
+        },
+        {
+          "secenek": "X/1",
+          "oran": "6.62"
+        },
+        {
+          "secenek": "X/X",
+          "oran": "5.13"
+        },
+        {
+          "secenek": "X/2",
+          "oran": "5.49"
+        },
+        {
+          "secenek": "2/1",
+          "oran": "29.00"
+        },
+        {
+          "secenek": "2/X",
+          "oran": "12.55"
+        },
+        {
+          "secenek": "2/2",
+          "oran": "3.23"
+        }
+      ],
+      "Hnd. MS (0:1) MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "5.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.36"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.23"
+        },
+        {
+          "secenek": "1",
+          "oran": "5.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.36"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.23"
+        }
+      ],
+      "Hnd. MS (1:0) MBS 1": [
+        {
+          "secenek": "+1h",
+          "oran": "1.41"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.85"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.78"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.41"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.85"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.78"
+        }
+      ],
+      "Hnd. MS (2:0) MBS 1": [
+        {
+          "secenek": "+2h",
+          "oran": "1.06"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.84"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.45"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.06"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.84"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.45"
+        }
+      ],
+      "Maç Skoru MBS 1": [
+        {
+          "secenek": "0-0",
+          "oran": "11.60"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "8.68"
+        },
+        {
+          "secenek": "0-2",
+          "oran": "10.85"
+        },
+        {
+          "secenek": "0-3",
+          "oran": "20.30"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "51.00"
+        },
+        {
+          "secenek": "0-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "1-0",
+          "oran": "10.00"
+        },
+        {
+          "secenek": "1-1",
+          "oran": "5.65"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "7.95"
+        },
+        {
+          "secenek": "1-3",
+          "oran": "14.80"
+        },
+        {
+          "secenek": "1-4",
+          "oran": "36.50"
+        },
+        {
+          "secenek": "1-5",
+          "oran": "115.00"
+        },
+        {
+          "secenek": "2-0",
+          "oran": "14.45"
+        },
+        {
+          "secenek": "2-1",
+          "oran": "9.14"
+        },
+        {
+          "secenek": "2-2",
+          "oran": "10.15"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "21.45"
+        },
+        {
+          "secenek": "2-4",
+          "oran": "53.00"
+        },
+        {
+          "secenek": "0-6",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "3-0",
+          "oran": "31.00"
+        },
+        {
+          "secenek": "3-1",
+          "oran": "19.75"
+        },
+        {
+          "secenek": "3-2",
+          "oran": "24.95"
+        },
+        {
+          "secenek": "3-3",
+          "oran": "41.00"
+        },
+        {
+          "secenek": "4-0",
+          "oran": "92.00"
+        },
+        {
+          "secenek": "4-1",
+          "oran": "57.00"
+        },
+        {
+          "secenek": "4-2",
+          "oran": "72.00"
+        },
+        {
+          "secenek": "5-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "5-1",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "6-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "Diğer",
+          "oran": "21.80"
+        },
+        {
+          "secenek": "1-0",
+          "oran": "10.00"
+        },
+        {
+          "secenek": "2-0",
+          "oran": "14.45"
+        },
+        {
+          "secenek": "2-1",
+          "oran": "9.14"
+        },
+        {
+          "secenek": "3-0",
+          "oran": "31.00"
+        },
+        {
+          "secenek": "3-1",
+          "oran": "19.75"
+        },
+        {
+          "secenek": "3-2",
+          "oran": "24.95"
+        },
+        {
+          "secenek": "4-0",
+          "oran": "92.00"
+        },
+        {
+          "secenek": "4-1",
+          "oran": "57.00"
+        },
+        {
+          "secenek": "4-2",
+          "oran": "72.00"
+        },
+        {
+          "secenek": "5-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "5-1",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "6-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "0-0",
+          "oran": "11.60"
+        },
+        {
+          "secenek": "1-1",
+          "oran": "5.65"
+        },
+        {
+          "secenek": "2-2",
+          "oran": "10.15"
+        },
+        {
+          "secenek": "3-3",
+          "oran": "41.00"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "8.68"
+        },
+        {
+          "secenek": "0-2",
+          "oran": "10.85"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "7.95"
+        },
+        {
+          "secenek": "0-3",
+          "oran": "20.30"
+        },
+        {
+          "secenek": "1-3",
+          "oran": "14.80"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "21.45"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "51.00"
+        },
+        {
+          "secenek": "1-4",
+          "oran": "36.50"
+        },
+        {
+          "secenek": "2-4",
+          "oran": "53.00"
+        },
+        {
+          "secenek": "0-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "1-5",
+          "oran": "115.00"
+        },
+        {
+          "secenek": "0-6",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "Diğer",
+          "oran": "21.80"
+        }
+      ],
+      "İlk Gol MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.94"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "14.10"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.69"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.94"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "14.10"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.69"
+        }
+      ],
+      "MS ve 4,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "3.23"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.28"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "2.56"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "12.15"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "8.93"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "3.23"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.28"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "2.56"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "12.15"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "8.93"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "7.04"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.49"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "5.73"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "4.01"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "3.05"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "7.04"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.49"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "5.73"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "4.01"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "3.05"
+        }
+      ],
+      "MS ve 3,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "3.87"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.49"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.14"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "7.53"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "5.44"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "3.87"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.49"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.14"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "7.53"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "5.44"
+        }
+      ],
+      "MS ve 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "11.75"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "13.65"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "10.20"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "3.26"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "3.90"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "2.49"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "11.75"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "13.65"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "10.20"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "3.26"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "3.90"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "2.49"
+        }
+      ],
+      "1. Yarı En Çok Korner MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.52"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.94"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.10"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.52"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.94"
+        }
+      ],
+      "1. Yarı Korner Aralığı MBS 1": [
+        {
+          "secenek": "0-4",
+          "oran": "1.46"
+        },
+        {
+          "secenek": "5-6",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "7+",
+          "oran": "4.50"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "1.46"
+        },
+        {
+          "secenek": "5-6",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "7+",
+          "oran": "4.50"
+        }
+      ],
+      "Ev Sahibi Gol Yemeden Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "3.91"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "3.91"
+        }
+      ],
+      "Deplasman Gol Yemeden Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "3.27"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "3.27"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.71"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.70"
         },
         {
           "secenek": "12+",
@@ -5205,71 +8807,383 @@
         },
         {
           "secenek": "Alt",
-          "oran": "1.30"
+          "oran": "1.71"
         },
         {
           "secenek": "Üst",
-          "oran": "2.22"
+          "oran": "1.70"
         }
       ],
-      "Ev Sahibi 1,5 Alt/Üst MBS 3": [
+      "Toplam Korner Aralığı MBS 1": [
         {
-          "secenek": "Alt",
-          "oran": "1.51"
+          "secenek": "0-8",
+          "oran": "1.84"
         },
         {
-          "secenek": "Üst",
-          "oran": "1.79"
+          "secenek": "9-11",
+          "oran": "2.49"
         },
         {
-          "secenek": "Alt",
-          "oran": "1.51"
+          "secenek": "12+",
+          "oran": "3.33"
         },
         {
-          "secenek": "Üst",
-          "oran": "1.79"
+          "secenek": "0-8",
+          "oran": "1.84"
+        },
+        {
+          "secenek": "9-11",
+          "oran": "2.49"
+        },
+        {
+          "secenek": "12+",
+          "oran": "3.33"
         }
       ],
-      "Deplasman 0,5 Alt/Üst MBS 3": [
+      "En Çok Korner MBS 1": [
         {
-          "secenek": "Alt",
-          "oran": "2.21"
+          "secenek": "1",
+          "oran": "1.96"
         },
         {
-          "secenek": "Üst",
-          "oran": "1.30"
+          "secenek": "X",
+          "oran": "7.00"
         },
         {
-          "secenek": "Alt",
-          "oran": "2.21"
+          "secenek": "2",
+          "oran": "1.78"
         },
         {
-          "secenek": "Üst",
-          "oran": "1.30"
+          "secenek": "1",
+          "oran": "1.96"
+        },
+        {
+          "secenek": "X",
+          "oran": "7.00"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.78"
         }
       ],
-      "1. Yarı Karşılıklı Gol MBS 3": [
+      "1.Yarı 3,5 Korner Alt/Üst MBS 1": [
         {
-          "secenek": "Var",
-          "oran": "4.03"
+          "secenek": "Alt",
+          "oran": "2.10"
         },
         {
-          "secenek": "Yok",
+          "secenek": "Üst",
+          "oran": "1.36"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.10"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.36"
+        }
+      ],
+      "1.Yarı 4,5 Korner Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.48"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.87"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.48"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.87"
+        }
+      ],
+      "1.Yarı 5,5 Korner Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.17"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.77"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.17"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.77"
+        }
+      ],
+      "Ev Sahibi 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
           "oran": "-"
         },
         {
+          "secenek": "Üst",
+          "oran": "5.06"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "5.06"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "3.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.15"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "3.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.15"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.13"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.13"
+        }
+      ],
+      "En Çok Gol Olacak Yarı MBS 1": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.86"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.35"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.89"
+        },
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.86"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.35"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.89"
+        }
+      ],
+      "Deplasman 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.59"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.82"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.59"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.82"
+        }
+      ],
+      "Deplasman 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.89"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.89"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "3.96"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "3.96"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.09"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol MBS 1": [
+        {
           "secenek": "Var",
-          "oran": "4.03"
+          "oran": "3.58"
         },
         {
           "secenek": "Yok",
+          "oran": "1.11"
+        },
+        {
+          "secenek": "Var",
+          "oran": "3.58"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.11"
+        }
+      ],
+      "Ev Sahibi İki Yarıyı da Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "9.58"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "9.58"
+        },
+        {
+          "secenek": "Hayır",
           "oran": "-"
         }
       ],
-      "1. Yarı Ev Sahibi 0,5 Alt/Üst MBS 3": [
+      "Deplasman İki Yarıyı da Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "6.83"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "6.83"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        }
+      ],
+      "1. Yarı Ev Sahibi 0,5 Alt/Üst MBS 1": [
         {
           "secenek": "Alt",
-          "oran": "1.62"
+          "oran": "1.55"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.55"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        }
+      ]
+    },
+    "3r93obkdegnxv8mnbd6hap8no": {
+      "Maç Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.90"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.09"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.06"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.90"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.09"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.06"
+        }
+      ],
+      "Çifte Şans MBS 1": [
+        {
+          "secenek": "1-X",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.52"
+        }
+      ],
+      "2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.76"
         },
         {
           "secenek": "Üst",
@@ -5277,11 +9191,1157 @@
         },
         {
           "secenek": "Alt",
-          "oran": "1.62"
+          "oran": "1.76"
         },
         {
           "secenek": "Üst",
           "oran": "1.65"
+        }
+      ],
+      "1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "3.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.13"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "3.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.13"
+        }
+      ],
+      "4,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "5.42"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "5.42"
+        }
+      ],
+      "3,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.23"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.76"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.23"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.76"
+        }
+      ],
+      "0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "9.98"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "-"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "9.98"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "-"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.42"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.42"
+        }
+      ],
+      "1. Yarı 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "6.10"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "6.10"
+        }
+      ],
+      "1. Yarı 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "2.77"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.23"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.77"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.23"
+        }
+      ],
+      "1. Yarı Çifte Şans MBS 1": [
+        {
+          "secenek": "1-X",
+          "oran": "1.12"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.30"
+        },
+        {
+          "secenek": "1-X",
+          "oran": "1.12"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.30"
+        }
+      ],
+      "1. Yarı Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.04"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.61"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.04"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.61"
+        }
+      ],
+      "2. Yarı Sonucu MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.39"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.20"
+        },
+        {
+          "secenek": "1",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.39"
+        },
+        {
+          "secenek": "2",
+          "oran": "3.20"
+        }
+      ],
+      "Tek/Çift MBS 1": [
+        {
+          "secenek": "Tek",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.64"
+        },
+        {
+          "secenek": "Tek",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.64"
+        }
+      ],
+      "Toplam Gol Aralığı MBS 1": [
+        {
+          "secenek": "0-1",
+          "oran": "3.42"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.80"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "3.39"
+        },
+        {
+          "secenek": "6+",
+          "oran": "12.60"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "3.42"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.80"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "3.39"
+        },
+        {
+          "secenek": "6+",
+          "oran": "12.60"
+        }
+      ],
+      "Karşılıklı Gol MBS 1": [
+        {
+          "secenek": "Var",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "Var",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.93"
+        }
+      ],
+      "İlk Yarı/Maç Sonucu MBS 1": [
+        {
+          "secenek": "1/1",
+          "oran": "2.93"
+        },
+        {
+          "secenek": "X/1",
+          "oran": "5.04"
+        },
+        {
+          "secenek": "2/1",
+          "oran": "24.95"
+        },
+        {
+          "secenek": "1/X",
+          "oran": "12.75"
+        },
+        {
+          "secenek": "X/X",
+          "oran": "4.78"
+        },
+        {
+          "secenek": "2/X",
+          "oran": "13.45"
+        },
+        {
+          "secenek": "1/2",
+          "oran": "34.00"
+        },
+        {
+          "secenek": "X/2",
+          "oran": "7.25"
+        },
+        {
+          "secenek": "2/2",
+          "oran": "5.16"
+        },
+        {
+          "secenek": "1/1",
+          "oran": "2.93"
+        },
+        {
+          "secenek": "1/X",
+          "oran": "12.75"
+        },
+        {
+          "secenek": "1/2",
+          "oran": "34.00"
+        },
+        {
+          "secenek": "X/1",
+          "oran": "5.04"
+        },
+        {
+          "secenek": "X/X",
+          "oran": "4.78"
+        },
+        {
+          "secenek": "X/2",
+          "oran": "7.25"
+        },
+        {
+          "secenek": "2/1",
+          "oran": "24.95"
+        },
+        {
+          "secenek": "2/X",
+          "oran": "13.45"
+        },
+        {
+          "secenek": "2/2",
+          "oran": "5.16"
+        }
+      ],
+      "Hnd. MS (0:2) MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "7.66"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.40"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "1",
+          "oran": "7.66"
+        },
+        {
+          "secenek": "X",
+          "oran": "5.40"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.09"
+        }
+      ],
+      "Hnd. MS (0:1) MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "3.43"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.62"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.50"
+        },
+        {
+          "secenek": "1",
+          "oran": "3.43"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.62"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.50"
+        }
+      ],
+      "Hnd. MS (1:0) MBS 1": [
+        {
+          "secenek": "+1h",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.62"
+        },
+        {
+          "secenek": "2",
+          "oran": "6.67"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.62"
+        },
+        {
+          "secenek": "2",
+          "oran": "6.67"
+        }
+      ],
+      "Maç Skoru MBS 1": [
+        {
+          "secenek": "0-0",
+          "oran": "9.67"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "9.63"
+        },
+        {
+          "secenek": "0-2",
+          "oran": "16.00"
+        },
+        {
+          "secenek": "0-3",
+          "oran": "40.00"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "0-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "1-0",
+          "oran": "7.27"
+        },
+        {
+          "secenek": "1-1",
+          "oran": "5.39"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "10.15"
+        },
+        {
+          "secenek": "1-3",
+          "oran": "25.50"
+        },
+        {
+          "secenek": "1-4",
+          "oran": "84.00"
+        },
+        {
+          "secenek": "1-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "2-0",
+          "oran": "9.10"
+        },
+        {
+          "secenek": "2-1",
+          "oran": "7.67"
+        },
+        {
+          "secenek": "2-2",
+          "oran": "11.15"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "31.50"
+        },
+        {
+          "secenek": "2-4",
+          "oran": "105.00"
+        },
+        {
+          "secenek": "0-6",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "3-0",
+          "oran": "17.00"
+        },
+        {
+          "secenek": "3-1",
+          "oran": "14.25"
+        },
+        {
+          "secenek": "3-2",
+          "oran": "23.65"
+        },
+        {
+          "secenek": "3-3",
+          "oran": "53.00"
+        },
+        {
+          "secenek": "4-0",
+          "oran": "42.50"
+        },
+        {
+          "secenek": "4-1",
+          "oran": "35.50"
+        },
+        {
+          "secenek": "4-2",
+          "oran": "60.00"
+        },
+        {
+          "secenek": "5-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "5-1",
+          "oran": "110.00"
+        },
+        {
+          "secenek": "6-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "Diğer",
+          "oran": "29.50"
+        },
+        {
+          "secenek": "1-0",
+          "oran": "7.27"
+        },
+        {
+          "secenek": "2-0",
+          "oran": "9.10"
+        },
+        {
+          "secenek": "2-1",
+          "oran": "7.67"
+        },
+        {
+          "secenek": "3-0",
+          "oran": "17.00"
+        },
+        {
+          "secenek": "3-1",
+          "oran": "14.25"
+        },
+        {
+          "secenek": "3-2",
+          "oran": "23.65"
+        },
+        {
+          "secenek": "4-0",
+          "oran": "42.50"
+        },
+        {
+          "secenek": "4-1",
+          "oran": "35.50"
+        },
+        {
+          "secenek": "4-2",
+          "oran": "60.00"
+        },
+        {
+          "secenek": "5-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "5-1",
+          "oran": "110.00"
+        },
+        {
+          "secenek": "6-0",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "0-0",
+          "oran": "9.67"
+        },
+        {
+          "secenek": "1-1",
+          "oran": "5.39"
+        },
+        {
+          "secenek": "2-2",
+          "oran": "11.15"
+        },
+        {
+          "secenek": "3-3",
+          "oran": "53.00"
+        },
+        {
+          "secenek": "0-1",
+          "oran": "9.63"
+        },
+        {
+          "secenek": "0-2",
+          "oran": "16.00"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "10.15"
+        },
+        {
+          "secenek": "0-3",
+          "oran": "40.00"
+        },
+        {
+          "secenek": "1-3",
+          "oran": "25.50"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "31.50"
+        },
+        {
+          "secenek": "0-4",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "1-4",
+          "oran": "84.00"
+        },
+        {
+          "secenek": "2-4",
+          "oran": "105.00"
+        },
+        {
+          "secenek": "0-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "1-5",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "0-6",
+          "oran": "130.00"
+        },
+        {
+          "secenek": "Diğer",
+          "oran": "29.50"
+        }
+      ],
+      "İlk Gol MBS 1": [
+        {
+          "secenek": "1",
+          "oran": "1.61"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "11.70"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.12"
+        },
+        {
+          "secenek": "1",
+          "oran": "1.61"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "11.70"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.12"
+        }
+      ],
+      "MS ve 4,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.28"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.13"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.55"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "17.35"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.28"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.13"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.55"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "9.41"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "35.00"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "17.35"
+        }
+      ],
+      "MS ve 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "8.52"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "11.40"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "11.35"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.34"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "3.98"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "4.00"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "8.52"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "11.40"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "11.35"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.34"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "3.98"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "4.00"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "4.80"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "7.17"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "5.04"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "4.80"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "7.17"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.96"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "5.04"
+        }
+      ],
+      "MS ve 3,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.75"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "4.14"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "5.47"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "10.40"
+        },
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.75"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "4.14"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "5.47"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "10.65"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "10.40"
+        }
+      ],
+      "Ev Sahibi Gol Yemeden Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "2.88"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "1.06"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "2.88"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "1.06"
+        }
+      ],
+      "Deplasman Gol Yemeden Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "4.09"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.08"
+        },
+        {
+          "secenek": "12+",
+          "oran": "-"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.08"
+        }
+      ],
+      "Ev Sahibi 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.91"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.91"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.59"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.83"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.59"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.83"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "3.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "3.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.09"
+        }
+      ],
+      "En Çok Gol Olacak Yarı MBS 1": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.88"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.21"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.88"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.21"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.93"
+        }
+      ],
+      "Deplasman 2,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "6.64"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "-"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "6.64"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "2.75"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.23"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "2.75"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.23"
+        }
+      ],
+      "Deplasman 1,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.52"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.28"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.52"
+        }
+      ],
+      "Ev Sahibi İki Yarıyı da Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "6.13"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "6.13"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol MBS 1": [
+        {
+          "secenek": "Var",
+          "oran": "3.96"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.09"
+        },
+        {
+          "secenek": "Var",
+          "oran": "3.96"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.09"
+        }
+      ],
+      "1. Yarı Ev Sahibi 0,5 Alt/Üst MBS 1": [
+        {
+          "secenek": "Alt",
+          "oran": "1.71"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.69"
+        },
+        {
+          "secenek": "Alt",
+          "oran": "1.71"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.69"
+        }
+      ],
+      "Deplasman İki Yarıyı da Kazanır MBS 1": [
+        {
+          "secenek": "Evet",
+          "oran": "11.85"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
+        },
+        {
+          "secenek": "Evet",
+          "oran": "11.85"
+        },
+        {
+          "secenek": "Hayır",
+          "oran": "-"
         }
       ]
     }
