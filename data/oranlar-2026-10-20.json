@@ -2,6 +2,182 @@
   "date": "2026-10-20",
   "matches": [
     {
+      "id": "1zdtst8tneqxajd4sfj0ko8pg",
+      "rbId": null,
+      "matchName": "Corinthians vs Vitoria BA",
+      "homeTeam": {
+        "id": "f0td6lvs326lppbwh1fj8v2ls",
+        "name": "Corinthians",
+        "slug": "corinthians"
+      },
+      "awayTeam": {
+        "id": "436xob9epu7bzdu7c1zzjjdak",
+        "name": "Vitoria BA",
+        "slug": "vitoria-ba"
+      },
+      "matchSlug": "corinthians-vs-vitoria-ba",
+      "seriesId": null,
+      "stageId": 92247,
+      "formatId": null,
+      "sortOrder": 27,
+      "mstUtc": 1792450800000,
+      "competitionId": "scf9p4y91yjvqvg5jndxzhxj",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792052094000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3216710,
+      "liveBetting": false
+    },
+    {
+      "id": "2ejtvxwmeq59ia9rqdej8bv2s",
+      "rbId": null,
+      "matchName": "Newells OB vs C. Cordoba",
+      "homeTeam": {
+        "id": "3oj3koph7uf63y1f9zr8r7ylo",
+        "name": "Newells OB",
+        "slug": "newells-ob"
+      },
+      "awayTeam": {
+        "id": "1x5i9dl7uyrh5o2th8ore61e6",
+        "name": "C. Cordoba",
+        "slug": "c-cordoba"
+      },
+      "matchSlug": "newells-ob-vs-c-cordoba",
+      "seriesId": null,
+      "stageId": 92299,
+      "formatId": null,
+      "sortOrder": 28,
+      "mstUtc": 1792447200000,
+      "competitionId": "581t4mywybx21wcpmpykhyzr3",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792052094000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3216406,
+      "liveBetting": false
+    },
+    {
+      "id": "2h56syeu77afug3c2kc2fy590",
+      "rbId": null,
+      "matchName": "Sarmiento vs Barracas C.",
+      "homeTeam": {
+        "id": "1tsjuhn8qeikaj837w2ybx77n",
+        "name": "Sarmiento",
+        "slug": "sarmiento"
+      },
+      "awayTeam": {
+        "id": "8bh6iyg42ta2y8mgkkgd2hy6o",
+        "name": "Barracas C.",
+        "slug": "barracas-c"
+      },
+      "matchSlug": "sarmiento-vs-barracas-c",
+      "seriesId": null,
+      "stageId": 92299,
+      "formatId": null,
+      "sortOrder": 29,
+      "mstUtc": 1792447200000,
+      "competitionId": "581t4mywybx21wcpmpykhyzr3",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792052094000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3219307,
+      "liveBetting": false
+    },
+    {
+      "id": "2dlvoaxoj9q81denb2ssi1s0k",
+      "rbId": null,
+      "matchName": "Deportivo R. vs Union Santa Fe",
+      "homeTeam": {
+        "id": "7gcwwr8m5docs6jqrn2stilie",
+        "name": "Deportivo R.",
+        "slug": "deportivo-r"
+      },
+      "awayTeam": {
+        "id": "5o5wtxn03ktvxcdrpxht5aqdp",
+        "name": "Union Santa Fe",
+        "slug": "union-santa-fe"
+      },
+      "matchSlug": "deportivo-r-vs-union-santa-fe",
+      "seriesId": null,
+      "stageId": 92299,
+      "formatId": null,
+      "sortOrder": 30,
+      "mstUtc": 1792455300000,
+      "competitionId": "581t4mywybx21wcpmpykhyzr3",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792052094000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3220173,
+      "liveBetting": false
+    },
+    {
       "id": "cl4enw0sfjoz7261h655m43ro",
       "rbId": null,
       "matchName": "Pineto vs Reggiana",
@@ -24,7 +200,7 @@
       "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792046339000,
+      "lastUpdated": 1792052094000,
       "status": "state",
       "state": "live",
       "substate": "suspended",
@@ -44,6 +220,50 @@
       },
       "iddaaCode": 3198834,
       "liveBetting": true
+    },
+    {
+      "id": "bqf0intgjugdu9noxr3v6lct0",
+      "rbId": null,
+      "matchName": "Goias GO vs Nautico PE",
+      "homeTeam": {
+        "id": "5umkgpd22oex45aoco3wqgddl",
+        "name": "Goias GO",
+        "slug": "goias-go"
+      },
+      "awayTeam": {
+        "id": "3xiov3h91844kh0omyrnb4qp6",
+        "name": "Nautico PE",
+        "slug": "nautico-pe"
+      },
+      "matchSlug": "goias-go-vs-nautico-pe",
+      "seriesId": null,
+      "stageId": 92053,
+      "formatId": null,
+      "sortOrder": 66,
+      "mstUtc": 1792449000000,
+      "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
+      "periodId": 16,
+      "periodStart": null,
+      "lastUpdated": 1792052094000,
+      "status": "timestamp",
+      "state": "pre",
+      "substate": "none",
+      "score": {
+        "home": "",
+        "away": "",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": null,
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3216392,
+      "liveBetting": false
     },
     {
       "id": "4pwzomlxifhx9bjd34fqq15w4",
@@ -68,7 +288,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792046339000,
+      "lastUpdated": 1792052094000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
