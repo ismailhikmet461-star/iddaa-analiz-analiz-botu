@@ -24,7 +24,7 @@
       "competitionId": "scf9p4y91yjvqvg5jndxzhxj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -68,7 +68,7 @@
       "competitionId": "581t4mywybx21wcpmpykhyzr3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -112,7 +112,7 @@
       "competitionId": "581t4mywybx21wcpmpykhyzr3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -156,7 +156,7 @@
       "competitionId": "581t4mywybx21wcpmpykhyzr3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -176,6 +176,50 @@
       },
       "iddaaCode": 3220173,
       "liveBetting": false
+    },
+    {
+      "id": "cl4enw0sfjoz7261h655m43ro",
+      "rbId": null,
+      "matchName": "Pineto vs Reggiana",
+      "homeTeam": {
+        "id": "cukfm3zh91hh9zpmzattj81yd",
+        "name": "Pineto",
+        "slug": "pineto"
+      },
+      "awayTeam": {
+        "id": "fdzmkrqxu2s0x9cioolazpy",
+        "name": "Reggiana",
+        "slug": "reggiana"
+      },
+      "matchSlug": "pineto-vs-reggiana",
+      "seriesId": null,
+      "stageId": 96067,
+      "formatId": null,
+      "sortOrder": 31,
+      "mstUtc": 1792503000000,
+      "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
+      "periodId": null,
+      "periodStart": null,
+      "lastUpdated": 1792119616000,
+      "status": "state",
+      "state": "live",
+      "substate": "suspended",
+      "score": {
+        "home": "2",
+        "away": "0",
+        "ht": null,
+        "agg": null,
+        "pen": null
+      },
+      "statusBoxContent": "DUR",
+      "winner": null,
+      "advancingTeam": null,
+      "redCards": {
+        "home": 0,
+        "away": 0
+      },
+      "iddaaCode": 3198834,
+      "liveBetting": true
     },
     {
       "id": "6wtnrctfxbznaadudsrbpobo4",
@@ -200,7 +244,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -244,7 +288,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -288,7 +332,7 @@
       "competitionId": "2wolc27r8z03itcvwp43e38c5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -332,7 +376,7 @@
       "competitionId": "civf31q1inxohs4a03y8reetf",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -376,7 +420,7 @@
       "competitionId": "civf31q1inxohs4a03y8reetf",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -420,7 +464,7 @@
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -464,7 +508,7 @@
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -484,50 +528,6 @@
       },
       "iddaaCode": 3224020,
       "liveBetting": false
-    },
-    {
-      "id": "cl4enw0sfjoz7261h655m43ro",
-      "rbId": null,
-      "matchName": "Pineto vs Reggiana",
-      "homeTeam": {
-        "id": "cukfm3zh91hh9zpmzattj81yd",
-        "name": "Pineto",
-        "slug": "pineto"
-      },
-      "awayTeam": {
-        "id": "fdzmkrqxu2s0x9cioolazpy",
-        "name": "Reggiana",
-        "slug": "reggiana"
-      },
-      "matchSlug": "pineto-vs-reggiana",
-      "seriesId": null,
-      "stageId": 96067,
-      "formatId": null,
-      "sortOrder": 31,
-      "mstUtc": 1792503000000,
-      "competitionId": "1zp1du9n4rj36p1ss9zbxtqfb",
-      "periodId": null,
-      "periodStart": null,
-      "lastUpdated": 1792117796000,
-      "status": "state",
-      "state": "live",
-      "substate": "suspended",
-      "score": {
-        "home": "2",
-        "away": "0",
-        "ht": null,
-        "agg": null,
-        "pen": null
-      },
-      "statusBoxContent": "DUR",
-      "winner": null,
-      "advancingTeam": null,
-      "redCards": {
-        "home": 0,
-        "away": 0
-      },
-      "iddaaCode": 3198834,
-      "liveBetting": true
     },
     {
       "id": "4pwzomlxifhx9bjd34fqq15w4",
@@ -552,7 +552,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792117796000,
+      "lastUpdated": 1792119616000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -572,50 +572,6 @@
       },
       "iddaaCode": 3204309,
       "liveBetting": false
-    },
-    {
-      "id": "6ppyavgzgrkuny00je8967cpg",
-      "rbId": null,
-      "matchName": "Millonarios vs Once Caldas",
-      "homeTeam": {
-        "id": "eqbww924pupg9vspauc0h7bt6",
-        "name": "Millonarios",
-        "slug": "millonarios"
-      },
-      "awayTeam": {
-        "id": "1m0l6lfeg2gpncu6xjz21pv9n",
-        "name": "Once Caldas",
-        "slug": "once-caldas"
-      },
-      "matchSlug": "millonarios-vs-once-caldas",
-      "seriesId": null,
-      "stageId": 92307,
-      "formatId": null,
-      "sortOrder": 238,
-      "mstUtc": 1792546200000,
-      "competitionId": "2ty8ihceabty8yddmu31iuuej",
-      "periodId": 16,
-      "periodStart": null,
-      "lastUpdated": 1792117811000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
-      "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
-        "agg": null,
-        "pen": null
-      },
-      "statusBoxContent": null,
-      "winner": null,
-      "advancingTeam": null,
-      "redCards": {
-        "home": 0,
-        "away": 0
-      },
-      "iddaaCode": 3206609,
-      "liveBetting": true
     }
   ],
   "odds": {}
