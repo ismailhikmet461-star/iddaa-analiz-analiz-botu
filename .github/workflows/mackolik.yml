@@ -24,7 +24,7 @@ steps:
   - name: Python paketlerini kur
     run: |
       python -m pip install --upgrade pip
-      pip install cloudscraper beautifulsoup4 requests
+      pip install cloudscraper beautifulsoup4
 
   - name: Mac ve oran verilerini cek
     run: |
@@ -37,6 +37,7 @@ steps:
       from datetime import datetime, timedelta
       from zoneinfo import ZoneInfo
       from concurrent.futures import ThreadPoolExecutor, as_completed
+      from urllib.parse import urljoin
 
       import cloudscraper
       from bs4 import BeautifulSoup
@@ -60,7 +61,7 @@ steps:
               ),
               "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
               "Referer": BASE + "/",
-              "Accept": "text/html,application/json,*/*"
+              "Accept": "text/html,application/xhtml+xml,*/*"
           })
           return s
 
@@ -73,6 +74,43 @@ steps:
           text = unicodedata.normalize("NFKD", text)
           text = text.encode("ascii", "ignore").decode("ascii")
           return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+
+      def takim_adi(value):
+          if isinstance(value, dict):
+              return str(
+                  value.get("name")
+                  or value.get("teamName")
+                  or value.get("shortName")
+                  or ""
+              ).strip()
+          return str(value or "").strip()
+
+      def mac_adi(match):
+          for key in ("matchName", "name", "title"):
+              value = str(match.get(key) or "").strip()
+              if value:
+                  parts = re.split(
+                      r"\s+(?:vs?\.?|[-–—])\s+",
+                      value,
+                      flags=re.I
+                  )
+                  if len(parts) >= 2:
+                      return parts[0].strip(), parts[1].strip()
+
+          home = takim_adi(
+              match.get("homeTeam")
+              or match.get("home")
+              or match.get("homeTeamName")
+          )
+          away = takim_adi(
+              match.get("awayTeam")
+              or match.get("away")
+              or match.get("awayTeamName")
+          )
+          if home and away:
+              return home, away
+
+          return "", ""
 
       def maclari_getir(tarih):
           url = BASE + (
@@ -111,176 +149,214 @@ steps:
 
               except Exception as e:
                   hata = e
-                  print("Maç verisi denemesi:", deneme + 1, repr(e))
+                  print("Maç isteği hatası:", repr(e))
                   time.sleep(2 * (deneme + 1))
 
           raise hata
 
-      def oran_sayfasi_oku(html, mid):
+      def oranlari_ayikla(html, mid):
           soup = BeautifulSoup(html, "html.parser")
           sonuc = {}
 
-          # Önce bilinen Maçkolik market alanlarını ara.
-          marketler = soup.select(
+          # Önce bilinen market alanlarını kullan.
+          alanlar = soup.select(
               "ul.widget-iddaa-markets__markets-list "
               "div.widget-iddaa-markets__market-content"
           )
 
-          if not marketler:
-              marketler = soup.select(
+          if not alanlar:
+              alanlar = soup.select(
                   "div.widget-iddaa-markets__market-content"
               )
 
-          print("Oran alanı sayısı:", mid, len(marketler))
-
-          for icerik in marketler:
-              # Market başlığını en yakın önceki h2/h3/h4 öğesinden bul.
-              baslik_ogesi = icerik.find_previous(
+          for alan in alanlar:
+              baslik_ogesi = alan.find_previous(
                   ["h2", "h3", "h4"]
               )
               if not baslik_ogesi:
                   continue
 
-              baslik = baslik_ogesi.get_text(" ", strip=True)
+              span = baslik_ogesi.find("span")
+              baslik = (
+                  span.get_text(" ", strip=True)
+                  if span else baslik_ogesi.get_text(" ", strip=True)
+              )
               if not baslik:
                   continue
 
               secenekler = []
-
-              for li in icerik.find_all("li"):
+              for li in alan.find_all("li"):
                   spans = [
-                      s.get_text(" ", strip=True)
-                      for s in li.find_all("span")
+                      x.get_text(" ", strip=True)
+                      for x in li.find_all("span")
                   ]
                   spans = [x for x in spans if x]
 
-                  # Bir li içindeki sayı biçimindeki oranı bul.
-                  oran_indeksi = None
-                  for i in range(len(spans) - 1, -1, -1):
-                      aday = spans[i].replace(",", ".").strip()
-                      if re.fullmatch(r"\d+(?:\.\d+)?", aday):
-                          oran_indeksi = i
-                          break
+                  if len(spans) >= 2:
+                      for i in range(0, len(spans) - 1, 2):
+                          secenek = spans[i].strip()
+                          oran = spans[i + 1].strip().replace(",", ".")
+                          if (
+                              secenek
+                              and re.fullmatch(r"\d+(?:\.\d+)?", oran)
+                          ):
+                              secenekler.append({
+                                  "secenek": secenek,
+                                  "oran": oran
+                              })
 
-                  if oran_indeksi is None:
-                      continue
-
-                  oran = spans[oran_indeksi].replace(",", ".")
-                  secenek = " ".join(spans[:oran_indeksi]).strip()
-
-                  if not secenek:
-                      secenek = li.get_text(" ", strip=True)
-                      secenek = secenek.replace(oran, "").strip()
-
-                  if secenek:
-                      secenekler.append({
-                          "secenek": secenek,
-                          "oran": oran
-                      })
+                  if not spans:
+                      metin = li.get_text(" ", strip=True)
+                      eslesme = re.match(
+                          r"^(.*?)\s+(\d+(?:[.,]\d+)?)$",
+                          metin
+                      )
+                      if eslesme and eslesme.group(1).strip():
+                          secenekler.append({
+                              "secenek": eslesme.group(1).strip(),
+                              "oran": eslesme.group(2).replace(",", ".")
+                          })
 
               if secenekler:
                   sonuc[baslik] = secenekler
 
-          # Bazı sayfa sürümlerinde marketler farklı kapsayıcıda bulunabilir.
+          # Alternatif: başlıkların ardından gelen liste öğelerini tara.
           if not sonuc:
-              tum_basliklar = soup.select(
-                  "h2, h3, h4, "
-                  ".widget-iddaa-markets__market-title"
-              )
+              basliklar = soup.find_all(["h2", "h3", "h4"])
 
-              for baslik_ogesi in tum_basliklar:
-                  baslik = baslik_ogesi.get_text(" ", strip=True)
-                  kapsayici = baslik_ogesi.find_parent(
-                      class_=re.compile("market")
+              for baslik_ogesi in basliklar:
+                  span = baslik_ogesi.find("span")
+                  baslik = (
+                      span.get_text(" ", strip=True)
+                      if span else baslik_ogesi.get_text(" ", strip=True)
                   )
-
-                  if not kapsayici or not baslik:
+                  if not baslik:
                       continue
 
                   secenekler = []
-                  for li in kapsayici.find_all("li"):
-                      metinler = [
-                          x.get_text(" ", strip=True)
-                          for x in li.find_all("span")
-                      ]
-                      metinler = [x for x in metinler if x]
 
-                      for i in range(len(metinler) - 1, -1, -1):
-                          oran = metinler[i].replace(",", ".")
-                          if re.fullmatch(r"\d+(?:\.\d+)?", oran):
-                              secenek = " ".join(metinler[:i]).strip()
-                              if secenek:
-                                  secenekler.append({
-                                      "secenek": secenek,
-                                      "oran": oran
-                                  })
-                              break
+                  for el in baslik_ogesi.next_elements:
+                      if el is not baslik_ogesi and getattr(el, "name", None) in (
+                          "h2", "h3", "h4"
+                      ):
+                          break
+
+                      if getattr(el, "name", None) != "li":
+                          continue
+
+                      # İç içe li öğelerini tekrar işlememeye çalış.
+                      if el.find_parent("li"):
+                          continue
+
+                      spans = [
+                          x.get_text(" ", strip=True)
+                          for x in el.find_all("span")
+                      ]
+                      spans = [x for x in spans if x]
+
+                      for i in range(0, len(spans) - 1, 2):
+                          secenek = spans[i].strip()
+                          oran = spans[i + 1].strip().replace(",", ".")
+                          if (
+                              secenek
+                              and re.fullmatch(r"\d+(?:\.\d+)?", oran)
+                          ):
+                              secenekler.append({
+                                  "secenek": secenek,
+                                  "oran": oran
+                              })
 
                   if secenekler:
                       sonuc[baslik] = secenekler
 
-          return sonuc
+          # Tekrarlanan marketleri temizle.
+          temiz = {}
+          for baslik, secenekler in sonuc.items():
+              benzersiz = []
+              gorulen = set()
+
+              for secenek in secenekler:
+                  anahtar = (
+                      secenek.get("secenek"),
+                      secenek.get("oran")
+                  )
+                  if anahtar not in gorulen:
+                      gorulen.add(anahtar)
+                      benzersiz.append(secenek)
+
+              if benzersiz:
+                  temiz[baslik] = benzersiz
+
+          return temiz
 
       def oranlari_getir(match):
           mid = str(match.get("id") or match.get("matchId") or "")
           if not mid:
+              print("Maç ID bulunamadı:", match)
               return mid, {}
 
-          ad = str(match.get("matchName") or match.get("name") or "")
-          takimlar = re.split(
-              r"\s+(?:vs?\.?|[-–])\s+",
-              ad,
-              flags=re.I
-          )
-
-          if len(takimlar) < 2:
-              print("Takım adları ayrıştırılamadı:", repr(ad), mid)
+          ev, dep = mac_adi(match)
+          if not ev or not dep:
+              print("Takım adları bulunamadı:", mid)
               return mid, {}
 
-          url = (
-              f"{BASE}/mac/{slugify(takimlar[0])}-vs-"
-              f"{slugify(takimlar[1])}/iddaa/{mid}"
-          )
+          # Varsa maç nesnesinde bulunan doğrudan URL bilgisini de dene.
+          adaylar = []
+          for key in ("url", "matchUrl", "matchURL", "href", "slug"):
+              value = match.get(key)
+              if isinstance(value, str) and value.strip():
+                  aday = urljoin(BASE + "/", value.strip())
+                  if "/mac/" in aday and aday not in adaylar:
+                      adaylar.append(aday)
 
-          try:
-              r = yeni_scraper().get(url, timeout=30)
-              print("Oran sayfası:", mid, "HTTP", r.status_code)
+          slug = slugify(ev) + "-vs-" + slugify(dep)
+          adaylar.extend([
+              f"{BASE}/mac/{slug}/iddaa/{mid}",
+              f"{BASE}/mac/{slug}/{mid}"
+          ])
 
-              if r.status_code != 200:
-                  print("Oran sayfası erişilemedi:", mid)
-                  return mid, {}
+          # Aynı URL'yi bir kez dene.
+          adaylar = list(dict.fromkeys(adaylar))
+          son_http = None
 
-              sonuc = oran_sayfasi_oku(r.text, mid)
+          for url in adaylar:
+              try:
+                  r = yeni_scraper().get(url, timeout=30)
+                  son_http = r.status_code
+                  print("Oran sayfası:", mid, r.status_code, url)
 
-              if sonuc:
+                  if r.status_code != 200:
+                      continue
+
+                  # İddaa sayfası değilse sonraki URL'yi dene.
+                  if "iddaa" not in r.url.lower() and "/iddaa/" not in url:
+                      if "/mac/" not in r.url:
+                          continue
+
+                  veri = oranlari_ayikla(r.text, mid)
+                  if veri:
+                      print(
+                          "ORAN BULUNDU:",
+                          mid,
+                          "| Market:",
+                          len(veri)
+                      )
+                      return mid, veri
+
                   print(
-                      "ORAN BULUNDU:",
+                      "Sayfa açıldı fakat oran okunamadı:",
                       mid,
-                      "| Market sayısı:",
-                      len(sonuc),
-                      "| Marketler:",
-                      list(sonuc.keys())[:8]
-                  )
-              else:
-                  print(
-                      "ORAN BULUNAMADI:",
-                      mid,
-                      "| Sayfa uzunluğu:",
-                      len(r.text),
-                      "| Sayfa başlığı:",
-                      BeautifulSoup(
-                          r.text, "html.parser"
-                      ).title.get_text(" ", strip=True)
-                      if BeautifulSoup(
-                          r.text, "html.parser"
-                      ).title else "Başlık yok"
+                      "| HTML uzunluğu:",
+                      len(r.text)
                   )
 
-              return mid, sonuc
+              except Exception as e:
+                  print("Oran URL hatası:", mid, repr(e))
 
-          except Exception as e:
-              print("Oran hatası:", mid, repr(e))
-              return mid, {}
+              time.sleep(0.15)
+
+          print("BU MAÇTA ORAN OKUNAMADI:", mid, "HTTP:", son_http)
+          return mid, {}
 
       def eski_dosyayi_oku(dosya):
           try:
@@ -298,7 +374,7 @@ steps:
               maclar = maclari_getir(tarih)
           except Exception as e:
               print("Maçlar alınamadı:", tarih, repr(e))
-              print("Mevcut JSON dosyası korunacak.")
+              print("Eski dosya korunuyor.")
               return False
 
           eski = eski_dosyayi_oku(dosya)
@@ -320,9 +396,13 @@ steps:
                       except Exception as e:
                           print("Oran görevi hatası:", repr(e))
 
-          # Oran alınamayan maçlarda önceki çalıştırmada kayıtlı oranı
-          # koru. Böylece geçici site sorunları veriyi silmez.
-          eski_oranlar = eski.get("mackolikOdds") or eski.get("odds") or {}
+          # Yeni oran bulunamadıysa önceki oranları koru.
+          eski_oranlar = (
+              eski.get("mackolikOdds")
+              or eski.get("odds")
+              or {}
+          )
+
           for mid, veri in eski_oranlar.items():
               if mid not in oranlar and veri:
                   oranlar[mid] = veri
@@ -338,13 +418,17 @@ steps:
           }
 
           with open(dosya, "w", encoding="utf-8") as f:
-              json.dump(cikti, f, ensure_ascii=False, indent=2)
+              json.dump(
+                  cikti,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
 
-          oranli_mac = len(oranlar)
           print(
               "KAYDEDİLDİ:", dosya,
               "| Maç:", len(maclar),
-              "| Oranı olan maç:", oranli_mac
+              "| Oranlı maç:", len(oranlar)
           )
           return True
 
@@ -358,10 +442,14 @@ steps:
                   tamamlanan += 1
               time.sleep(1)
 
-          print("\nTamamlanan tarihler:", tamamlanan, "/ 8")
+          print(
+              "\nTamamlanan tarihler:",
+              tamamlanan,
+              "/ 8"
+          )
 
           if tamamlanan == 0:
-              raise SystemExit("Veri alınamadı; önceki JSON dosyaları korundu.")
+              raise SystemExit("Veri alınamadı.")
       PY
 
       python cek.py
