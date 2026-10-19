@@ -1,464 +1,453 @@
+
 name: Mackolik Mac ve Oran Verileri
 
 on:
-workflow_dispatch:
-schedule:
-- cron: "7,37 * * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "7,37 * * * *"
 
 permissions:
-contents: write
+  contents: write
 
 concurrency:
-group: mackolik-veri
-cancel-in-progress: false
+  group: mackolik-veri
+  cancel-in-progress: false
 
 jobs:
-maclari-getir:
-runs-on: ubuntu-latest
-timeout-minutes: 25
+  maclari-getir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
 
-steps:
-  - name: Repoyu al
-    uses: actions/checkout@v4
+    steps:
+      - name: Repoyu al
+        uses: actions/checkout@v4
 
-  - name: Python paketlerini kur
-    run: |
-      python -m pip install --upgrade pip
-      pip install cloudscraper beautifulsoup4
+      - name: Python paketlerini kur
+        run: |
+          python -m pip install --upgrade pip
+          pip install cloudscraper beautifulsoup4
 
-  - name: Mac ve oran verilerini cek
-    run: |
-      mkdir -p data
-      cat > cek.py <<'PY'
-      import json
-      import re
-      import time
-      import unicodedata
-      from datetime import datetime, timedelta
-      from zoneinfo import ZoneInfo
-      from concurrent.futures import ThreadPoolExecutor, as_completed
-      from urllib.parse import urljoin
+      - name: Mac ve oran verilerini cek
+        run: |
+          mkdir -p data
+          cat > cek.py <<'PY'
+          import json
+          import re
+          import time
+          import unicodedata
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from urllib.parse import urljoin
 
-      import cloudscraper
-      from bs4 import BeautifulSoup
+          import cloudscraper
+          from bs4 import BeautifulSoup
 
-      BASE = "https://www.mackolik.com"
-      TZ = ZoneInfo("Europe/Istanbul")
+          BASE = "https://www.mackolik.com"
+          TZ = ZoneInfo("Europe/Istanbul")
 
-      def yeni_scraper():
-          s = cloudscraper.create_scraper(
-              browser={
-                  "browser": "chrome",
-                  "platform": "linux",
-                  "mobile": False
-              }
-          )
-          s.headers.update({
-              "User-Agent": (
-                  "Mozilla/5.0 (X11; Linux x86_64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/131.0.0.0 Safari/537.36"
-              ),
-              "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
-              "Referer": BASE + "/",
-              "Accept": "text/html,application/xhtml+xml,*/*"
-          })
-          return s
+          def scraper_yap():
+              s = cloudscraper.create_scraper(
+                  browser={"browser": "chrome",
+                           "platform": "linux",
+                           "mobile": False}
+              )
+              s.headers.update({
+                  "User-Agent": (
+                      "Mozilla/5.0 (X11; Linux x86_64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/131.0.0.0 Safari/537.36"
+                  ),
+                  "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8",
+                  "Referer": BASE + "/",
+                  "Accept": "text/html,application/json,*/*"
+              })
+              return s
 
-      def slugify(text):
-          text = str(text or "").strip().lower()
-          text = text.translate(str.maketrans({
-              "ı": "i", "ş": "s", "ğ": "g",
-              "ü": "u", "ö": "o", "ç": "c"
-          }))
-          text = unicodedata.normalize("NFKD", text)
-          text = text.encode("ascii", "ignore").decode("ascii")
-          return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
+          def slugify(text):
+              text = str(text or "").lower().strip()
+              text = text.translate(str.maketrans({
+                  "ı": "i", "ş": "s", "ğ": "g",
+                  "ü": "u", "ö": "o", "ç": "c"
+              }))
+              text = unicodedata.normalize("NFKD", text)
+              text = text.encode("ascii", "ignore").decode("ascii")
+              return re.sub(r"[^a-z0-9]+", "-", text).strip("-")
 
-      def takim_adi(value):
-          if isinstance(value, dict):
-              return str(
-                  value.get("name")
-                  or value.get("teamName")
-                  or value.get("shortName")
-                  or ""
-              ).strip()
-          return str(value or "").strip()
+          def takim_adi(v):
+              if isinstance(v, dict):
+                  for k in ("name", "teamName", "shortName",
+                            "displayName"):
+                      if v.get(k):
+                          return str(v[k]).strip()
+                  return ""
+              return str(v or "").strip()
 
-      def mac_adi(match):
-          for key in ("matchName", "name", "title"):
-              value = str(match.get(key) or "").strip()
-              if value:
-                  parts = re.split(
-                      r"\s+(?:vs?\.?|[-–—])\s+",
-                      value,
-                      flags=re.I
-                  )
-                  if len(parts) >= 2:
-                      return parts[0].strip(), parts[1].strip()
+          def mac_adi(m):
+              for k in ("matchName", "name", "title"):
+                  value = str(m.get(k) or "").strip()
+                  if value:
+                      parts = re.split(
+                          r"\s+(?:vs?\.?|[-–—])\s+",
+                          value, flags=re.I
+                      )
+                      if len(parts) >= 2:
+                          return parts[0].strip(), parts[1].strip()
 
-          home = takim_adi(
-              match.get("homeTeam")
-              or match.get("home")
-              or match.get("homeTeamName")
-          )
-          away = takim_adi(
-              match.get("awayTeam")
-              or match.get("away")
-              or match.get("awayTeamName")
-          )
-          if home and away:
+              home = takim_adi(
+                  m.get("homeTeam") or m.get("home")
+                  or m.get("homeTeamName")
+              )
+              away = takim_adi(
+                  m.get("awayTeam") or m.get("away")
+                  or m.get("awayTeamName")
+              )
               return home, away
 
-          return "", ""
+          def maclari_getir(tarih):
+              url = BASE + (
+                  "/perform/p0/ajax/components/"
+                  "competition/livescores/json"
+              )
 
-      def maclari_getir(tarih):
-          url = BASE + (
-              "/perform/p0/ajax/components/"
-              "competition/livescores/json"
-          )
-          hata = None
+              son_hata = None
 
-          for deneme in range(3):
-              try:
-                  r = yeni_scraper().get(
-                      url,
-                      params={
-                          "sports[]": "Soccer",
-                          "matchDate": tarih
-                      },
-                      timeout=35
-                  )
-                  r.raise_for_status()
-                  data = r.json()
-                  matches = (data.get("data") or {}).get("matches") or {}
+              for deneme in range(3):
+                  try:
+                      r = scraper_yap().get(
+                          url,
+                          params={
+                              "sports[]": "Soccer",
+                              "matchDate": tarih
+                          },
+                          timeout=35
+                      )
+                      r.raise_for_status()
+                      data = r.json()
 
-                  if isinstance(matches, dict):
-                      return [
-                          m for m in matches.values()
-                          if isinstance(m, dict)
-                      ]
+                      matches = (
+                          data.get("data", {}).get("matches", [])
+                          if isinstance(data, dict) else []
+                      )
 
-                  if isinstance(matches, list):
-                      return [
-                          m for m in matches
-                          if isinstance(m, dict)
-                      ]
+                      if isinstance(matches, dict):
+                          return [
+                              m for m in matches.values()
+                              if isinstance(m, dict)
+                          ]
 
-                  return []
+                      if isinstance(matches, list):
+                          return [
+                              m for m in matches
+                              if isinstance(m, dict)
+                          ]
 
-              except Exception as e:
-                  hata = e
-                  print("Maç isteği hatası:", repr(e))
-                  time.sleep(2 * (deneme + 1))
+                      return []
 
-          raise hata
+                  except Exception as e:
+                      son_hata = e
+                      print("MAC LISTESI HATASI:", repr(e))
+                      time.sleep(2 + deneme * 3)
 
-      def oranlari_ayikla(html, mid):
-          soup = BeautifulSoup(html, "html.parser")
-          sonuc = {}
+              raise RuntimeError(str(son_hata))
 
-          # Önce bilinen market alanlarını kullan.
-          alanlar = soup.select(
-              "ul.widget-iddaa-markets__markets-list "
-              "div.widget-iddaa-markets__market-content"
-          )
+          def oran_degeri(text):
+              text = str(text or "").strip().replace(",", ".")
+              if re.fullmatch(r"\d{1,5}(?:\.\d{1,4})?", text):
+                  try:
+                      n = float(text)
+                      if 1.0 <= n <= 10000:
+                          return text
+                  except ValueError:
+                      pass
+              return None
 
-          if not alanlar:
-              alanlar = soup.select(
+          def oranlari_oku(html):
+              soup = BeautifulSoup(html, "html.parser")
+              sonuc = {}
+
+              # Maçkolik'in iddaa market alanlarını tara.
+              marketler = soup.select(
                   "div.widget-iddaa-markets__market-content"
               )
 
-          for alan in alanlar:
-              baslik_ogesi = alan.find_previous(
-                  ["h2", "h3", "h4"]
-              )
-              if not baslik_ogesi:
-                  continue
+              for market in marketler:
+                  baslik_ogesi = market.find_previous(
+                      ["h2", "h3", "h4"]
+                  )
+                  if not baslik_ogesi:
+                      continue
 
-              span = baslik_ogesi.find("span")
-              baslik = (
-                  span.get_text(" ", strip=True)
-                  if span else baslik_ogesi.get_text(" ", strip=True)
-              )
-              if not baslik:
-                  continue
-
-              secenekler = []
-              for li in alan.find_all("li"):
-                  spans = [
-                      x.get_text(" ", strip=True)
-                      for x in li.find_all("span")
-                  ]
-                  spans = [x for x in spans if x]
-
-                  if len(spans) >= 2:
-                      for i in range(0, len(spans) - 1, 2):
-                          secenek = spans[i].strip()
-                          oran = spans[i + 1].strip().replace(",", ".")
-                          if (
-                              secenek
-                              and re.fullmatch(r"\d+(?:\.\d+)?", oran)
-                          ):
-                              secenekler.append({
-                                  "secenek": secenek,
-                                  "oran": oran
-                              })
-
-                  if not spans:
-                      metin = li.get_text(" ", strip=True)
-                      eslesme = re.match(
-                          r"^(.*?)\s+(\d+(?:[.,]\d+)?)$",
-                          metin
-                      )
-                      if eslesme and eslesme.group(1).strip():
-                          secenekler.append({
-                              "secenek": eslesme.group(1).strip(),
-                              "oran": eslesme.group(2).replace(",", ".")
-                          })
-
-              if secenekler:
-                  sonuc[baslik] = secenekler
-
-          # Alternatif: başlıkların ardından gelen liste öğelerini tara.
-          if not sonuc:
-              basliklar = soup.find_all(["h2", "h3", "h4"])
-
-              for baslik_ogesi in basliklar:
                   span = baslik_ogesi.find("span")
                   baslik = (
                       span.get_text(" ", strip=True)
-                      if span else baslik_ogesi.get_text(" ", strip=True)
+                      if span else
+                      baslik_ogesi.get_text(" ", strip=True)
                   )
+
                   if not baslik:
                       continue
 
                   secenekler = []
 
-                  for el in baslik_ogesi.next_elements:
-                      if el is not baslik_ogesi and getattr(el, "name", None) in (
-                          "h2", "h3", "h4"
-                      ):
-                          break
-
-                      if getattr(el, "name", None) != "li":
-                          continue
-
-                      # İç içe li öğelerini tekrar işlememeye çalış.
-                      if el.find_parent("li"):
-                          continue
-
+                  for li in market.select("li"):
                       spans = [
                           x.get_text(" ", strip=True)
-                          for x in el.find_all("span")
+                          for x in li.find_all("span")
                       ]
                       spans = [x for x in spans if x]
 
+                      # Genellikle her seçim: ad + oran.
                       for i in range(0, len(spans) - 1, 2):
                           secenek = spans[i].strip()
-                          oran = spans[i + 1].strip().replace(",", ".")
-                          if (
-                              secenek
-                              and re.fullmatch(r"\d+(?:\.\d+)?", oran)
-                          ):
+                          oran = oran_degeri(spans[i + 1])
+
+                          if secenek and oran:
                               secenekler.append({
                                   "secenek": secenek,
                                   "oran": oran
                               })
 
+                      # Span bulunmayan alternatif HTML yapısı.
+                      if not spans:
+                          metin = li.get_text(" ", strip=True)
+                          es = re.match(
+                              r"^(.*?)\s+(\d+(?:[.,]\d+)?)$",
+                              metin
+                          )
+                          if es:
+                              oran = oran_degeri(es.group(2))
+                              if oran:
+                                  secenekler.append({
+                                      "secenek": es.group(1).strip(),
+                                      "oran": oran
+                                  })
+
                   if secenekler:
-                      sonuc[baslik] = secenekler
+                      benzersiz = []
+                      gorulen = set()
 
-          # Tekrarlanan marketleri temizle.
-          temiz = {}
-          for baslik, secenekler in sonuc.items():
-              benzersiz = []
-              gorulen = set()
+                      for x in secenekler:
+                          key = (x["secenek"], x["oran"])
+                          if key not in gorulen:
+                              gorulen.add(key)
+                              benzersiz.append(x)
 
-              for secenek in secenekler:
-                  anahtar = (
-                      secenek.get("secenek"),
-                      secenek.get("oran")
-                  )
-                  if anahtar not in gorulen:
-                      gorulen.add(anahtar)
-                      benzersiz.append(secenek)
+                      sonuc[baslik] = benzersiz
 
-              if benzersiz:
-                  temiz[baslik] = benzersiz
-
-          return temiz
-
-      def oranlari_getir(match):
-          mid = str(match.get("id") or match.get("matchId") or "")
-          if not mid:
-              print("Maç ID bulunamadı:", match)
-              return mid, {}
-
-          ev, dep = mac_adi(match)
-          if not ev or not dep:
-              print("Takım adları bulunamadı:", mid)
-              return mid, {}
-
-          # Varsa maç nesnesinde bulunan doğrudan URL bilgisini de dene.
-          adaylar = []
-          for key in ("url", "matchUrl", "matchURL", "href", "slug"):
-              value = match.get(key)
-              if isinstance(value, str) and value.strip():
-                  aday = urljoin(BASE + "/", value.strip())
-                  if "/mac/" in aday and aday not in adaylar:
-                      adaylar.append(aday)
-
-          slug = slugify(ev) + "-vs-" + slugify(dep)
-          adaylar.extend([
-              f"{BASE}/mac/{slug}/iddaa/{mid}",
-              f"{BASE}/mac/{slug}/{mid}"
-          ])
-
-          # Aynı URL'yi bir kez dene.
-          adaylar = list(dict.fromkeys(adaylar))
-          son_http = None
-
-          for url in adaylar:
-              try:
-                  r = yeni_scraper().get(url, timeout=30)
-                  son_http = r.status_code
-                  print("Oran sayfası:", mid, r.status_code, url)
-
-                  if r.status_code != 200:
-                      continue
-
-                  # İddaa sayfası değilse sonraki URL'yi dene.
-                  if "iddaa" not in r.url.lower() and "/iddaa/" not in url:
-                      if "/mac/" not in r.url:
+              # Sayfada market sınıfları değişmişse başlıkları
+              # ve oran içeren liste öğelerini alternatif tara.
+              if not sonuc:
+                  for baslik_ogesi in soup.find_all(
+                      ["h2", "h3", "h4"]
+                  ):
+                      baslik = baslik_ogesi.get_text(
+                          " ", strip=True
+                      )
+                      if not baslik:
                           continue
 
-                  veri = oranlari_ayikla(r.text, mid)
-                  if veri:
-                      print(
-                          "ORAN BULUNDU:",
-                          mid,
-                          "| Market:",
-                          len(veri)
-                      )
-                      return mid, veri
+                      secenekler = []
+                      for el in baslik_ogesi.next_elements:
+                          if (
+                              el is not baslik_ogesi
+                              and getattr(el, "name", None)
+                              in ("h2", "h3", "h4")
+                          ):
+                              break
 
-                  print(
-                      "Sayfa açıldı fakat oran okunamadı:",
-                      mid,
-                      "| HTML uzunluğu:",
-                      len(r.text)
+                          if getattr(el, "name", None) != "li":
+                              continue
+
+                          if el.find_parent("li"):
+                              continue
+
+                          spans = [
+                              x.get_text(" ", strip=True)
+                              for x in el.find_all("span")
+                          ]
+                          spans = [x for x in spans if x]
+
+                          for i in range(0, len(spans) - 1, 2):
+                              oran = oran_degeri(spans[i + 1])
+                              if spans[i] and oran:
+                                  secenekler.append({
+                                      "secenek": spans[i],
+                                      "oran": oran
+                                  })
+
+                      if secenekler:
+                          sonuc[baslik] = secenekler
+
+              return sonuc
+
+          def oranlari_getir(match):
+              mid = str(
+                  match.get("id") or match.get("matchId")
+                  or match.get("matchID") or ""
+              ).strip()
+
+              if not mid:
+                  print("ID BULUNAMADI")
+                  return "", {}
+
+              ev, dep = mac_adi(match)
+
+              # Öncelik maç nesnesindeki gerçek bağlantıda.
+              adaylar = []
+              for key in ("url", "matchUrl", "matchURL",
+                          "href", "slug"):
+                  value = match.get(key)
+
+                  if isinstance(value, str) and value.strip():
+                      aday = urljoin(BASE + "/", value.strip())
+                      if "/mac/" in aday and aday not in adaylar:
+                          adaylar.append(aday)
+
+              # Maçkolik'in güncel maç/İddaa adresi biçimi.
+              if ev and dep:
+                  slug = slugify(ev) + "-vs-" + slugify(dep)
+                  adaylar.append(
+                      f"{BASE}/mac/{slug}/iddaa/{mid}"
                   )
 
+              adaylar = list(dict.fromkeys(adaylar))
+
+              if not adaylar:
+                  print("URL OLUSTURULAMADI:", mid, ev, dep)
+                  return mid, {}
+
+              for url in adaylar:
+                  try:
+                      s = scraper_yap()
+                      r = s.get(url, timeout=30)
+                      print(
+                          "ORAN SAYFASI:",
+                          mid, r.status_code, r.url
+                      )
+
+                      if r.status_code != 200:
+                          continue
+
+                      # Yalnızca doğru maç sayfasında oran ara.
+                      veri = oranlari_oku(r.text)
+
+                      if veri:
+                          print(
+                              "ORAN BULUNDU:",
+                              mid, "market:", len(veri)
+                          )
+                          return mid, veri
+
+                      print(
+                          "HTML'DE ORAN BULUNAMADI:",
+                          mid, "uzunluk:", len(r.text)
+                      )
+
+                  except Exception as e:
+                      print("ORAN ISTEK HATASI:", mid, repr(e))
+
+                  time.sleep(0.3)
+
+              print("ORAN YOK:", mid)
+              return mid, {}
+
+          def eski_dosyayi_oku(dosya):
+              try:
+                  with open(dosya, encoding="utf-8") as f:
+                      d = json.load(f)
+                  return d if isinstance(d, dict) else {}
+              except Exception:
+                  return {}
+
+          def tarihi_isle(tarih):
+              print("\nTARIH:", tarih)
+              dosya = f"data/oranlar-{tarih}.json"
+
+              try:
+                  maclar = maclari_getir(tarih)
               except Exception as e:
-                  print("Oran URL hatası:", mid, repr(e))
+                  print("MACLAR ALINAMADI:", repr(e))
+                  return False
 
-              time.sleep(0.15)
+              eski = eski_dosyayi_oku(dosya)
+              eski_oranlar = (
+                  eski.get("mackolikOdds")
+                  or eski.get("odds") or {}
+              )
 
-          print("BU MAÇTA ORAN OKUNAMADI:", mid, "HTTP:", son_http)
-          return mid, {}
+              oranlar = {}
+              print("MAC SAYISI:", len(maclar))
 
-      def eski_dosyayi_oku(dosya):
-          try:
-              with open(dosya, "r", encoding="utf-8") as f:
-                  data = json.load(f)
-              return data if isinstance(data, dict) else {}
-          except Exception:
-              return {}
-
-      def tarihi_isle(tarih):
-          print("\n========== TARİH:", tarih, "==========")
-          dosya = f"data/oranlar-{tarih}.json"
-
-          try:
-              maclar = maclari_getir(tarih)
-          except Exception as e:
-              print("Maçlar alınamadı:", tarih, repr(e))
-              print("Eski dosya korunuyor.")
-              return False
-
-          eski = eski_dosyayi_oku(dosya)
-          print("Bulunan maç:", len(maclar))
-
-          oranlar = {}
-          if maclar:
               with ThreadPoolExecutor(max_workers=3) as havuz:
                   isler = [
-                      havuz.submit(oranlari_getir, mac)
-                      for mac in maclar
+                      havuz.submit(oranlari_getir, m)
+                      for m in maclar
                   ]
 
                   for islem in as_completed(isler):
                       try:
                           mid, veri = islem.result()
                           if mid and veri:
-                              oranlar[str(mid)] = veri
+                              oranlar[mid] = veri
                       except Exception as e:
-                          print("Oran görevi hatası:", repr(e))
+                          print("GOREV HATASI:", repr(e))
 
-          # Yeni oran bulunamadıysa önceki oranları koru.
-          eski_oranlar = (
-              eski.get("mackolikOdds")
-              or eski.get("odds")
-              or {}
-          )
+              # Yeni oran yoksa önceki veriyi silme.
+              for mid, veri in eski_oranlar.items():
+                  if mid not in oranlar and veri:
+                      oranlar[mid] = veri
 
-          for mid, veri in eski_oranlar.items():
-              if mid not in oranlar and veri:
-                  oranlar[mid] = veri
+              cikti = {
+                  "date": tarih,
+                  "source": "Mackolik",
+                  "updatedAt": datetime.now(TZ).isoformat(),
+                  "matches": maclar,
+                  "odds": oranlar,
+                  "mackolikMatches": maclar,
+                  "mackolikOdds": oranlar
+              }
 
-          cikti = {
-              "date": tarih,
-              "source": "Mackolik",
-              "updatedAt": datetime.now(TZ).isoformat(),
-              "matches": maclar,
-              "odds": oranlar,
-              "mackolikMatches": maclar,
-              "mackolikOdds": oranlar
-          }
+              with open(dosya, "w", encoding="utf-8") as f:
+                  json.dump(
+                      cikti, f, ensure_ascii=False, indent=2
+                  )
 
-          with open(dosya, "w", encoding="utf-8") as f:
-              json.dump(
-                  cikti,
-                  f,
-                  ensure_ascii=False,
-                  indent=2
+              print(
+                  "KAYDEDILDI:", dosya,
+                  "| Mac:", len(maclar),
+                  "| Yeni oranli mac:", len([
+                      m for m in maclar
+                      if str(m.get("id") or m.get("matchId") or "")
+                      in oranlar
+                  ]),
+                  "| Dosyadaki oranli mac:", len(oranlar)
               )
+              return True
 
-          print(
-              "KAYDEDİLDİ:", dosya,
-              "| Maç:", len(maclar),
-              "| Oranlı maç:", len(oranlar)
-          )
-          return True
+          if __name__ == "__main__":
+              bugun = datetime.now(TZ).date()
+              tamamlanan = 0
 
-      if __name__ == "__main__":
-          bugun = datetime.now(TZ).date()
-          tamamlanan = 0
+              for gun in range(8):
+                  tarih = (bugun + timedelta(days=gun)).isoformat()
+                  if tarihi_isle(tarih):
+                      tamamlanan += 1
+                  time.sleep(1)
 
-          for gun in range(8):
-              tarih = (bugun + timedelta(days=gun)).isoformat()
-              if tarihi_isle(tarih):
-                  tamamlanan += 1
-              time.sleep(1)
+              print("TAMAMLANAN:", tamamlanan, "/ 8")
 
-          print(
-              "\nTamamlanan tarihler:",
-              tamamlanan,
-              "/ 8"
-          )
+              if tamamlanan == 0:
+                  raise SystemExit("Veri alinamadi.")
+          PY
 
-          if tamamlanan == 0:
-              raise SystemExit("Veri alınamadı.")
-      PY
+          python -u cek.py
 
-      python cek.py
-
-  - name: Degisiklikleri kaydet
-    run: |
-      git config user.name "iddaa-analiz-bot"
-      git config user.email "actions@github.com"
-      git add data/
-      git diff --cached --quiet || \
-        git commit -m "Mackolik mac ve oran verilerini guncelle"
-      git push
+      - name: Degisiklikleri kaydet
+        run: |
+          git config user.name "iddaa-analiz-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --cached --quiet || \
+            git commit -m "Mackolik mac ve oran verilerini guncelle"
+          git push
