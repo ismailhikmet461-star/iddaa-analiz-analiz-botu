@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "source": "Mackolik",
-  "updatedAt": "2026-10-20T15:06:09.850512+03:00",
+  "updatedAt": "2026-10-20T15:45:12.896867+03:00",
   "matches": [
     {
       "id": "5mpv309umv8yhhduz81569gk4",
@@ -26,7 +26,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -70,7 +70,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -114,7 +114,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -158,7 +158,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -202,7 +202,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -246,7 +246,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -290,7 +290,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -334,7 +334,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -378,7 +378,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -422,7 +422,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -466,7 +466,7 @@
       "competitionId": "32n2r9bl6x90psj0wa7bfs6vq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -510,7 +510,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -527,7 +527,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225719,
+      "liveBetting": true
     },
     {
       "id": "7s722fv2klypxy8108b33zi8k",
@@ -552,7 +554,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -594,7 +596,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -638,7 +640,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -655,7 +657,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225766,
+      "liveBetting": true
     },
     {
       "id": "7u1zdpss77rrrce2hkw1btst0",
@@ -680,7 +684,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -722,7 +726,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -766,7 +770,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -810,7 +814,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -827,7 +831,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225967,
+      "liveBetting": true
     },
     {
       "id": "7tqvjg9dbpmjrcxtwutr2fbis",
@@ -852,7 +858,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -896,7 +902,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -940,7 +946,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -984,7 +990,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1028,7 +1034,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1072,7 +1078,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1116,7 +1122,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1160,7 +1166,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1204,7 +1210,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1248,7 +1254,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1292,7 +1298,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1336,7 +1342,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1380,7 +1386,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1424,7 +1430,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1468,7 +1474,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1512,7 +1518,7 @@
       "competitionId": "1gxlzw2ezkyeykhcaa5x8ozkk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1556,7 +1562,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1598,7 +1604,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1640,7 +1646,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1682,7 +1688,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1724,7 +1730,7 @@
       "competitionId": "3frp1zxrqulrlrnk503n6l4l",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1768,7 +1774,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1812,7 +1818,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1856,7 +1862,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1900,7 +1906,7 @@
       "competitionId": "8ztsv3pzrsyq5w1r3a0nfk1y5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1917,7 +1923,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3261837,
+      "liveBetting": false
     },
     {
       "id": "efzkfxn1n5vvqiefj6dm9ypec",
@@ -1942,7 +1950,7 @@
       "competitionId": "7r1f93t6ddrsa5n8v1nq6qlzm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1986,7 +1994,7 @@
       "competitionId": "cse5oqqt2pzfcy8uz6yz3tkbj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2030,7 +2038,7 @@
       "competitionId": "cse5oqqt2pzfcy8uz6yz3tkbj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2072,7 +2080,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2114,7 +2122,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2156,7 +2164,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2198,7 +2206,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2240,7 +2248,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2282,7 +2290,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2324,7 +2332,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2366,7 +2374,7 @@
       "competitionId": "eu2g5j36zzxiazpd729osx0wm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2410,7 +2418,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2454,7 +2462,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2498,7 +2506,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2542,7 +2550,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2586,7 +2594,7 @@
       "competitionId": "byhmntnl1b4lxw0zz21im3zkd",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -2628,7 +2636,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2672,7 +2680,7 @@
       "competitionId": "9r3u0jtuznun4k2ydy39m1sve",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2714,7 +2722,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2758,7 +2766,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2802,7 +2810,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2846,7 +2854,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2890,7 +2898,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2934,7 +2942,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2978,7 +2986,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3022,7 +3030,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3066,7 +3074,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3110,7 +3118,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3154,7 +3162,7 @@
       "competitionId": "24uts34wjguq7pj6bc9qexmej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3198,7 +3206,7 @@
       "competitionId": "4jieyfpyom8d011dgeqj77ojm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3240,7 +3248,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3284,7 +3292,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3328,7 +3336,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3372,7 +3380,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3416,7 +3424,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3460,7 +3468,7 @@
       "competitionId": "4d5d3sf6805n5u6jdoa0hdlog",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3504,7 +3512,7 @@
       "competitionId": "b8rae0ib0frjmwlca429bq19q",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3548,7 +3556,7 @@
       "competitionId": "b8rae0ib0frjmwlca429bq19q",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3590,7 +3598,7 @@
       "competitionId": "1cnx2c8g3hhp8ssxnwwli0mjb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3634,7 +3642,7 @@
       "competitionId": "8ivsfwex4dfx1tvgsiq8askcx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3678,7 +3686,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3722,7 +3730,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3766,7 +3774,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3810,7 +3818,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3854,7 +3862,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3898,7 +3906,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3942,7 +3950,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3986,7 +3994,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4030,7 +4038,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4074,7 +4082,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4118,7 +4126,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4160,7 +4168,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4202,7 +4210,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4244,7 +4252,7 @@
       "competitionId": "c2qkldzfzthwwr85qpa94hfu2",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -4286,7 +4294,7 @@
       "competitionId": "c2qkldzfzthwwr85qpa94hfu2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4328,7 +4336,7 @@
       "competitionId": "a4fgj2rfbpf4ejo1qi624fefo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4370,7 +4378,7 @@
       "competitionId": "6qitd9h242qkvjenaytfdnsf2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4414,7 +4422,7 @@
       "competitionId": "6qitd9h242qkvjenaytfdnsf2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4458,7 +4466,7 @@
       "competitionId": "bq89wbdvedtov6auzuh6rsv7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4500,7 +4508,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4544,7 +4552,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4586,7 +4594,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4630,7 +4638,7 @@
       "competitionId": "e6ysw58xmvgh3zwg400zw565s",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -4672,7 +4680,7 @@
       "competitionId": "avrpx5lanaaxagr4h4duxj3vc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4714,7 +4722,7 @@
       "competitionId": "avrpx5lanaaxagr4h4duxj3vc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4756,7 +4764,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4800,7 +4808,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4844,7 +4852,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4888,7 +4896,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4932,7 +4940,7 @@
       "competitionId": "dv9x9sw2x99ty2r9ztl68vw7u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4974,7 +4982,7 @@
       "competitionId": "dv9x9sw2x99ty2r9ztl68vw7u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5016,7 +5024,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5058,7 +5066,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5100,7 +5108,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5142,7 +5150,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5184,7 +5192,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5201,7 +5209,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225751,
+      "liveBetting": false
     },
     {
       "id": "5wiaan78jrn64ps3keaxvxuc",
@@ -5226,7 +5236,7 @@
       "competitionId": "ppzvnquzq1gmez5snxzfxkbt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5244,7 +5254,7 @@
         "home": 0,
         "away": 0
       },
-      "iddaaCode": 3157611,
+      "iddaaCode": 3284021,
       "liveBetting": false
     },
     {
@@ -5270,7 +5280,7 @@
       "competitionId": "9x0ntku897kcmymr8y1dfkmlk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5312,7 +5322,7 @@
       "competitionId": "1be64lgp0chekkyu0iuyta8kc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5354,7 +5364,7 @@
       "competitionId": "6ybvtzejh91761lqe7y1csrqo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5398,7 +5408,7 @@
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5442,7 +5452,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5486,7 +5496,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5530,7 +5540,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5574,7 +5584,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5618,7 +5628,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -5662,7 +5672,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5706,7 +5716,7 @@
       "competitionId": "eve4cbr6ybatmp2qdh0nu7lx9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5748,7 +5758,7 @@
       "competitionId": "eve4cbr6ybatmp2qdh0nu7lx9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5790,7 +5800,7 @@
       "competitionId": "ekyhmsfi4utkxvmak9pq8se0s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5832,7 +5842,7 @@
       "competitionId": "4qjmo9aphtgpboin0pldiwzc9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5874,7 +5884,7 @@
       "competitionId": "4qjmo9aphtgpboin0pldiwzc9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5916,7 +5926,7 @@
       "competitionId": "58frfwi1ggvc2y45ux6a0t71b",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5958,7 +5968,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6000,7 +6010,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6042,7 +6052,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6084,7 +6094,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6126,7 +6136,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6168,7 +6178,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6210,7 +6220,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6252,7 +6262,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6294,7 +6304,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6336,7 +6346,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6378,7 +6388,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6420,7 +6430,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6462,7 +6472,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6504,7 +6514,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6546,7 +6556,7 @@
       "competitionId": "4nq9yqv3vmlttabpy2lm4ps0k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6588,7 +6598,7 @@
       "competitionId": "asspcq7at72x8uk236rsodf6c",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6630,7 +6640,7 @@
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6672,7 +6682,7 @@
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6714,7 +6724,7 @@
       "competitionId": "2em48n9ws9qeghf9hl1luphck",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6756,7 +6766,7 @@
       "competitionId": "2em48n9ws9qeghf9hl1luphck",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6798,7 +6808,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6840,7 +6850,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6882,7 +6892,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6924,7 +6934,7 @@
       "competitionId": "23hqnnfu7s30ukdcmd8znqsb2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6966,7 +6976,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7008,7 +7018,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7050,7 +7060,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7092,7 +7102,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7134,7 +7144,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7176,7 +7186,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7218,7 +7228,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7260,7 +7270,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7302,7 +7312,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7344,7 +7354,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7386,7 +7396,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7428,7 +7438,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7472,7 +7482,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7516,7 +7526,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7560,7 +7570,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7602,7 +7612,7 @@
       "competitionId": "4ad9sdnscsipc990sp5l5n1wq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7644,7 +7654,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7688,7 +7698,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7730,7 +7740,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7772,7 +7782,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7814,7 +7824,7 @@
       "competitionId": "255lni1lapp38q1ce7pdkvkdl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7856,7 +7866,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7898,7 +7908,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7940,7 +7950,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7982,7 +7992,7 @@
       "competitionId": "bwbb16bizglu0aqhv3uv7vdil",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8024,7 +8034,7 @@
       "competitionId": "bwbb16bizglu0aqhv3uv7vdil",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8066,7 +8076,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8108,7 +8118,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8150,7 +8160,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8192,7 +8202,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8234,7 +8244,7 @@
       "competitionId": "4ywgerxg9oem88bldiwxl6x3o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8276,7 +8286,7 @@
       "competitionId": "2g6lybov5xk8rlb79ek8imri7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8318,7 +8328,7 @@
       "competitionId": "4oajht599asio7mn3yf5q9eqx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8360,7 +8370,7 @@
       "competitionId": "8h8yygsbogvjwcio9wakblivo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8402,7 +8412,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8444,7 +8454,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8486,7 +8496,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8528,7 +8538,7 @@
       "competitionId": "98cah2nmq6d9pcwrzlh1hl0nh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8572,7 +8582,7 @@
       "competitionId": "98cah2nmq6d9pcwrzlh1hl0nh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8616,7 +8626,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8658,7 +8668,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8700,7 +8710,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8742,7 +8752,7 @@
       "competitionId": "e7l3avnioyt2nlkwed07vdusc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8784,7 +8794,7 @@
       "competitionId": "cc9zntdbef14p20gt4ekvnjvs",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8826,7 +8836,7 @@
       "competitionId": "ahl3vljaignq9ebaos4uqkrvo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8843,7 +8853,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3286474,
+      "liveBetting": false
     },
     {
       "id": "1u6h0w9a9pdcdq8epp0n5x7o4",
@@ -8868,7 +8880,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8910,7 +8922,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8952,7 +8964,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -8994,7 +9006,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9036,7 +9048,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9078,7 +9090,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9120,7 +9132,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9162,7 +9174,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9204,7 +9216,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9246,7 +9258,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9288,7 +9300,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9330,7 +9342,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9372,7 +9384,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9414,7 +9426,7 @@
       "competitionId": "6utr6bfbh7m3wjcy99s5ic9rr",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9456,7 +9468,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -9483,15 +9495,15 @@
       "Maç Sonucu": [
         {
           "secenek": "1",
-          "oran": "2.16"
+          "oran": "1.96"
         },
         {
           "secenek": "X",
-          "oran": "3.47"
+          "oran": "3.27"
         },
         {
           "secenek": "2",
-          "oran": "2.90"
+          "oran": "2.70"
         }
       ],
       "Çifte Şans": [
@@ -9508,20 +9520,20 @@
           "oran": "1.67"
         }
       ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.16"
+        }
+      ],
       "1,5 Alt/Üst": [
         {
           "secenek": "Alt",
           "oran": "4.38"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.27"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.61"
         }
       ],
       "3,5 Alt/Üst": [
@@ -9534,36 +9546,26 @@
           "oran": "2.39"
         }
       ],
-      "4,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.07"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.96"
-        }
-      ],
       "0,5 Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "13.05"
+          "oran": "12.85"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.61"
         }
       ],
       "1. Yarı 2,5 Alt/Üst": [
         {
           "secenek": "Üst",
-          "oran": "4.84"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.61"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.28"
+          "oran": "5.04"
         }
       ],
       "1. Yarı 0,5 Alt/Üst": [
@@ -9574,6 +9576,16 @@
         {
           "secenek": "Üst",
           "oran": "1.35"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.41"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.08"
         }
       ],
       "1. Yarı Çifte Şans": [
@@ -9607,25 +9619,25 @@
       "2. Yarı Sonucu": [
         {
           "secenek": "1",
-          "oran": "2.26"
+          "oran": "2.46"
         },
         {
           "secenek": "X",
-          "oran": "2.53"
+          "oran": "2.73"
         },
         {
           "secenek": "2",
-          "oran": "2.86"
+          "oran": "3.06"
         }
       ],
       "Tek/Çift": [
         {
           "secenek": "Tek",
-          "oran": "1.74"
+          "oran": "1.94"
         },
         {
           "secenek": "Çift",
-          "oran": "1.63"
+          "oran": "1.83"
         }
       ],
       "Toplam Gol Aralığı": [
@@ -9649,11 +9661,11 @@
       "Karşılıklı Gol": [
         {
           "secenek": "Var",
-          "oran": "1.35"
+          "oran": "1.55"
         },
         {
           "secenek": "Yok",
-          "oran": "2.23"
+          "oran": "2.43"
         }
       ],
       "İlk Yarı/Maç Sonucu": [
@@ -9694,18 +9706,32 @@
           "oran": "4.58"
         }
       ],
-      "Hnd. MS (0:1)": [
+      "Hnd. MS (0:2)": [
         {
           "secenek": "1",
-          "oran": "3.45"
+          "oran": "7.63"
         },
         {
           "secenek": "X",
-          "oran": "3.83"
+          "oran": "5.79"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.28"
+        }
+      ],
+      "Hnd. MS (0:1)": [
+        {
+          "secenek": "1",
+          "oran": "3.65"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.03"
         },
         {
           "secenek": "+1h",
-          "oran": "1.44"
+          "oran": "1.64"
         }
       ],
       "Hnd. MS (1:0)": [
@@ -9722,136 +9748,122 @@
           "oran": "5.54"
         }
       ],
-      "Hnd. MS (0:2)": [
-        {
-          "secenek": "1",
-          "oran": "7.43"
-        },
-        {
-          "secenek": "X",
-          "oran": "5.59"
-        },
-        {
-          "secenek": "+2h",
-          "oran": "1.08"
-        }
-      ],
       "Maç Skoru": [
         {
           "secenek": "0-0",
-          "oran": "13.40"
+          "oran": "13.60"
         },
         {
           "secenek": "0-1",
-          "oran": "11.30"
+          "oran": "11.50"
         },
         {
           "secenek": "0-2",
-          "oran": "15.80"
+          "oran": "16.00"
         },
         {
           "secenek": "0-3",
-          "oran": "33.00"
+          "oran": "33.20"
         },
         {
           "secenek": "0-4",
-          "oran": "91.00"
+          "oran": "91.20"
         },
         {
           "secenek": "0-5",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "1-0",
-          "oran": "9.41"
+          "oran": "9.61"
         },
         {
           "secenek": "1-1",
-          "oran": "5.96"
+          "oran": "6.16"
         },
         {
           "secenek": "1-2",
-          "oran": "9.33"
+          "oran": "9.53"
         },
         {
           "secenek": "1-3",
-          "oran": "19.45"
+          "oran": "19.65"
         },
         {
           "secenek": "1-4",
-          "oran": "55.00"
+          "oran": "55.20"
         },
         {
           "secenek": "1-5",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "2-0",
-          "oran": "10.95"
+          "oran": "11.15"
         },
         {
           "secenek": "2-1",
-          "oran": "7.78"
+          "oran": "7.98"
         },
         {
           "secenek": "2-2",
-          "oran": "9.67"
+          "oran": "9.87"
         },
         {
           "secenek": "2-3",
-          "oran": "22.55"
+          "oran": "22.75"
         },
         {
           "secenek": "2-4",
-          "oran": "63.00"
+          "oran": "63.20"
         },
         {
           "secenek": "0-6",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "3-0",
-          "oran": "19.15"
+          "oran": "19.35"
         },
         {
           "secenek": "3-1",
-          "oran": "13.50"
+          "oran": "13.70"
         },
         {
           "secenek": "3-2",
-          "oran": "18.90"
+          "oran": "19.10"
         },
         {
           "secenek": "3-3",
-          "oran": "35.00"
+          "oran": "35.20"
         },
         {
           "secenek": "4-0",
-          "oran": "44.00"
+          "oran": "44.20"
         },
         {
           "secenek": "4-1",
-          "oran": "31.00"
+          "oran": "31.20"
         },
         {
           "secenek": "4-2",
-          "oran": "44.00"
+          "oran": "44.20"
         },
         {
           "secenek": "5-0",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "5-1",
-          "oran": "91.00"
+          "oran": "91.20"
         },
         {
           "secenek": "6-0",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "Diğer",
-          "oran": "17.00"
+          "oran": "17.20"
         }
       ],
       "İlk Gol": [
@@ -9866,6 +9878,32 @@
         {
           "secenek": "2",
           "oran": "1.94"
+        }
+      ],
+      "MS ve 4,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.53"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.43"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.41"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "7.40"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "10.95"
         }
       ],
       "MS ve 2,5 Alt/Üst": [
@@ -9923,129 +9961,93 @@
       "MS ve 3,5 Alt/Üst": [
         {
           "secenek": "1 ve Alt",
-          "oran": "3.38"
+          "oran": "3.18"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "5.08"
+          "oran": "4.88"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "4.34"
+          "oran": "4.14"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "4.87"
+          "oran": "4.67"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "8.92"
+          "oran": "8.72"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "7.24"
-        }
-      ],
-      "MS ve 4,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "2.73"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "3.63"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "3.61"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "7.60"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "34.70"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "11.15"
+          "oran": "7.04"
         }
       ],
       "1. Yarı En Çok Korner": [
         {
           "secenek": "1",
-          "oran": "2.00"
+          "oran": "1.83"
         },
         {
           "secenek": "X",
-          "oran": "4.72"
+          "oran": "4.61"
         },
         {
           "secenek": "2",
-          "oran": "1.96"
+          "oran": "2.19"
         }
       ],
       "1. Yarı Korner Aralığı": [
         {
           "secenek": "0-4",
-          "oran": "1.83"
+          "oran": "1.53"
         },
         {
           "secenek": "5-6",
-          "oran": "2.97"
+          "oran": "2.85"
         },
         {
           "secenek": "7+",
-          "oran": "3.73"
+          "oran": "4.00"
         }
       ],
       "Toplam Korner Aralığı": [
         {
           "secenek": "0-8",
-          "oran": "2.26"
+          "oran": "2.00"
         },
         {
           "secenek": "9-11",
-          "oran": "2.42"
+          "oran": "2.44"
         },
         {
           "secenek": "12+",
-          "oran": "2.50"
+          "oran": "2.89"
         }
       ],
       "1. Yarı Deplasman 0,5 Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "1.57"
+          "oran": "1.77"
         },
         {
           "secenek": "Üst",
-          "oran": "1.82"
+          "oran": "2.02"
         }
       ],
       "En Çok Korner": [
         {
           "secenek": "1",
-          "oran": "1.88"
+          "oran": "1.86"
         },
         {
           "secenek": "X",
-          "oran": "6.83"
+          "oran": "7.14"
         },
         {
           "secenek": "2",
-          "oran": "1.84"
-        }
-      ],
-      "1.Yarı 4,5 Korner Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.85"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.82"
+          "oran": "2.28"
         }
       ],
       "1.Yarı 3,5 Korner Alt/Üst": [
@@ -10055,33 +10057,27 @@
         },
         {
           "secenek": "Üst",
-          "oran": "1.23"
+          "oran": "1.49"
+        }
+      ],
+      "1.Yarı 4,5 Korner Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.74"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.94"
         }
       ],
       "1.Yarı 5,5 Korner Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "1.47"
+          "oran": "1.21"
         },
         {
           "secenek": "Üst",
-          "oran": "2.50"
-        }
-      ],
-      "Ev Sahibi 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "4.36"
-        }
-      ],
-      "Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.70"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.67"
+          "oran": "2.52"
         }
       ],
       "Ev Sahibi 2,5 Alt/Üst": [
@@ -10094,34 +10090,34 @@
           "oran": "3.39"
         }
       ],
+      "Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.70"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.67"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "4.36"
+        }
+      ],
       "En Çok Gol Olacak Yarı": [
         {
           "secenek": "1. Yarı",
-          "oran": "3.00"
+          "oran": "2.80"
         },
         {
           "secenek": "Eşit",
-          "oran": "3.63"
+          "oran": "3.43"
         },
         {
           "secenek": "2. Yarı",
-          "oran": "2.06"
-        }
-      ],
-      "Deplasman 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.64"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.23"
-        }
-      ],
-      "Deplasman 2,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "4.90"
+          "oran": "1.86"
         }
       ],
       "Deplasman 0,5 Alt/Üst": [
@@ -10132,6 +10128,22 @@
         {
           "secenek": "Üst",
           "oran": "1.32"
+        }
+      ],
+      "Deplasman 2,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.70"
+        }
+      ],
+      "Deplasman 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.64"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.23"
         }
       ],
       "Ev Sahibi İki Yarıyı da Kazanır": [
@@ -18372,7 +18384,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18416,7 +18428,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18460,7 +18472,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18504,7 +18516,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18548,7 +18560,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18592,7 +18604,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18636,7 +18648,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18680,7 +18692,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18724,7 +18736,7 @@
       "competitionId": "4oogyu6o156iphvdvphwpck10",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18768,7 +18780,7 @@
       "competitionId": "34pl8szyvrbwcmfkuocjm3r6t",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18812,7 +18824,7 @@
       "competitionId": "32n2r9bl6x90psj0wa7bfs6vq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18856,7 +18868,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18873,7 +18885,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225719,
+      "liveBetting": true
     },
     {
       "id": "7s722fv2klypxy8108b33zi8k",
@@ -18898,7 +18912,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18940,7 +18954,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18984,7 +18998,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19001,7 +19015,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225766,
+      "liveBetting": true
     },
     {
       "id": "7u1zdpss77rrrce2hkw1btst0",
@@ -19026,7 +19042,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19068,7 +19084,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19112,7 +19128,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19156,7 +19172,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19173,7 +19189,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225967,
+      "liveBetting": true
     },
     {
       "id": "7tqvjg9dbpmjrcxtwutr2fbis",
@@ -19198,7 +19216,7 @@
       "competitionId": "7mxwwunvot2pi69pj1yr1kh8i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19242,7 +19260,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19286,7 +19304,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19330,7 +19348,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19374,7 +19392,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19418,7 +19436,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19462,7 +19480,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19506,7 +19524,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19550,7 +19568,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19594,7 +19612,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19638,7 +19656,7 @@
       "competitionId": "8o5tv5viv4hy1qg9jp94k7ayb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19682,7 +19700,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19726,7 +19744,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19770,7 +19788,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19814,7 +19832,7 @@
       "competitionId": "2hsidwomhjsaaytdy9u5niyi4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19858,7 +19876,7 @@
       "competitionId": "1gxlzw2ezkyeykhcaa5x8ozkk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19902,7 +19920,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19944,7 +19962,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19986,7 +20004,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20028,7 +20046,7 @@
       "competitionId": "4x9xyyv419q82evpbl37j77gt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20070,7 +20088,7 @@
       "competitionId": "3frp1zxrqulrlrnk503n6l4l",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20114,7 +20132,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20158,7 +20176,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20202,7 +20220,7 @@
       "competitionId": "8k1xcsyvxapl4jlsluh3eomre",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20246,7 +20264,7 @@
       "competitionId": "8ztsv3pzrsyq5w1r3a0nfk1y5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20263,7 +20281,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3261837,
+      "liveBetting": false
     },
     {
       "id": "efzkfxn1n5vvqiefj6dm9ypec",
@@ -20288,7 +20308,7 @@
       "competitionId": "7r1f93t6ddrsa5n8v1nq6qlzm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20332,7 +20352,7 @@
       "competitionId": "cse5oqqt2pzfcy8uz6yz3tkbj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20376,7 +20396,7 @@
       "competitionId": "cse5oqqt2pzfcy8uz6yz3tkbj",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20418,7 +20438,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20460,7 +20480,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20502,7 +20522,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20544,7 +20564,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20586,7 +20606,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20628,7 +20648,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20670,7 +20690,7 @@
       "competitionId": "5ixq8vcn9w12n74fuj6oj9lj7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20712,7 +20732,7 @@
       "competitionId": "eu2g5j36zzxiazpd729osx0wm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20756,7 +20776,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20800,7 +20820,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20844,7 +20864,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20888,7 +20908,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20932,7 +20952,7 @@
       "competitionId": "byhmntnl1b4lxw0zz21im3zkd",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -20974,7 +20994,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21018,7 +21038,7 @@
       "competitionId": "9r3u0jtuznun4k2ydy39m1sve",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21060,7 +21080,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21104,7 +21124,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21148,7 +21168,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21192,7 +21212,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21236,7 +21256,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21280,7 +21300,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21324,7 +21344,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21368,7 +21388,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21412,7 +21432,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21456,7 +21476,7 @@
       "competitionId": "5z8v4mj6cjs9ex6hdrpourjzh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21500,7 +21520,7 @@
       "competitionId": "24uts34wjguq7pj6bc9qexmej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21544,7 +21564,7 @@
       "competitionId": "4jieyfpyom8d011dgeqj77ojm",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21586,7 +21606,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21630,7 +21650,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21674,7 +21694,7 @@
       "competitionId": "bfqezwfhot1l3p1cpk4oonh25",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21718,7 +21738,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21762,7 +21782,7 @@
       "competitionId": "117yqo02rs8dykkxpm274w3bd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21806,7 +21826,7 @@
       "competitionId": "4d5d3sf6805n5u6jdoa0hdlog",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21850,7 +21870,7 @@
       "competitionId": "b8rae0ib0frjmwlca429bq19q",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21894,7 +21914,7 @@
       "competitionId": "b8rae0ib0frjmwlca429bq19q",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21936,7 +21956,7 @@
       "competitionId": "1cnx2c8g3hhp8ssxnwwli0mjb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21980,7 +22000,7 @@
       "competitionId": "8ivsfwex4dfx1tvgsiq8askcx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22024,7 +22044,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22068,7 +22088,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22112,7 +22132,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22156,7 +22176,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22200,7 +22220,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22244,7 +22264,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22288,7 +22308,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22332,7 +22352,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22376,7 +22396,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22420,7 +22440,7 @@
       "competitionId": "b1rveez5u792gess9w3e7v5le",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22464,7 +22484,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22506,7 +22526,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22548,7 +22568,7 @@
       "competitionId": "93cgnp505neae8bj9n0ezhjwd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22590,7 +22610,7 @@
       "competitionId": "c2qkldzfzthwwr85qpa94hfu2",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -22632,7 +22652,7 @@
       "competitionId": "c2qkldzfzthwwr85qpa94hfu2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22674,7 +22694,7 @@
       "competitionId": "a4fgj2rfbpf4ejo1qi624fefo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22716,7 +22736,7 @@
       "competitionId": "6qitd9h242qkvjenaytfdnsf2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22760,7 +22780,7 @@
       "competitionId": "6qitd9h242qkvjenaytfdnsf2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22804,7 +22824,7 @@
       "competitionId": "bq89wbdvedtov6auzuh6rsv7s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22846,7 +22866,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22890,7 +22910,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22932,7 +22952,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22976,7 +22996,7 @@
       "competitionId": "e6ysw58xmvgh3zwg400zw565s",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -23018,7 +23038,7 @@
       "competitionId": "avrpx5lanaaxagr4h4duxj3vc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23060,7 +23080,7 @@
       "competitionId": "avrpx5lanaaxagr4h4duxj3vc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23102,7 +23122,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23146,7 +23166,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23190,7 +23210,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23234,7 +23254,7 @@
       "competitionId": "5taraea6mqjjldg9zxswo825y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23278,7 +23298,7 @@
       "competitionId": "dv9x9sw2x99ty2r9ztl68vw7u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23320,7 +23340,7 @@
       "competitionId": "dv9x9sw2x99ty2r9ztl68vw7u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23362,7 +23382,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23404,7 +23424,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23446,7 +23466,7 @@
       "competitionId": "zk2f8f4dzjpxb47gdwsvpga8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23488,7 +23508,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23530,7 +23550,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23547,7 +23567,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3225751,
+      "liveBetting": false
     },
     {
       "id": "5wiaan78jrn64ps3keaxvxuc",
@@ -23572,7 +23594,7 @@
       "competitionId": "ppzvnquzq1gmez5snxzfxkbt",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23590,7 +23612,7 @@
         "home": 0,
         "away": 0
       },
-      "iddaaCode": 3157611,
+      "iddaaCode": 3284021,
       "liveBetting": false
     },
     {
@@ -23616,7 +23638,7 @@
       "competitionId": "9x0ntku897kcmymr8y1dfkmlk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23658,7 +23680,7 @@
       "competitionId": "1be64lgp0chekkyu0iuyta8kc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23700,7 +23722,7 @@
       "competitionId": "6ybvtzejh91761lqe7y1csrqo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23744,7 +23766,7 @@
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23788,7 +23810,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23832,7 +23854,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23876,7 +23898,7 @@
       "competitionId": "3n5046abeu3x482ds3jwda238",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23920,7 +23942,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23964,7 +23986,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "state",
       "state": "pre",
       "substate": "postponed",
@@ -24008,7 +24030,7 @@
       "competitionId": "78wml3z5wrfxe5iky50tiotgu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24052,7 +24074,7 @@
       "competitionId": "eve4cbr6ybatmp2qdh0nu7lx9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24094,7 +24116,7 @@
       "competitionId": "eve4cbr6ybatmp2qdh0nu7lx9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24136,7 +24158,7 @@
       "competitionId": "ekyhmsfi4utkxvmak9pq8se0s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24178,7 +24200,7 @@
       "competitionId": "4qjmo9aphtgpboin0pldiwzc9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24220,7 +24242,7 @@
       "competitionId": "4qjmo9aphtgpboin0pldiwzc9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24262,7 +24284,7 @@
       "competitionId": "58frfwi1ggvc2y45ux6a0t71b",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24304,7 +24326,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24346,7 +24368,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24388,7 +24410,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24430,7 +24452,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24472,7 +24494,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24514,7 +24536,7 @@
       "competitionId": "bq56xi6kc1626y8hxflp32ir3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24556,7 +24578,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24598,7 +24620,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24640,7 +24662,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24682,7 +24704,7 @@
       "competitionId": "5d9nvjri6nkjvbb3lsq5e7nv8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24724,7 +24746,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24766,7 +24788,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24808,7 +24830,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24850,7 +24872,7 @@
       "competitionId": "6xnxalh8e4r9mday3imsgbtz8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24892,7 +24914,7 @@
       "competitionId": "4nq9yqv3vmlttabpy2lm4ps0k",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24934,7 +24956,7 @@
       "competitionId": "asspcq7at72x8uk236rsodf6c",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -24976,7 +24998,7 @@
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25018,7 +25040,7 @@
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25060,7 +25082,7 @@
       "competitionId": "2em48n9ws9qeghf9hl1luphck",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25102,7 +25124,7 @@
       "competitionId": "2em48n9ws9qeghf9hl1luphck",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25144,7 +25166,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25186,7 +25208,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25228,7 +25250,7 @@
       "competitionId": "4mxwixjknzs82furstv85omql",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25270,7 +25292,7 @@
       "competitionId": "23hqnnfu7s30ukdcmd8znqsb2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25312,7 +25334,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25354,7 +25376,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25396,7 +25418,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25438,7 +25460,7 @@
       "competitionId": "26xcjlil7mn8h412qlyhgu4gk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25480,7 +25502,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25522,7 +25544,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25564,7 +25586,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25606,7 +25628,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25648,7 +25670,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25690,7 +25712,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25732,7 +25754,7 @@
       "competitionId": "2o6aygqek4rqvuzbj8nf2rk1u",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25774,7 +25796,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25818,7 +25840,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25862,7 +25884,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25906,7 +25928,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25948,7 +25970,7 @@
       "competitionId": "4ad9sdnscsipc990sp5l5n1wq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -25990,7 +26012,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26034,7 +26056,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26076,7 +26098,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26118,7 +26140,7 @@
       "competitionId": "54c65mhi143utomzvvv3q2avh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26160,7 +26182,7 @@
       "competitionId": "255lni1lapp38q1ce7pdkvkdl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26202,7 +26224,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26244,7 +26266,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26286,7 +26308,7 @@
       "competitionId": "1j1y9agdbb7pqkj5fafn3kepg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26328,7 +26350,7 @@
       "competitionId": "bwbb16bizglu0aqhv3uv7vdil",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26370,7 +26392,7 @@
       "competitionId": "bwbb16bizglu0aqhv3uv7vdil",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26412,7 +26434,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26454,7 +26476,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26496,7 +26518,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26538,7 +26560,7 @@
       "competitionId": "3a4jdwprd2j06xxcjfwgg9z1y",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26580,7 +26602,7 @@
       "competitionId": "4ywgerxg9oem88bldiwxl6x3o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26622,7 +26644,7 @@
       "competitionId": "2g6lybov5xk8rlb79ek8imri7",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26664,7 +26686,7 @@
       "competitionId": "4oajht599asio7mn3yf5q9eqx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26706,7 +26728,7 @@
       "competitionId": "8h8yygsbogvjwcio9wakblivo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26748,7 +26770,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26790,7 +26812,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26832,7 +26854,7 @@
       "competitionId": "du17adzu2ntdu3q6jxqsenguu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26874,7 +26896,7 @@
       "competitionId": "98cah2nmq6d9pcwrzlh1hl0nh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26918,7 +26940,7 @@
       "competitionId": "98cah2nmq6d9pcwrzlh1hl0nh",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -26962,7 +26984,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27004,7 +27026,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27046,7 +27068,7 @@
       "competitionId": "7pp3zabqfg4s0tq6p9bqfsh4f",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27088,7 +27110,7 @@
       "competitionId": "e7l3avnioyt2nlkwed07vdusc",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27130,7 +27152,7 @@
       "competitionId": "cc9zntdbef14p20gt4ekvnjvs",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27172,7 +27194,7 @@
       "competitionId": "ahl3vljaignq9ebaos4uqkrvo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27189,7 +27211,9 @@
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3286474,
+      "liveBetting": false
     },
     {
       "id": "1u6h0w9a9pdcdq8epp0n5x7o4",
@@ -27214,7 +27238,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27256,7 +27280,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27298,7 +27322,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27340,7 +27364,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27382,7 +27406,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27424,7 +27448,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27466,7 +27490,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27508,7 +27532,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27550,7 +27574,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27592,7 +27616,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27634,7 +27658,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27676,7 +27700,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27718,7 +27742,7 @@
       "competitionId": "4i8ns2colm1sunybm0pl2mi75",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27760,7 +27784,7 @@
       "competitionId": "6utr6bfbh7m3wjcy99s5ic9rr",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27802,7 +27826,7 @@
       "competitionId": "cydr5rltozch9qnzjurt1r7d9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1792497775000,
+      "lastUpdated": 1792500108000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -27829,15 +27853,15 @@
       "Maç Sonucu": [
         {
           "secenek": "1",
-          "oran": "2.16"
+          "oran": "1.96"
         },
         {
           "secenek": "X",
-          "oran": "3.47"
+          "oran": "3.27"
         },
         {
           "secenek": "2",
-          "oran": "2.90"
+          "oran": "2.70"
         }
       ],
       "Çifte Şans": [
@@ -27854,20 +27878,20 @@
           "oran": "1.67"
         }
       ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "4.16"
+        }
+      ],
       "1,5 Alt/Üst": [
         {
           "secenek": "Alt",
           "oran": "4.38"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.27"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.61"
         }
       ],
       "3,5 Alt/Üst": [
@@ -27880,36 +27904,26 @@
           "oran": "2.39"
         }
       ],
-      "4,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.07"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.96"
-        }
-      ],
       "0,5 Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "13.05"
+          "oran": "12.85"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.27"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.61"
         }
       ],
       "1. Yarı 2,5 Alt/Üst": [
         {
           "secenek": "Üst",
-          "oran": "4.84"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.61"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.28"
+          "oran": "5.04"
         }
       ],
       "1. Yarı 0,5 Alt/Üst": [
@@ -27920,6 +27934,16 @@
         {
           "secenek": "Üst",
           "oran": "1.35"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.41"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.08"
         }
       ],
       "1. Yarı Çifte Şans": [
@@ -27953,25 +27977,25 @@
       "2. Yarı Sonucu": [
         {
           "secenek": "1",
-          "oran": "2.26"
+          "oran": "2.46"
         },
         {
           "secenek": "X",
-          "oran": "2.53"
+          "oran": "2.73"
         },
         {
           "secenek": "2",
-          "oran": "2.86"
+          "oran": "3.06"
         }
       ],
       "Tek/Çift": [
         {
           "secenek": "Tek",
-          "oran": "1.74"
+          "oran": "1.94"
         },
         {
           "secenek": "Çift",
-          "oran": "1.63"
+          "oran": "1.83"
         }
       ],
       "Toplam Gol Aralığı": [
@@ -27995,11 +28019,11 @@
       "Karşılıklı Gol": [
         {
           "secenek": "Var",
-          "oran": "1.35"
+          "oran": "1.55"
         },
         {
           "secenek": "Yok",
-          "oran": "2.23"
+          "oran": "2.43"
         }
       ],
       "İlk Yarı/Maç Sonucu": [
@@ -28040,18 +28064,32 @@
           "oran": "4.58"
         }
       ],
-      "Hnd. MS (0:1)": [
+      "Hnd. MS (0:2)": [
         {
           "secenek": "1",
-          "oran": "3.45"
+          "oran": "7.63"
         },
         {
           "secenek": "X",
-          "oran": "3.83"
+          "oran": "5.79"
+        },
+        {
+          "secenek": "+2h",
+          "oran": "1.28"
+        }
+      ],
+      "Hnd. MS (0:1)": [
+        {
+          "secenek": "1",
+          "oran": "3.65"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.03"
         },
         {
           "secenek": "+1h",
-          "oran": "1.44"
+          "oran": "1.64"
         }
       ],
       "Hnd. MS (1:0)": [
@@ -28068,136 +28106,122 @@
           "oran": "5.54"
         }
       ],
-      "Hnd. MS (0:2)": [
-        {
-          "secenek": "1",
-          "oran": "7.43"
-        },
-        {
-          "secenek": "X",
-          "oran": "5.59"
-        },
-        {
-          "secenek": "+2h",
-          "oran": "1.08"
-        }
-      ],
       "Maç Skoru": [
         {
           "secenek": "0-0",
-          "oran": "13.40"
+          "oran": "13.60"
         },
         {
           "secenek": "0-1",
-          "oran": "11.30"
+          "oran": "11.50"
         },
         {
           "secenek": "0-2",
-          "oran": "15.80"
+          "oran": "16.00"
         },
         {
           "secenek": "0-3",
-          "oran": "33.00"
+          "oran": "33.20"
         },
         {
           "secenek": "0-4",
-          "oran": "91.00"
+          "oran": "91.20"
         },
         {
           "secenek": "0-5",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "1-0",
-          "oran": "9.41"
+          "oran": "9.61"
         },
         {
           "secenek": "1-1",
-          "oran": "5.96"
+          "oran": "6.16"
         },
         {
           "secenek": "1-2",
-          "oran": "9.33"
+          "oran": "9.53"
         },
         {
           "secenek": "1-3",
-          "oran": "19.45"
+          "oran": "19.65"
         },
         {
           "secenek": "1-4",
-          "oran": "55.00"
+          "oran": "55.20"
         },
         {
           "secenek": "1-5",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "2-0",
-          "oran": "10.95"
+          "oran": "11.15"
         },
         {
           "secenek": "2-1",
-          "oran": "7.78"
+          "oran": "7.98"
         },
         {
           "secenek": "2-2",
-          "oran": "9.67"
+          "oran": "9.87"
         },
         {
           "secenek": "2-3",
-          "oran": "22.55"
+          "oran": "22.75"
         },
         {
           "secenek": "2-4",
-          "oran": "63.00"
+          "oran": "63.20"
         },
         {
           "secenek": "0-6",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "3-0",
-          "oran": "19.15"
+          "oran": "19.35"
         },
         {
           "secenek": "3-1",
-          "oran": "13.50"
+          "oran": "13.70"
         },
         {
           "secenek": "3-2",
-          "oran": "18.90"
+          "oran": "19.10"
         },
         {
           "secenek": "3-3",
-          "oran": "35.00"
+          "oran": "35.20"
         },
         {
           "secenek": "4-0",
-          "oran": "44.00"
+          "oran": "44.20"
         },
         {
           "secenek": "4-1",
-          "oran": "31.00"
+          "oran": "31.20"
         },
         {
           "secenek": "4-2",
-          "oran": "44.00"
+          "oran": "44.20"
         },
         {
           "secenek": "5-0",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "5-1",
-          "oran": "91.00"
+          "oran": "91.20"
         },
         {
           "secenek": "6-0",
-          "oran": "130.00"
+          "oran": "130.20"
         },
         {
           "secenek": "Diğer",
-          "oran": "17.00"
+          "oran": "17.20"
         }
       ],
       "İlk Gol": [
@@ -28212,6 +28236,32 @@
         {
           "secenek": "2",
           "oran": "1.94"
+        }
+      ],
+      "MS ve 4,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.53"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "3.43"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "3.41"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "7.40"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "10.95"
         }
       ],
       "MS ve 2,5 Alt/Üst": [
@@ -28269,129 +28319,93 @@
       "MS ve 3,5 Alt/Üst": [
         {
           "secenek": "1 ve Alt",
-          "oran": "3.38"
+          "oran": "3.18"
         },
         {
           "secenek": "X ve Alt",
-          "oran": "5.08"
+          "oran": "4.88"
         },
         {
           "secenek": "2 ve Alt",
-          "oran": "4.34"
+          "oran": "4.14"
         },
         {
           "secenek": "1 ve Üst",
-          "oran": "4.87"
+          "oran": "4.67"
         },
         {
           "secenek": "X ve Üst",
-          "oran": "8.92"
+          "oran": "8.72"
         },
         {
           "secenek": "2 ve Üst",
-          "oran": "7.24"
-        }
-      ],
-      "MS ve 4,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "2.73"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "3.63"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "3.61"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "7.60"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "34.70"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "11.15"
+          "oran": "7.04"
         }
       ],
       "1. Yarı En Çok Korner": [
         {
           "secenek": "1",
-          "oran": "2.00"
+          "oran": "1.83"
         },
         {
           "secenek": "X",
-          "oran": "4.72"
+          "oran": "4.61"
         },
         {
           "secenek": "2",
-          "oran": "1.96"
+          "oran": "2.19"
         }
       ],
       "1. Yarı Korner Aralığı": [
         {
           "secenek": "0-4",
-          "oran": "1.83"
+          "oran": "1.53"
         },
         {
           "secenek": "5-6",
-          "oran": "2.97"
+          "oran": "2.85"
         },
         {
           "secenek": "7+",
-          "oran": "3.73"
+          "oran": "4.00"
         }
       ],
       "Toplam Korner Aralığı": [
         {
           "secenek": "0-8",
-          "oran": "2.26"
+          "oran": "2.00"
         },
         {
           "secenek": "9-11",
-          "oran": "2.42"
+          "oran": "2.44"
         },
         {
           "secenek": "12+",
-          "oran": "2.50"
+          "oran": "2.89"
         }
       ],
       "1. Yarı Deplasman 0,5 Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "1.57"
+          "oran": "1.77"
         },
         {
           "secenek": "Üst",
-          "oran": "1.82"
+          "oran": "2.02"
         }
       ],
       "En Çok Korner": [
         {
           "secenek": "1",
-          "oran": "1.88"
+          "oran": "1.86"
         },
         {
           "secenek": "X",
-          "oran": "6.83"
+          "oran": "7.14"
         },
         {
           "secenek": "2",
-          "oran": "1.84"
-        }
-      ],
-      "1.Yarı 4,5 Korner Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.85"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.82"
+          "oran": "2.28"
         }
       ],
       "1.Yarı 3,5 Korner Alt/Üst": [
@@ -28401,33 +28415,27 @@
         },
         {
           "secenek": "Üst",
-          "oran": "1.23"
+          "oran": "1.49"
+        }
+      ],
+      "1.Yarı 4,5 Korner Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.74"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.94"
         }
       ],
       "1.Yarı 5,5 Korner Alt/Üst": [
         {
           "secenek": "Alt",
-          "oran": "1.47"
+          "oran": "1.21"
         },
         {
           "secenek": "Üst",
-          "oran": "2.50"
-        }
-      ],
-      "Ev Sahibi 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "4.36"
-        }
-      ],
-      "Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.70"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.67"
+          "oran": "2.52"
         }
       ],
       "Ev Sahibi 2,5 Alt/Üst": [
@@ -28440,34 +28448,34 @@
           "oran": "3.39"
         }
       ],
+      "Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.70"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.67"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "4.36"
+        }
+      ],
       "En Çok Gol Olacak Yarı": [
         {
           "secenek": "1. Yarı",
-          "oran": "3.00"
+          "oran": "2.80"
         },
         {
           "secenek": "Eşit",
-          "oran": "3.63"
+          "oran": "3.43"
         },
         {
           "secenek": "2. Yarı",
-          "oran": "2.06"
-        }
-      ],
-      "Deplasman 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.64"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.23"
-        }
-      ],
-      "Deplasman 2,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "4.90"
+          "oran": "1.86"
         }
       ],
       "Deplasman 0,5 Alt/Üst": [
@@ -28478,6 +28486,22 @@
         {
           "secenek": "Üst",
           "oran": "1.32"
+        }
+      ],
+      "Deplasman 2,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.70"
+        }
+      ],
+      "Deplasman 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.64"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.23"
         }
       ],
       "Ev Sahibi İki Yarıyı da Kazanır": [
