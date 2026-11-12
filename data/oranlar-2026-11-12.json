@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "source": "Mackolik",
-  "updatedAt": "2026-11-12T02:40:48.788913+03:00",
+  "updatedAt": "2026-11-12T10:00:13.570554+03:00",
   "matches": [
     {
       "id": "7cmhkeym2i0pvl8m8t1zzmihg",
@@ -26,7 +26,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -70,7 +70,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -114,7 +114,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -158,7 +158,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -202,7 +202,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -246,7 +246,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -290,7 +290,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -334,7 +334,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -378,7 +378,7 @@
       "competitionId": "55hcphd1ccc6eai1ms77460on",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -418,22 +418,25 @@
       "stageId": 90927,
       "formatId": null,
       "sortOrder": 11,
-      "mstUtc": 1794463800000,
+      "mstUtc": 1794463200000,
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
-      "periodId": 16,
+      "periodId": 10,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "live",
+      "substate": "halfTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "3",
+        "away": "0",
+        "ht": {
+          "home": 3,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
+      "statusBoxContent": "İY",
       "winner": null,
       "advancingTeam": null,
       "redCards": {
@@ -466,7 +469,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -510,7 +513,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -552,7 +555,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -594,7 +597,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -638,7 +641,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -682,7 +685,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -726,7 +729,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -770,7 +773,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -814,7 +817,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -858,7 +861,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -902,7 +905,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -946,7 +949,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -990,7 +993,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1034,7 +1037,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1078,7 +1081,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1122,7 +1125,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1166,7 +1169,7 @@
       "competitionId": "ili150pwfuf39f7yfdch9lhw",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1210,7 +1213,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1254,7 +1257,7 @@
       "competitionId": "yubueqouzeanni89laaztw16",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1298,7 +1301,7 @@
       "competitionId": "yubueqouzeanni89laaztw16",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1342,7 +1345,7 @@
       "competitionId": "3n9mk5b2mxmq831wfmv6pu86i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1384,7 +1387,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1426,7 +1429,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1468,7 +1471,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1510,7 +1513,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1552,7 +1555,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1594,7 +1597,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1636,7 +1639,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1678,7 +1681,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1720,7 +1723,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1762,7 +1765,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1804,7 +1807,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1846,7 +1849,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1888,7 +1891,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1930,7 +1933,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -1972,7 +1975,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2014,7 +2017,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2056,7 +2059,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2098,7 +2101,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2140,7 +2143,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2182,7 +2185,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2224,7 +2227,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2266,7 +2269,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2308,7 +2311,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2350,7 +2353,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2392,7 +2395,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2434,7 +2437,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2476,7 +2479,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2518,7 +2521,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2560,7 +2563,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2602,7 +2605,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2644,7 +2647,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2686,7 +2689,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2728,7 +2731,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2770,7 +2773,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2812,7 +2815,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2854,7 +2857,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2896,7 +2899,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2940,7 +2943,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -2982,7 +2985,7 @@
       "competitionId": "macko16413686295837732868",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3024,7 +3027,7 @@
       "competitionId": "macko16413686295837732868",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3066,7 +3069,7 @@
       "competitionId": "3iwftmprsznl6yribr11a8l9m",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3108,7 +3111,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "canceled",
@@ -3150,7 +3153,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3194,7 +3197,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3238,7 +3241,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3282,7 +3285,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3326,7 +3329,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3368,21 +3371,24 @@
       "sortOrder": 113,
       "mstUtc": 1794438000000,
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
-      "periodId": 1,
-      "periodStart": 1794438093000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "1",
-        "away": "0",
-        "ht": null,
+        "home": "2",
+        "away": "2",
+        "ht": {
+          "home": 2,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -3412,21 +3418,24 @@
       "sortOrder": 114,
       "mstUtc": 1794445800000,
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "0",
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -3458,7 +3467,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "fullTime",
@@ -3503,21 +3512,24 @@
       "sortOrder": 117,
       "mstUtc": 1794445200000,
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "2",
+        "away": "2",
+        "ht": {
+          "home": 2,
+          "away": 1
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -3549,7 +3561,7 @@
       "competitionId": "a6gbj8onjshd6slmilmlz1hac",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3591,7 +3603,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3635,7 +3647,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3679,7 +3691,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3721,21 +3733,24 @@
       "sortOrder": 127,
       "mstUtc": 1794441600000,
       "competitionId": "a04no7mzejf9acrxgg10eryms",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "4",
+        "away": "0",
+        "ht": {
+          "home": 3,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -3765,7 +3780,7 @@
       "competitionId": "7pk2icgodrzaih8i0pikb21s4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3809,7 +3824,7 @@
       "competitionId": "1eimd27tu748g3q46i0qapem3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3853,7 +3868,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "canceled",
@@ -3895,7 +3910,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3939,7 +3954,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -3981,7 +3996,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4025,7 +4040,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4069,7 +4084,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4113,7 +4128,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4157,7 +4172,7 @@
       "competitionId": "2kfd1pg7ymajwbxlfy1j2dhio",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4201,7 +4216,7 @@
       "competitionId": "2kfd1pg7ymajwbxlfy1j2dhio",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4245,7 +4260,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4287,7 +4302,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4329,7 +4344,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4371,7 +4386,7 @@
       "competitionId": "a08z7wsz0uqx90wsj33g65fcd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4413,7 +4428,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4455,7 +4470,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4497,7 +4512,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4539,7 +4554,7 @@
       "competitionId": "9729m7q80fqr4xnwjdwf2neac",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4581,7 +4596,7 @@
       "competitionId": "2wolc27r8z03itcvwp43e38c5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4625,7 +4640,7 @@
       "competitionId": "6lrwyoy74oz0t5udrnmuyql6a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4667,14 +4682,14 @@
       "sortOrder": 81,
       "mstUtc": 1794434400000,
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
-      "periodId": 2,
-      "periodStart": 1794438213000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "0",
+        "home": "2",
         "away": "1",
         "ht": {
           "home": 0,
@@ -4683,8 +4698,8 @@
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -4716,7 +4731,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4758,7 +4773,7 @@
       "competitionId": "c0sx6fnhtph1ppbbbrmg6susp",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4800,7 +4815,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4842,7 +4857,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4884,7 +4899,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4926,7 +4941,7 @@
       "competitionId": "etta63x1t7tnkn4jheisjwk4p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -4970,7 +4985,7 @@
       "competitionId": "etta63x1t7tnkn4jheisjwk4p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5014,7 +5029,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5058,7 +5073,7 @@
       "competitionId": "27zeqzs85uxv3eej1mhot6gic",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5100,7 +5115,7 @@
       "competitionId": "exysebdtknkqz71a0k3tlnllg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5140,21 +5155,24 @@
       "sortOrder": 122,
       "mstUtc": 1794445200000,
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "3",
+        "away": "0",
+        "ht": {
+          "home": 1,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -5184,21 +5202,24 @@
       "sortOrder": 123,
       "mstUtc": 1794452400000,
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "0",
+        "away": "1",
+        "ht": {
+          "home": 0,
+          "away": 1
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "away",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -5228,12 +5249,12 @@
       "sortOrder": 115,
       "mstUtc": 1794434400000,
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
-      "periodId": 2,
-      "periodStart": 1794438213000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
         "home": "0",
         "away": "0",
@@ -5244,8 +5265,8 @@
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -5277,7 +5298,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5321,7 +5342,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5365,7 +5386,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5407,7 +5428,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5449,7 +5470,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5491,7 +5512,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5533,7 +5554,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5575,7 +5596,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5617,7 +5638,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5661,7 +5682,7 @@
       "competitionId": "45t3dbmie0vy45c1s9lbl8d90",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5701,21 +5722,24 @@
       "sortOrder": 141,
       "mstUtc": 1794438000000,
       "competitionId": "47axqc94lhn9nu34z3vmtxlp2",
-      "periodId": 1,
-      "periodStart": 1794438093000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "0",
+        "home": "2",
         "away": "0",
-        "ht": null,
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -5745,7 +5769,7 @@
       "competitionId": "6p0gjjq8fkztpgb98bep4p4nk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5787,7 +5811,7 @@
       "competitionId": "oxelzlr9a57rlkjrhdivf09g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5829,7 +5853,7 @@
       "competitionId": "oxelzlr9a57rlkjrhdivf09g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5871,7 +5895,7 @@
       "competitionId": "9aqyw0raer3fkb9z4e73kdnll",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5913,7 +5937,7 @@
       "competitionId": "dh2w1tsp79haiyet9ovq0wk5w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5955,7 +5979,7 @@
       "competitionId": "ay2v0pz0v86hdyzx1nd3eeq6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -5995,26 +6019,31 @@
       "sortOrder": 82,
       "mstUtc": 1794448800000,
       "competitionId": "e1kxdivp5g4cpldgpwvnzl1vv",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "1",
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3387600,
+      "liveBetting": true
     },
     {
       "id": "69angodugn2yg4v37lddpt0r8",
@@ -6039,7 +6068,7 @@
       "competitionId": "e1kxdivp5g4cpldgpwvnzl1vv",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6081,7 +6110,7 @@
       "competitionId": "4davonpqws4a4ejl1awu98zdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6125,7 +6154,7 @@
       "competitionId": "4davonpqws4a4ejl1awu98zdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6169,7 +6198,7 @@
       "competitionId": "byaqhzbd3qtx4qho6hxs772sp",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6211,7 +6240,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6253,7 +6282,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6295,7 +6324,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6337,7 +6366,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6379,7 +6408,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6421,7 +6450,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6463,7 +6492,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6505,7 +6534,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6547,7 +6576,7 @@
       "competitionId": "41hbf8hlc2hfpw0n9hnn1ow7o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6589,26 +6618,31 @@
       "sortOrder": 137,
       "mstUtc": 1794443400000,
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "3",
+        "ht": {
+          "home": 1,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "away",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3390443,
+      "liveBetting": true
     },
     {
       "id": "7168vzm8opa7mdd5xd68hmxw4",
@@ -6633,7 +6667,7 @@
       "competitionId": "8bm607o4vil0gecmivce2ny1g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6675,7 +6709,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6719,7 +6753,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6761,7 +6795,7 @@
       "competitionId": "119nllcd4x6qs1d1t9agh6wjb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6803,7 +6837,7 @@
       "competitionId": "1m4sxndpm5lnnc09qn84cu2vo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6845,7 +6879,7 @@
       "competitionId": "1m4sxndpm5lnnc09qn84cu2vo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6887,7 +6921,7 @@
       "competitionId": "46b141eaqq9q7o4gz5gtdpikk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6931,7 +6965,7 @@
       "competitionId": "55hcphd1ccc6eai1ms77460on",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -6975,7 +7009,7 @@
       "competitionId": "1nwgd1b2d903fvnwgnsdadkb8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7017,7 +7051,7 @@
       "competitionId": "237u1b9ewygupsv9031iajqw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7059,7 +7093,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7101,7 +7135,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7143,7 +7177,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7185,7 +7219,7 @@
       "competitionId": "e8uxp9qj2i2kn5c6vhiz5kju2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7227,7 +7261,7 @@
       "competitionId": "e8uxp9qj2i2kn5c6vhiz5kju2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7269,7 +7303,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7313,7 +7347,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7357,7 +7391,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7401,7 +7435,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7445,7 +7479,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7489,7 +7523,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7533,7 +7567,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -7554,6 +7588,738 @@
     }
   ],
   "odds": {
+    "6ydvm6rqneh73t7x6zlpmck4": {
+      "Maç Sonucu": [
+        {
+          "secenek": "X",
+          "oran": "25.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "25.50"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "17.10"
+        }
+      ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.30"
+        }
+      ],
+      "Sıradaki Gol": [
+        {
+          "secenek": "1",
+          "oran": "1.35"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "5.75"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.27"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.39"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.84"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.59"
+        }
+      ],
+      "Maçın Geri Kalanını Kim Kazanır": [
+        {
+          "secenek": "1",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.19"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.64"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.51"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.17"
+        }
+      ],
+      "Hnd. MS (0:4)": [
+        {
+          "secenek": "1",
+          "oran": "1.99"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "+4h",
+          "oran": "2.51"
+        }
+      ]
+    },
+    "40odg85of13kol9u5ihb2gq38": {
+      "Maç Sonucu": [
+        {
+          "secenek": "X",
+          "oran": "9.27"
+        },
+        {
+          "secenek": "2",
+          "oran": "17.55"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "4.69"
+        }
+      ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.22"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.25"
+        }
+      ],
+      "3,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.45"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.84"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.50"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.76"
+        }
+      ],
+      "1. Yarı Çifte Şans": [
+        {
+          "secenek": "1-2",
+          "oran": "1.08"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "2.33"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.19"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "2",
+          "oran": "18.05"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.78"
+        },
+        {
+          "secenek": "2",
+          "oran": "18.05"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.80"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.85"
+        }
+      ],
+      "Toplam Gol Aralığı": [
+        {
+          "secenek": "0-1",
+          "oran": "5.36"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "2.13"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "2.74"
+        },
+        {
+          "secenek": "6+",
+          "oran": "6.32"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.93"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.35"
+        }
+      ],
+      "Hnd. MS (0:3)": [
+        {
+          "secenek": "1",
+          "oran": "2.55"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.63"
+        },
+        {
+          "secenek": "+3h",
+          "oran": "1.60"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.78"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "11.75"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "34.50"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.68"
+        }
+      ],
+      "Ev Sahibi 2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.41"
+        }
+      ],
+      "En Çok Gol Olacak Yarı": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.67"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.80"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "2.01"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.60"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "5.81"
+        }
+      ],
+      "1. Yarı Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.98"
+        }
+      ]
+    },
+    "459yifgkp8ud4senl6rm45l3o": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.40"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "2.69"
+        }
+      ],
+      "1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.21"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        }
+      ],
+      "3,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.64"
+        }
+      ],
+      "1. Yarı 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.56"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.43"
+        }
+      ],
+      "1. Yarı Çifte Şans": [
+        {
+          "secenek": "1-2",
+          "oran": "1.30"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.63"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.74"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.26"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.25"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.35"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.85"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.61"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.63"
+        }
+      ],
+      "Toplam Gol Aralığı": [
+        {
+          "secenek": "0-1",
+          "oran": "2.69"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.91"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "4.43"
+        },
+        {
+          "secenek": "6+",
+          "oran": "22.30"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.85"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.37"
+        }
+      ],
+      "Hnd. MS (0:1)": [
+        {
+          "secenek": "1",
+          "oran": "1.86"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "3.24"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.34"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.88"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "15.25"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.70"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "31.70"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.14"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.13"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.61"
+        }
+      ],
+      "En Çok Gol Olacak Yarı": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "2.94"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.97"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.29"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "6.16"
+        }
+      ],
+      "1. Yarı Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.98"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.37"
+        }
+      ]
+    },
+    "4y7spg2nmhaa8zg0qtg2i9q1g": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "2.45"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.64"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.24"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "1-X",
+          "oran": "1.47"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.38"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.41"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.31"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.88"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.77"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "1.98"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.68"
+        }
+      ],
+      "Hnd. MS (1:0)": [
+        {
+          "secenek": "+1h",
+          "oran": "1.46"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.64"
+        },
+        {
+          "secenek": "2",
+          "oran": "5.01"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.49"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.46"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.62"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.42"
+        }
+      ]
+    },
+    "cpgwf1raa1rzg5i7v794umiok": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "4.84"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.87"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.54"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.99"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.68"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.51"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.33"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "5.12"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.32"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.00"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.87"
+        }
+      ]
+    },
     "1hzkdebe6qgdkzxgo3kqb4hsk": {
       "Maç Sonucu": [
         {
@@ -14114,22 +14880,6 @@
         }
       ]
     },
-    "6ydvm6rqneh73t7x6zlpmck4": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.38"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.40"
-        },
-        {
-          "secenek": "2",
-          "oran": "7.01"
-        }
-      ]
-    },
     "75m4a2n1ly7f0jdniu5ej1gr8": {
       "Maç Sonucu": [
         {
@@ -14384,232 +15134,6 @@
         }
       ]
     },
-    "40odg85of13kol9u5ihb2gq38": {
-      "Maç Sonucu": [
-        {
-          "secenek": "X",
-          "oran": "8.26"
-        },
-        {
-          "secenek": "2",
-          "oran": "17.55"
-        }
-      ],
-      "Çifte Şans": [
-        {
-          "secenek": "X-2",
-          "oran": "4.51"
-        }
-      ],
-      "4,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.28"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.41"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.38"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.49"
-        }
-      ],
-      "3,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.60"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.13"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.47"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.81"
-        }
-      ],
-      "1. Yarı Çifte Şans": [
-        {
-          "secenek": "1-2",
-          "oran": "1.29"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "2.52"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.19"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.94"
-        },
-        {
-          "secenek": "2",
-          "oran": "18.85"
-        }
-      ],
-      "2. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.13"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.41"
-        },
-        {
-          "secenek": "2",
-          "oran": "17.70"
-        }
-      ],
-      "Tek/Çift": [
-        {
-          "secenek": "Tek",
-          "oran": "1.61"
-        },
-        {
-          "secenek": "Çift",
-          "oran": "1.63"
-        }
-      ],
-      "Toplam Gol Aralığı": [
-        {
-          "secenek": "0-1",
-          "oran": "4.96"
-        },
-        {
-          "secenek": "2-3",
-          "oran": "2.09"
-        },
-        {
-          "secenek": "4-5",
-          "oran": "2.82"
-        },
-        {
-          "secenek": "6+",
-          "oran": "6.92"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "3.05"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.34"
-        }
-      ],
-      "Hnd. MS (0:3)": [
-        {
-          "secenek": "1",
-          "oran": "2.65"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.65"
-        },
-        {
-          "secenek": "+3h",
-          "oran": "1.56"
-        }
-      ],
-      "MS ve 1,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "5.87"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "17.50"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "34.50"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "15.05"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "34.50"
-        }
-      ],
-      "1. Yarı Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "5.12"
-        }
-      ],
-      "Ev Sahibi 2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.05"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.65"
-        }
-      ],
-      "En Çok Gol Olacak Yarı": [
-        {
-          "secenek": "1. Yarı",
-          "oran": "2.46"
-        },
-        {
-          "secenek": "Eşit",
-          "oran": "3.47"
-        },
-        {
-          "secenek": "2. Yarı",
-          "oran": "1.86"
-        }
-      ],
-      "Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.15"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.72"
-        }
-      ],
-      "1. Yarı Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "6.32"
-        }
-      ],
-      "1. Yarı Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.35"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.03"
-        }
-      ]
-    },
     "42s26os7cocjiy50p0b5l55w4": {
       "Maç Sonucu": [
         {
@@ -14841,240 +15365,6 @@
         {
           "secenek": "Üst",
           "oran": "1.26"
-        }
-      ]
-    },
-    "459yifgkp8ud4senl6rm45l3o": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.28"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.57"
-        },
-        {
-          "secenek": "2",
-          "oran": "12.30"
-        }
-      ],
-      "Çifte Şans": [
-        {
-          "secenek": "X-2",
-          "oran": "2.83"
-        }
-      ],
-      "1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.68"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.41"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.62"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.07"
-        }
-      ],
-      "3,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.27"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.61"
-        }
-      ],
-      "1. Yarı 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.39"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.23"
-        }
-      ],
-      "1. Yarı Çifte Şans": [
-        {
-          "secenek": "1-2",
-          "oran": "1.48"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.88"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.49"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.10"
-        },
-        {
-          "secenek": "2",
-          "oran": "11.55"
-        }
-      ],
-      "2. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.41"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "2",
-          "oran": "10.00"
-        }
-      ],
-      "Tek/Çift": [
-        {
-          "secenek": "Tek",
-          "oran": "1.82"
-        },
-        {
-          "secenek": "Çift",
-          "oran": "1.81"
-        }
-      ],
-      "Toplam Gol Aralığı": [
-        {
-          "secenek": "0-1",
-          "oran": "2.51"
-        },
-        {
-          "secenek": "2-3",
-          "oran": "1.71"
-        },
-        {
-          "secenek": "4-5",
-          "oran": "4.20"
-        },
-        {
-          "secenek": "6+",
-          "oran": "21.70"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "3.03"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.34"
-        }
-      ],
-      "Hnd. MS (0:2)": [
-        {
-          "secenek": "1",
-          "oran": "2.89"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.18"
-        },
-        {
-          "secenek": "+2h",
-          "oran": "1.59"
-        }
-      ],
-      "MS ve 2,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "2.30"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "4.94"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "17.70"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "2.19"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "34.70"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "34.70"
-        }
-      ],
-      "1. Yarı Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "4.69"
-        }
-      ],
-      "Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.98"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.37"
-        }
-      ],
-      "En Çok Gol Olacak Yarı": [
-        {
-          "secenek": "1. Yarı",
-          "oran": "2.77"
-        },
-        {
-          "secenek": "Eşit",
-          "oran": "3.11"
-        },
-        {
-          "secenek": "2. Yarı",
-          "oran": "2.20"
-        }
-      ],
-      "Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.21"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.48"
-        }
-      ],
-      "1. Yarı Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "6.51"
-        }
-      ],
-      "1. Yarı Ev Sahibi 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.24"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.54"
         }
       ]
     },
@@ -15599,66 +15889,6 @@
         {
           "secenek": "Yok",
           "oran": "1.71"
-        }
-      ]
-    },
-    "cpgwf1raa1rzg5i7v794umiok": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "4.74"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.64"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.34"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.88"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.42"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.34"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.04"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "4.88"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.18"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.75"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "1.51"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.74"
         }
       ]
     },
@@ -15789,7 +16019,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -15833,7 +16063,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -15877,7 +16107,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -15921,7 +16151,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -15965,7 +16195,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16009,7 +16239,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16053,7 +16283,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16097,7 +16327,7 @@
       "competitionId": "595nsvo7ykvoe690b1e4u5n56",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16141,7 +16371,7 @@
       "competitionId": "55hcphd1ccc6eai1ms77460on",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16181,22 +16411,25 @@
       "stageId": 90927,
       "formatId": null,
       "sortOrder": 11,
-      "mstUtc": 1794463800000,
+      "mstUtc": 1794463200000,
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
-      "periodId": 16,
+      "periodId": 10,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "live",
+      "substate": "halfTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "3",
+        "away": "0",
+        "ht": {
+          "home": 3,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
+      "statusBoxContent": "İY",
       "winner": null,
       "advancingTeam": null,
       "redCards": {
@@ -16229,7 +16462,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16273,7 +16506,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16315,7 +16548,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16357,7 +16590,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16401,7 +16634,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16445,7 +16678,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16489,7 +16722,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16533,7 +16766,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16577,7 +16810,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16621,7 +16854,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16665,7 +16898,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16709,7 +16942,7 @@
       "competitionId": "ax1yf4nlzqpcji4j8epdgx3zl",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16753,7 +16986,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16797,7 +17030,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16841,7 +17074,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16885,7 +17118,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16929,7 +17162,7 @@
       "competitionId": "ili150pwfuf39f7yfdch9lhw",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -16973,7 +17206,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17017,7 +17250,7 @@
       "competitionId": "yubueqouzeanni89laaztw16",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17061,7 +17294,7 @@
       "competitionId": "yubueqouzeanni89laaztw16",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17105,7 +17338,7 @@
       "competitionId": "3n9mk5b2mxmq831wfmv6pu86i",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17147,7 +17380,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17189,7 +17422,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17231,7 +17464,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17273,7 +17506,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17315,7 +17548,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17357,7 +17590,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17399,7 +17632,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17441,7 +17674,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17483,7 +17716,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17525,7 +17758,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17567,7 +17800,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17609,7 +17842,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17651,7 +17884,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17693,7 +17926,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17735,7 +17968,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17777,7 +18010,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17819,7 +18052,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17861,7 +18094,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17903,7 +18136,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17945,7 +18178,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -17987,7 +18220,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18029,7 +18262,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18071,7 +18304,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18113,7 +18346,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18155,7 +18388,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18197,7 +18430,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18239,7 +18472,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18281,7 +18514,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18323,7 +18556,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18365,7 +18598,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18407,7 +18640,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18449,7 +18682,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18491,7 +18724,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18533,7 +18766,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18575,7 +18808,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18617,7 +18850,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18659,7 +18892,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18703,7 +18936,7 @@
       "competitionId": "2ty8ihceabty8yddmu31iuuej",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18745,7 +18978,7 @@
       "competitionId": "macko16413686295837732868",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18787,7 +19020,7 @@
       "competitionId": "macko16413686295837732868",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18829,7 +19062,7 @@
       "competitionId": "3iwftmprsznl6yribr11a8l9m",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18871,7 +19104,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "canceled",
@@ -18913,7 +19146,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -18957,7 +19190,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19001,7 +19234,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19045,7 +19278,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19089,7 +19322,7 @@
       "competitionId": "dy8zaksw5e9nwrs1p5ss4o1nu",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19131,21 +19364,24 @@
       "sortOrder": 113,
       "mstUtc": 1794438000000,
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
-      "periodId": 1,
-      "periodStart": 1794438093000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "1",
-        "away": "0",
-        "ht": null,
+        "home": "2",
+        "away": "2",
+        "ht": {
+          "home": 2,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -19175,21 +19411,24 @@
       "sortOrder": 114,
       "mstUtc": 1794445800000,
       "competitionId": "by5nibd18nkt40t0j8a0j5yzx",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "0",
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -19221,7 +19460,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "fullTime",
@@ -19266,21 +19505,24 @@
       "sortOrder": 117,
       "mstUtc": 1794445200000,
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "2",
+        "away": "2",
+        "ht": {
+          "home": 2,
+          "away": 1
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -19312,7 +19554,7 @@
       "competitionId": "a6gbj8onjshd6slmilmlz1hac",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19354,7 +19596,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19398,7 +19640,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19442,7 +19684,7 @@
       "competitionId": "capnw9242hzut00ei9rgfco8n",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19484,21 +19726,24 @@
       "sortOrder": 127,
       "mstUtc": 1794441600000,
       "competitionId": "a04no7mzejf9acrxgg10eryms",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "4",
+        "away": "0",
+        "ht": {
+          "home": 3,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -19528,7 +19773,7 @@
       "competitionId": "7pk2icgodrzaih8i0pikb21s4",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19572,7 +19817,7 @@
       "competitionId": "1eimd27tu748g3q46i0qapem3",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19616,7 +19861,7 @@
       "competitionId": "cesdwwnxbc5fmajgroc0hqzy2",
       "periodId": null,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "state",
       "state": "post",
       "substate": "canceled",
@@ -19658,7 +19903,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19702,7 +19947,7 @@
       "competitionId": "cu0rmpyff5692eo06ltddjo8a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19744,7 +19989,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19788,7 +20033,7 @@
       "competitionId": "ein4fkggto3pdh5msp8huafiq",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19832,7 +20077,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19876,7 +20121,7 @@
       "competitionId": "apdwh753fupxheygs8seahh7x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19920,7 +20165,7 @@
       "competitionId": "2kfd1pg7ymajwbxlfy1j2dhio",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -19964,7 +20209,7 @@
       "competitionId": "2kfd1pg7ymajwbxlfy1j2dhio",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20008,7 +20253,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20050,7 +20295,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20092,7 +20337,7 @@
       "competitionId": "6jgwiu2gq3dllmrwt45pfdn2z",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20134,7 +20379,7 @@
       "competitionId": "a08z7wsz0uqx90wsj33g65fcd",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20176,7 +20421,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20218,7 +20463,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20260,7 +20505,7 @@
       "competitionId": "bmmm8kjsbbl7izu0bsl2spyw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20302,7 +20547,7 @@
       "competitionId": "9729m7q80fqr4xnwjdwf2neac",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20344,7 +20589,7 @@
       "competitionId": "2wolc27r8z03itcvwp43e38c5",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20388,7 +20633,7 @@
       "competitionId": "6lrwyoy74oz0t5udrnmuyql6a",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20430,14 +20675,14 @@
       "sortOrder": 81,
       "mstUtc": 1794434400000,
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
-      "periodId": 2,
-      "periodStart": 1794438213000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "0",
+        "home": "2",
         "away": "1",
         "ht": {
           "home": 0,
@@ -20446,8 +20691,8 @@
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -20479,7 +20724,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20521,7 +20766,7 @@
       "competitionId": "c0sx6fnhtph1ppbbbrmg6susp",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20563,7 +20808,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20605,7 +20850,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20647,7 +20892,7 @@
       "competitionId": "5hwvpu5kcvehmftkhf8m6bvje",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20689,7 +20934,7 @@
       "competitionId": "etta63x1t7tnkn4jheisjwk4p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20733,7 +20978,7 @@
       "competitionId": "etta63x1t7tnkn4jheisjwk4p",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20777,7 +21022,7 @@
       "competitionId": "ae1wva3zrzcp2zd15gpvsntg6",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20821,7 +21066,7 @@
       "competitionId": "27zeqzs85uxv3eej1mhot6gic",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20863,7 +21108,7 @@
       "competitionId": "exysebdtknkqz71a0k3tlnllg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -20903,21 +21148,24 @@
       "sortOrder": 122,
       "mstUtc": 1794445200000,
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "3",
+        "away": "0",
+        "ht": {
+          "home": 1,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -20947,21 +21195,24 @@
       "sortOrder": 123,
       "mstUtc": 1794452400000,
       "competitionId": "7ut48s80k421xixh6ev5i6h62",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "0",
+        "away": "1",
+        "ht": {
+          "home": 0,
+          "away": 1
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "away",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -20991,12 +21242,12 @@
       "sortOrder": 115,
       "mstUtc": 1794434400000,
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
-      "periodId": 2,
-      "periodStart": 1794438213000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
         "home": "0",
         "away": "0",
@@ -21007,8 +21258,8 @@
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -21040,7 +21291,7 @@
       "competitionId": "5em08hhvd7komnfdsb1yagpas",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21084,7 +21335,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21128,7 +21379,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21170,7 +21421,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21212,7 +21463,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21254,7 +21505,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21296,7 +21547,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21338,7 +21589,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21380,7 +21631,7 @@
       "competitionId": "1klyfth8tl6lu6ra7k8zmy2n2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21424,7 +21675,7 @@
       "competitionId": "45t3dbmie0vy45c1s9lbl8d90",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21464,21 +21715,24 @@
       "sortOrder": 141,
       "mstUtc": 1794438000000,
       "competitionId": "47axqc94lhn9nu34z3vmtxlp2",
-      "periodId": 1,
-      "periodStart": 1794438093000,
-      "lastUpdated": 1794440373000,
-      "status": "minutes",
-      "state": "live",
-      "substate": "none",
+      "periodId": 14,
+      "periodStart": null,
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "0",
+        "home": "2",
         "away": "0",
-        "ht": null,
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "home",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
@@ -21508,7 +21762,7 @@
       "competitionId": "6p0gjjq8fkztpgb98bep4p4nk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21550,7 +21804,7 @@
       "competitionId": "oxelzlr9a57rlkjrhdivf09g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21592,7 +21846,7 @@
       "competitionId": "oxelzlr9a57rlkjrhdivf09g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21634,7 +21888,7 @@
       "competitionId": "9aqyw0raer3fkb9z4e73kdnll",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21676,7 +21930,7 @@
       "competitionId": "dh2w1tsp79haiyet9ovq0wk5w",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21718,7 +21972,7 @@
       "competitionId": "ay2v0pz0v86hdyzx1nd3eeq6s",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21758,26 +22012,31 @@
       "sortOrder": 82,
       "mstUtc": 1794448800000,
       "competitionId": "e1kxdivp5g4cpldgpwvnzl1vv",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "1",
+        "ht": {
+          "home": 0,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "draw",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3387600,
+      "liveBetting": true
     },
     {
       "id": "69angodugn2yg4v37lddpt0r8",
@@ -21802,7 +22061,7 @@
       "competitionId": "e1kxdivp5g4cpldgpwvnzl1vv",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21844,7 +22103,7 @@
       "competitionId": "4davonpqws4a4ejl1awu98zdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21888,7 +22147,7 @@
       "competitionId": "4davonpqws4a4ejl1awu98zdg",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21932,7 +22191,7 @@
       "competitionId": "byaqhzbd3qtx4qho6hxs772sp",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -21974,7 +22233,7 @@
       "competitionId": "eg9t4hey3lmbfhcsj5m4qnxbe",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22016,7 +22275,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22058,7 +22317,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22100,7 +22359,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22142,7 +22401,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22184,7 +22443,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22226,7 +22485,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22268,7 +22527,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22310,7 +22569,7 @@
       "competitionId": "41hbf8hlc2hfpw0n9hnn1ow7o",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22352,26 +22611,31 @@
       "sortOrder": 137,
       "mstUtc": 1794443400000,
       "competitionId": "f11nbvp3s6upl54tohnccjr9w",
-      "periodId": 16,
+      "periodId": 14,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
-      "status": "timestamp",
-      "state": "pre",
-      "substate": "none",
+      "lastUpdated": 1794466724000,
+      "status": "state",
+      "state": "post",
+      "substate": "fullTime",
       "score": {
-        "home": "",
-        "away": "",
-        "ht": null,
+        "home": "1",
+        "away": "3",
+        "ht": {
+          "home": 1,
+          "away": 0
+        },
         "agg": null,
         "pen": null
       },
-      "statusBoxContent": null,
-      "winner": null,
+      "statusBoxContent": "MS",
+      "winner": "away",
       "advancingTeam": null,
       "redCards": {
         "home": 0,
         "away": 0
-      }
+      },
+      "iddaaCode": 3390443,
+      "liveBetting": true
     },
     {
       "id": "7168vzm8opa7mdd5xd68hmxw4",
@@ -22396,7 +22660,7 @@
       "competitionId": "8bm607o4vil0gecmivce2ny1g",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22438,7 +22702,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22482,7 +22746,7 @@
       "competitionId": "5zr0b05eyx25km7z1k03ca9jx",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22524,7 +22788,7 @@
       "competitionId": "119nllcd4x6qs1d1t9agh6wjb",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22566,7 +22830,7 @@
       "competitionId": "1m4sxndpm5lnnc09qn84cu2vo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22608,7 +22872,7 @@
       "competitionId": "1m4sxndpm5lnnc09qn84cu2vo",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22650,7 +22914,7 @@
       "competitionId": "46b141eaqq9q7o4gz5gtdpikk",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22694,7 +22958,7 @@
       "competitionId": "55hcphd1ccc6eai1ms77460on",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22738,7 +23002,7 @@
       "competitionId": "1nwgd1b2d903fvnwgnsdadkb8",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22780,7 +23044,7 @@
       "competitionId": "237u1b9ewygupsv9031iajqw9",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22822,7 +23086,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22864,7 +23128,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22906,7 +23170,7 @@
       "competitionId": "4nidzmunvpvxk1ir9b6m8mpay",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22948,7 +23212,7 @@
       "competitionId": "e8uxp9qj2i2kn5c6vhiz5kju2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -22990,7 +23254,7 @@
       "competitionId": "e8uxp9qj2i2kn5c6vhiz5kju2",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23032,7 +23296,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23076,7 +23340,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23120,7 +23384,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23164,7 +23428,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23208,7 +23472,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23252,7 +23516,7 @@
       "competitionId": "8nbwkj392b0xzssqpw9jwmzdn",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440373000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23296,7 +23560,7 @@
       "competitionId": "13u4i35b7pyovhcvwsasx3c2x",
       "periodId": 16,
       "periodStart": null,
-      "lastUpdated": 1794440206000,
+      "lastUpdated": 1794466724000,
       "status": "timestamp",
       "state": "pre",
       "substate": "none",
@@ -23317,6 +23581,738 @@
     }
   ],
   "mackolikOdds": {
+    "6ydvm6rqneh73t7x6zlpmck4": {
+      "Maç Sonucu": [
+        {
+          "secenek": "X",
+          "oran": "25.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "25.50"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "17.10"
+        }
+      ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.30"
+        }
+      ],
+      "Sıradaki Gol": [
+        {
+          "secenek": "1",
+          "oran": "1.35"
+        },
+        {
+          "secenek": "Olmaz",
+          "oran": "5.75"
+        },
+        {
+          "secenek": "2",
+          "oran": "4.27"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.36"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.39"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.84"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.59"
+        }
+      ],
+      "Maçın Geri Kalanını Kim Kazanır": [
+        {
+          "secenek": "1",
+          "oran": "1.16"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.19"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.64"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.51"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.17"
+        }
+      ],
+      "Hnd. MS (0:4)": [
+        {
+          "secenek": "1",
+          "oran": "1.99"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "+4h",
+          "oran": "2.51"
+        }
+      ]
+    },
+    "40odg85of13kol9u5ihb2gq38": {
+      "Maç Sonucu": [
+        {
+          "secenek": "X",
+          "oran": "9.27"
+        },
+        {
+          "secenek": "2",
+          "oran": "17.55"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "4.69"
+        }
+      ],
+      "4,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.22"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.31"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.25"
+        }
+      ],
+      "3,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.45"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.84"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.50"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.76"
+        }
+      ],
+      "1. Yarı Çifte Şans": [
+        {
+          "secenek": "1-2",
+          "oran": "1.08"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "2.33"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.19"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "2",
+          "oran": "18.05"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.78"
+        },
+        {
+          "secenek": "2",
+          "oran": "18.05"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.80"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.85"
+        }
+      ],
+      "Toplam Gol Aralığı": [
+        {
+          "secenek": "0-1",
+          "oran": "5.36"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "2.13"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "2.74"
+        },
+        {
+          "secenek": "6+",
+          "oran": "6.32"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.93"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.35"
+        }
+      ],
+      "Hnd. MS (0:3)": [
+        {
+          "secenek": "1",
+          "oran": "2.55"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.63"
+        },
+        {
+          "secenek": "+3h",
+          "oran": "1.60"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.78"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "11.75"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.50"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "34.50"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.68"
+        }
+      ],
+      "Ev Sahibi 2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.93"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.41"
+        }
+      ],
+      "En Çok Gol Olacak Yarı": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.67"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "3.80"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "2.01"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.18"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.60"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "5.81"
+        }
+      ],
+      "1. Yarı Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.37"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.98"
+        }
+      ]
+    },
+    "459yifgkp8ud4senl6rm45l3o": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.31"
+        },
+        {
+          "secenek": "X",
+          "oran": "4.50"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.40"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "X-2",
+          "oran": "2.69"
+        }
+      ],
+      "1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.47"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.21"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.42"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.88"
+        }
+      ],
+      "3,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "3.64"
+        }
+      ],
+      "1. Yarı 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.56"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.43"
+        }
+      ],
+      "1. Yarı Çifte Şans": [
+        {
+          "secenek": "1-2",
+          "oran": "1.30"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.63"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.74"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.26"
+        },
+        {
+          "secenek": "2",
+          "oran": "10.25"
+        }
+      ],
+      "2. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "1.44"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.35"
+        },
+        {
+          "secenek": "2",
+          "oran": "8.85"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.61"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.63"
+        }
+      ],
+      "Toplam Gol Aralığı": [
+        {
+          "secenek": "0-1",
+          "oran": "2.69"
+        },
+        {
+          "secenek": "2-3",
+          "oran": "1.91"
+        },
+        {
+          "secenek": "4-5",
+          "oran": "4.43"
+        },
+        {
+          "secenek": "6+",
+          "oran": "22.30"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "2.85"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.37"
+        }
+      ],
+      "Hnd. MS (0:1)": [
+        {
+          "secenek": "1",
+          "oran": "1.86"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.99"
+        },
+        {
+          "secenek": "+1h",
+          "oran": "3.24"
+        }
+      ],
+      "MS ve 2,5 Alt/Üst": [
+        {
+          "secenek": "1 ve Alt",
+          "oran": "2.34"
+        },
+        {
+          "secenek": "X ve Alt",
+          "oran": "4.88"
+        },
+        {
+          "secenek": "2 ve Alt",
+          "oran": "15.25"
+        },
+        {
+          "secenek": "1 ve Üst",
+          "oran": "2.24"
+        },
+        {
+          "secenek": "X ve Üst",
+          "oran": "34.70"
+        },
+        {
+          "secenek": "2 ve Üst",
+          "oran": "31.70"
+        }
+      ],
+      "1. Yarı Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Üst",
+          "oran": "4.14"
+        }
+      ],
+      "Ev Sahibi 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.13"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.61"
+        }
+      ],
+      "En Çok Gol Olacak Yarı": [
+        {
+          "secenek": "1. Yarı",
+          "oran": "2.59"
+        },
+        {
+          "secenek": "Eşit",
+          "oran": "2.94"
+        },
+        {
+          "secenek": "2. Yarı",
+          "oran": "1.97"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.26"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.29"
+        }
+      ],
+      "1. Yarı Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "6.16"
+        }
+      ],
+      "1. Yarı Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.98"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.37"
+        }
+      ]
+    },
+    "4y7spg2nmhaa8zg0qtg2i9q1g": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "2.45"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.64"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.24"
+        }
+      ],
+      "Çifte Şans": [
+        {
+          "secenek": "1-X",
+          "oran": "1.47"
+        },
+        {
+          "secenek": "1-2",
+          "oran": "1.38"
+        },
+        {
+          "secenek": "X-2",
+          "oran": "1.41"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.52"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.31"
+        }
+      ],
+      "Tek/Çift": [
+        {
+          "secenek": "Tek",
+          "oran": "1.88"
+        },
+        {
+          "secenek": "Çift",
+          "oran": "1.77"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "1.98"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.68"
+        }
+      ],
+      "Hnd. MS (1:0)": [
+        {
+          "secenek": "+1h",
+          "oran": "1.46"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.64"
+        },
+        {
+          "secenek": "2",
+          "oran": "5.01"
+        }
+      ],
+      "Ev Sahibi 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.49"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.46"
+        }
+      ],
+      "Deplasman 0,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "2.62"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.42"
+        }
+      ]
+    },
+    "cpgwf1raa1rzg5i7v794umiok": {
+      "Maç Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "4.84"
+        },
+        {
+          "secenek": "X",
+          "oran": "3.87"
+        },
+        {
+          "secenek": "2",
+          "oran": "1.54"
+        }
+      ],
+      "2,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.99"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "1.68"
+        }
+      ],
+      "1. Yarı 1,5 Alt/Üst": [
+        {
+          "secenek": "Alt",
+          "oran": "1.51"
+        },
+        {
+          "secenek": "Üst",
+          "oran": "2.33"
+        }
+      ],
+      "1. Yarı Sonucu": [
+        {
+          "secenek": "1",
+          "oran": "5.12"
+        },
+        {
+          "secenek": "X",
+          "oran": "2.32"
+        },
+        {
+          "secenek": "2",
+          "oran": "2.00"
+        }
+      ],
+      "Karşılıklı Gol": [
+        {
+          "secenek": "Var",
+          "oran": "1.77"
+        },
+        {
+          "secenek": "Yok",
+          "oran": "1.87"
+        }
+      ]
+    },
     "1hzkdebe6qgdkzxgo3kqb4hsk": {
       "Maç Sonucu": [
         {
@@ -29877,22 +30873,6 @@
         }
       ]
     },
-    "6ydvm6rqneh73t7x6zlpmck4": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.38"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.40"
-        },
-        {
-          "secenek": "2",
-          "oran": "7.01"
-        }
-      ]
-    },
     "75m4a2n1ly7f0jdniu5ej1gr8": {
       "Maç Sonucu": [
         {
@@ -30147,232 +31127,6 @@
         }
       ]
     },
-    "40odg85of13kol9u5ihb2gq38": {
-      "Maç Sonucu": [
-        {
-          "secenek": "X",
-          "oran": "8.26"
-        },
-        {
-          "secenek": "2",
-          "oran": "17.55"
-        }
-      ],
-      "Çifte Şans": [
-        {
-          "secenek": "X-2",
-          "oran": "4.51"
-        }
-      ],
-      "4,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.28"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.41"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.38"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.49"
-        }
-      ],
-      "3,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.60"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.13"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.47"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.81"
-        }
-      ],
-      "1. Yarı Çifte Şans": [
-        {
-          "secenek": "1-2",
-          "oran": "1.29"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "2.52"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.19"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.94"
-        },
-        {
-          "secenek": "2",
-          "oran": "18.85"
-        }
-      ],
-      "2. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.13"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.41"
-        },
-        {
-          "secenek": "2",
-          "oran": "17.70"
-        }
-      ],
-      "Tek/Çift": [
-        {
-          "secenek": "Tek",
-          "oran": "1.61"
-        },
-        {
-          "secenek": "Çift",
-          "oran": "1.63"
-        }
-      ],
-      "Toplam Gol Aralığı": [
-        {
-          "secenek": "0-1",
-          "oran": "4.96"
-        },
-        {
-          "secenek": "2-3",
-          "oran": "2.09"
-        },
-        {
-          "secenek": "4-5",
-          "oran": "2.82"
-        },
-        {
-          "secenek": "6+",
-          "oran": "6.92"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "3.05"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.34"
-        }
-      ],
-      "Hnd. MS (0:3)": [
-        {
-          "secenek": "1",
-          "oran": "2.65"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.65"
-        },
-        {
-          "secenek": "+3h",
-          "oran": "1.56"
-        }
-      ],
-      "MS ve 1,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "5.87"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "17.50"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "34.50"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "15.05"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "34.50"
-        }
-      ],
-      "1. Yarı Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "5.12"
-        }
-      ],
-      "Ev Sahibi 2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.05"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.65"
-        }
-      ],
-      "En Çok Gol Olacak Yarı": [
-        {
-          "secenek": "1. Yarı",
-          "oran": "2.46"
-        },
-        {
-          "secenek": "Eşit",
-          "oran": "3.47"
-        },
-        {
-          "secenek": "2. Yarı",
-          "oran": "1.86"
-        }
-      ],
-      "Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.15"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.72"
-        }
-      ],
-      "1. Yarı Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "6.32"
-        }
-      ],
-      "1. Yarı Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.35"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.03"
-        }
-      ]
-    },
     "42s26os7cocjiy50p0b5l55w4": {
       "Maç Sonucu": [
         {
@@ -30604,240 +31358,6 @@
         {
           "secenek": "Üst",
           "oran": "1.26"
-        }
-      ]
-    },
-    "459yifgkp8ud4senl6rm45l3o": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.28"
-        },
-        {
-          "secenek": "X",
-          "oran": "4.57"
-        },
-        {
-          "secenek": "2",
-          "oran": "12.30"
-        }
-      ],
-      "Çifte Şans": [
-        {
-          "secenek": "X-2",
-          "oran": "2.83"
-        }
-      ],
-      "1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.68"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.41"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.62"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.07"
-        }
-      ],
-      "3,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.27"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "3.61"
-        }
-      ],
-      "1. Yarı 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.39"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.23"
-        }
-      ],
-      "1. Yarı Çifte Şans": [
-        {
-          "secenek": "1-2",
-          "oran": "1.48"
-        },
-        {
-          "secenek": "X-2",
-          "oran": "1.88"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.49"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.10"
-        },
-        {
-          "secenek": "2",
-          "oran": "11.55"
-        }
-      ],
-      "2. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "1.41"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.36"
-        },
-        {
-          "secenek": "2",
-          "oran": "10.00"
-        }
-      ],
-      "Tek/Çift": [
-        {
-          "secenek": "Tek",
-          "oran": "1.82"
-        },
-        {
-          "secenek": "Çift",
-          "oran": "1.81"
-        }
-      ],
-      "Toplam Gol Aralığı": [
-        {
-          "secenek": "0-1",
-          "oran": "2.51"
-        },
-        {
-          "secenek": "2-3",
-          "oran": "1.71"
-        },
-        {
-          "secenek": "4-5",
-          "oran": "4.20"
-        },
-        {
-          "secenek": "6+",
-          "oran": "21.70"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "3.03"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.34"
-        }
-      ],
-      "Hnd. MS (0:2)": [
-        {
-          "secenek": "1",
-          "oran": "2.89"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.18"
-        },
-        {
-          "secenek": "+2h",
-          "oran": "1.59"
-        }
-      ],
-      "MS ve 2,5 Alt/Üst": [
-        {
-          "secenek": "1 ve Alt",
-          "oran": "2.30"
-        },
-        {
-          "secenek": "X ve Alt",
-          "oran": "4.94"
-        },
-        {
-          "secenek": "2 ve Alt",
-          "oran": "17.70"
-        },
-        {
-          "secenek": "1 ve Üst",
-          "oran": "2.19"
-        },
-        {
-          "secenek": "X ve Üst",
-          "oran": "34.70"
-        },
-        {
-          "secenek": "2 ve Üst",
-          "oran": "34.70"
-        }
-      ],
-      "1. Yarı Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Üst",
-          "oran": "4.69"
-        }
-      ],
-      "Ev Sahibi 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.98"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.37"
-        }
-      ],
-      "En Çok Gol Olacak Yarı": [
-        {
-          "secenek": "1. Yarı",
-          "oran": "2.77"
-        },
-        {
-          "secenek": "Eşit",
-          "oran": "3.11"
-        },
-        {
-          "secenek": "2. Yarı",
-          "oran": "2.20"
-        }
-      ],
-      "Deplasman 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.21"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.48"
-        }
-      ],
-      "1. Yarı Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "6.51"
-        }
-      ],
-      "1. Yarı Ev Sahibi 0,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "2.24"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.54"
         }
       ]
     },
@@ -31362,66 +31882,6 @@
         {
           "secenek": "Yok",
           "oran": "1.71"
-        }
-      ]
-    },
-    "cpgwf1raa1rzg5i7v794umiok": {
-      "Maç Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "4.74"
-        },
-        {
-          "secenek": "X",
-          "oran": "3.64"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.34"
-        }
-      ],
-      "2,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.88"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "1.42"
-        }
-      ],
-      "1. Yarı 1,5 Alt/Üst": [
-        {
-          "secenek": "Alt",
-          "oran": "1.34"
-        },
-        {
-          "secenek": "Üst",
-          "oran": "2.04"
-        }
-      ],
-      "1. Yarı Sonucu": [
-        {
-          "secenek": "1",
-          "oran": "4.88"
-        },
-        {
-          "secenek": "X",
-          "oran": "2.18"
-        },
-        {
-          "secenek": "2",
-          "oran": "1.75"
-        }
-      ],
-      "Karşılıklı Gol": [
-        {
-          "secenek": "Var",
-          "oran": "1.51"
-        },
-        {
-          "secenek": "Yok",
-          "oran": "1.74"
         }
       ]
     },
